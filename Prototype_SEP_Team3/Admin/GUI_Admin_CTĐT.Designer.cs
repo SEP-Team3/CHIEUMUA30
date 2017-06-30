@@ -29,19 +29,20 @@
         private void InitializeComponent()
         {
             this.label5 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.lstCTDT = new System.Windows.Forms.DataGridView();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.btnCreate = new System.Windows.Forms.Button();
+            this.cbbCopyCTDT = new System.Windows.Forms.ComboBox();
+            this.cbbNguoiTaoCTDT = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCTDT = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.bACKToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.btnBack = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.chkCopyTu = new System.Windows.Forms.CheckBox();
+            ((System.ComponentModel.ISupportInitialize)(this.lstCTDT)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,61 +56,54 @@
             this.label5.TabIndex = 31;
             this.label5.Text = "Tìm kiếm";
             // 
-            // dataGridView1
+            // lstCTDT
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(632, 142);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(554, 318);
-            this.dataGridView1.TabIndex = 30;
+            this.lstCTDT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.lstCTDT.Location = new System.Drawing.Point(632, 142);
+            this.lstCTDT.Name = "lstCTDT";
+            this.lstCTDT.Size = new System.Drawing.Size(554, 318);
+            this.lstCTDT.TabIndex = 30;
+            this.lstCTDT.DoubleClick += new System.EventHandler(this.lstCTDT_DoubleClick);
             // 
-            // textBox2
+            // txtSearch
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(903, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(283, 24);
-            this.textBox2.TabIndex = 29;
+            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.Location = new System.Drawing.Point(903, 110);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(283, 24);
+            this.txtSearch.TabIndex = 29;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
-            // button1
+            // btnCreate
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(493, 309);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 35);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "TẠO";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreate.Location = new System.Drawing.Point(493, 303);
+            this.btnCreate.Name = "btnCreate";
+            this.btnCreate.Size = new System.Drawing.Size(88, 35);
+            this.btnCreate.TabIndex = 28;
+            this.btnCreate.Text = "TẠO";
+            this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
-            // comboBox2
+            // cbbCopyCTDT
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(221, 259);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(360, 26);
-            this.comboBox2.TabIndex = 27;
+            this.cbbCopyCTDT.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbCopyCTDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbCopyCTDT.FormattingEnabled = true;
+            this.cbbCopyCTDT.Location = new System.Drawing.Point(221, 259);
+            this.cbbCopyCTDT.Name = "cbbCopyCTDT";
+            this.cbbCopyCTDT.Size = new System.Drawing.Size(360, 26);
+            this.cbbCopyCTDT.TabIndex = 27;
             // 
-            // label4
+            // cbbNguoiTaoCTDT
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(20, 262);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(170, 18);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "Copy từ CTĐT ( nếu có )";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(221, 206);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(360, 26);
-            this.comboBox1.TabIndex = 25;
+            this.cbbNguoiTaoCTDT.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbNguoiTaoCTDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbNguoiTaoCTDT.FormattingEnabled = true;
+            this.cbbNguoiTaoCTDT.Location = new System.Drawing.Point(221, 206);
+            this.cbbNguoiTaoCTDT.Name = "cbbNguoiTaoCTDT";
+            this.cbbNguoiTaoCTDT.Size = new System.Drawing.Size(360, 26);
+            this.cbbNguoiTaoCTDT.TabIndex = 25;
             // 
             // label2
             // 
@@ -131,13 +125,13 @@
             this.label3.TabIndex = 23;
             this.label3.Text = "Tên CTĐT";
             // 
-            // textBox1
+            // txtCTDT
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(221, 155);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(360, 24);
-            this.textBox1.TabIndex = 22;
+            this.txtCTDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCTDT.Location = new System.Drawing.Point(221, 155);
+            this.txtCTDT.Name = "txtCTDT";
+            this.txtCTDT.Size = new System.Drawing.Size(360, 24);
+            this.txtCTDT.TabIndex = 22;
             // 
             // label1
             // 
@@ -152,40 +146,69 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bACKToolStripMenuItem});
+            this.btnBack});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1234, 24);
             this.menuStrip1.TabIndex = 32;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // bACKToolStripMenuItem
+            // btnBack
             // 
-            this.bACKToolStripMenuItem.Name = "bACKToolStripMenuItem";
-            this.bACKToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.bACKToolStripMenuItem.Text = "BACK";
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(49, 20);
+            this.btnBack.Text = "BACK";
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSua.Location = new System.Drawing.Point(493, 303);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(88, 35);
+            this.btnSua.TabIndex = 33;
+            this.btnSua.Text = "SỬA";
+            this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Visible = false;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // chkCopyTu
+            // 
+            this.chkCopyTu.AutoSize = true;
+            this.chkCopyTu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkCopyTu.Location = new System.Drawing.Point(12, 261);
+            this.chkCopyTu.Name = "chkCopyTu";
+            this.chkCopyTu.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chkCopyTu.Size = new System.Drawing.Size(189, 22);
+            this.chkCopyTu.TabIndex = 34;
+            this.chkCopyTu.Text = "Copy từ CTĐT ( nếu có )";
+            this.chkCopyTu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chkCopyTu.UseVisualStyleBackColor = true;
+            this.chkCopyTu.Click += new System.EventHandler(this.chkCopyTu_Click);
             // 
             // GUI_Admin_CTĐT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1234, 491);
+            this.Controls.Add(this.chkCopyTu);
+            this.Controls.Add(this.btnCreate);
+            this.Controls.Add(this.btnSua);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.lstCTDT);
+            this.Controls.Add(this.txtSearch);
+            this.Controls.Add(this.cbbCopyCTDT);
+            this.Controls.Add(this.cbbNguoiTaoCTDT);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtCTDT);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GUI_Admin_CTĐT";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GUI_Admin_CTĐT";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lstCTDT)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -196,17 +219,18 @@
         #endregion
 
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DataGridView lstCTDT;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Button btnCreate;
+        private System.Windows.Forms.ComboBox cbbCopyCTDT;
+        private System.Windows.Forms.ComboBox cbbNguoiTaoCTDT;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCTDT;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem bACKToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnBack;
+        private System.Windows.Forms.Button btnSua;
+        private System.Windows.Forms.CheckBox chkCopyTu;
     }
 }
