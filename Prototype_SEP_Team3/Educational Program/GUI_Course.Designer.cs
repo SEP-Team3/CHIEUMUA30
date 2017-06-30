@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnQuảnlí_xóa = new System.Windows.Forms.Button();
+            this.btnQuảnlí_lưu = new System.Windows.Forms.Button();
             this.dtgwQuảnlí_môntiênquyết = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -57,8 +59,6 @@
             this.txtQuảnlí_tên = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.btnQuảnlí_lưu = new System.Windows.Forms.Button();
-            this.btnQuảnlí_xóa = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgwQuảnlí_môntiênquyết)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nQuảnlí_sốgiờthựchành)).BeginInit();
@@ -105,6 +105,26 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1156, 661);
             this.panel1.TabIndex = 0;
+            // 
+            // btnQuảnlí_xóa
+            // 
+            this.btnQuảnlí_xóa.Location = new System.Drawing.Point(853, 983);
+            this.btnQuảnlí_xóa.Name = "btnQuảnlí_xóa";
+            this.btnQuảnlí_xóa.Size = new System.Drawing.Size(90, 34);
+            this.btnQuảnlí_xóa.TabIndex = 87;
+            this.btnQuảnlí_xóa.Text = "Xóa";
+            this.btnQuảnlí_xóa.UseVisualStyleBackColor = true;
+            this.btnQuảnlí_xóa.Click += new System.EventHandler(this.btnQuảnlí_xóa_Click);
+            // 
+            // btnQuảnlí_lưu
+            // 
+            this.btnQuảnlí_lưu.Location = new System.Drawing.Point(996, 983);
+            this.btnQuảnlí_lưu.Name = "btnQuảnlí_lưu";
+            this.btnQuảnlí_lưu.Size = new System.Drawing.Size(104, 34);
+            this.btnQuảnlí_lưu.TabIndex = 86;
+            this.btnQuảnlí_lưu.Text = "Lưu";
+            this.btnQuảnlí_lưu.UseVisualStyleBackColor = true;
+            this.btnQuảnlí_lưu.Click += new System.EventHandler(this.btnQuảnlí_lưu_Click);
             // 
             // dtgwQuảnlí_môntiênquyết
             // 
@@ -192,6 +212,7 @@
             this.cboQuảnlí_họckỳ.Name = "cboQuảnlí_họckỳ";
             this.cboQuảnlí_họckỳ.Size = new System.Drawing.Size(107, 28);
             this.cboQuảnlí_họckỳ.TabIndex = 77;
+            this.cboQuảnlí_họckỳ.SelectedIndexChanged += new System.EventHandler(this.cboQuảnlí_họckỳ_SelectedIndexChanged);
             // 
             // label25
             // 
@@ -217,6 +238,11 @@
             // 
             this.nQuảnlí_sốgiờthựchành.Location = new System.Drawing.Point(901, 379);
             this.nQuảnlí_sốgiờthựchành.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nQuảnlí_sốgiờthựchành.Maximum = new decimal(new int[] {
+            3000,
+            0,
+            0,
+            0});
             this.nQuảnlí_sốgiờthựchành.Name = "nQuảnlí_sốgiờthựchành";
             this.nQuảnlí_sốgiờthựchành.Size = new System.Drawing.Size(84, 26);
             this.nQuảnlí_sốgiờthựchành.TabIndex = 74;
@@ -235,6 +261,11 @@
             // 
             this.nQuảnlí_sốgiờlýthuyết.Location = new System.Drawing.Point(532, 381);
             this.nQuảnlí_sốgiờlýthuyết.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.nQuảnlí_sốgiờlýthuyết.Maximum = new decimal(new int[] {
+            1500,
+            0,
+            0,
+            0});
             this.nQuảnlí_sốgiờlýthuyết.Name = "nQuảnlí_sốgiờlýthuyết";
             this.nQuảnlí_sốgiờlýthuyết.Size = new System.Drawing.Size(126, 26);
             this.nQuảnlí_sốgiờlýthuyết.TabIndex = 72;
@@ -381,25 +412,7 @@
             this.label9.TabIndex = 56;
             this.label9.Text = "QUẢN LÍ MÔN HỌC";
             // 
-            // btnQuảnlí_lưu
-            // 
-            this.btnQuảnlí_lưu.Location = new System.Drawing.Point(996, 983);
-            this.btnQuảnlí_lưu.Name = "btnQuảnlí_lưu";
-            this.btnQuảnlí_lưu.Size = new System.Drawing.Size(104, 34);
-            this.btnQuảnlí_lưu.TabIndex = 86;
-            this.btnQuảnlí_lưu.Text = "Lưu";
-            this.btnQuảnlí_lưu.UseVisualStyleBackColor = true;
-            // 
-            // btnQuảnlí_xóa
-            // 
-            this.btnQuảnlí_xóa.Location = new System.Drawing.Point(853, 983);
-            this.btnQuảnlí_xóa.Name = "btnQuảnlí_xóa";
-            this.btnQuảnlí_xóa.Size = new System.Drawing.Size(90, 34);
-            this.btnQuảnlí_xóa.TabIndex = 87;
-            this.btnQuảnlí_xóa.Text = "Xóa";
-            this.btnQuảnlí_xóa.UseVisualStyleBackColor = true;
-            // 
-            // CourseManagementForm
+            // GUI_Course
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -407,7 +420,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "CourseManagementForm";
+            this.Name = "GUI_Course";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CourseManagementForm";
             this.panel1.ResumeLayout(false);

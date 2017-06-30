@@ -29,11 +29,10 @@
         private void InitializeComponent()
         {
             this.panel5 = new System.Windows.Forms.Panel();
+            this.btnQuanli_view = new System.Windows.Forms.Button();
+            this.btnQuanlimonhoc_add = new System.Windows.Forms.Button();
             this.label75 = new System.Windows.Forms.Label();
             this.dgwQuảnlí = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label9 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label43 = new System.Windows.Forms.Label();
@@ -56,18 +55,6 @@
             this.panel14 = new System.Windows.Forms.Panel();
             this.label35 = new System.Windows.Forms.Label();
             this.tabCơsởvậtchất = new System.Windows.Forms.TabPage();
-            this.label34 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.tabĐộingũgiảngviên = new System.Windows.Forms.TabPage();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.tabMôtảvắntắt = new System.Windows.Forms.TabPage();
-            this.label33 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.tabKếhoạchgiảngdạy = new System.Windows.Forms.TabPage();
-            this.label28 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.tabNộidungchươngtrình = new System.Windows.Forms.TabPage();
             this.txtNgành = new System.Windows.Forms.TextBox();
             this.txtTênEL = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -101,10 +88,6 @@
             this.label41 = new System.Windows.Forms.Label();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripMenuItem13 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
@@ -131,14 +114,6 @@
             this.pnCơsởvậtchất.SuspendLayout();
             this.panel14.SuspendLayout();
             this.tabCơsởvậtchất.SuspendLayout();
-            this.panel10.SuspendLayout();
-            this.tabĐộingũgiảngviên.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.tabMôtảvắntắt.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.tabKếhoạchgiảngdạy.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.tabNộidungchươngtrình.SuspendLayout();
             this.tabThôngtinchung.SuspendLayout();
             this.tclMain.SuspendLayout();
             this.tabMụctiêu.SuspendLayout();
@@ -155,6 +130,8 @@
             // panel5
             // 
             this.panel5.AutoScroll = true;
+            this.panel5.Controls.Add(this.btnQuanli_view);
+            this.panel5.Controls.Add(this.btnQuanlimonhoc_add);
             this.panel5.Controls.Add(this.label75);
             this.panel5.Controls.Add(this.dgwQuảnlí);
             this.panel5.Controls.Add(this.label9);
@@ -163,6 +140,26 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1343, 575);
             this.panel5.TabIndex = 2;
+            // 
+            // btnQuanli_view
+            // 
+            this.btnQuanli_view.Location = new System.Drawing.Point(1160, 72);
+            this.btnQuanli_view.Name = "btnQuanli_view";
+            this.btnQuanli_view.Size = new System.Drawing.Size(159, 29);
+            this.btnQuanli_view.TabIndex = 53;
+            this.btnQuanli_view.Text = "Bảng tổng hợp";
+            this.btnQuanli_view.UseVisualStyleBackColor = true;
+            this.btnQuanli_view.Click += new System.EventHandler(this.btnQuanli_view_Click);
+            // 
+            // btnQuanlimonhoc_add
+            // 
+            this.btnQuanlimonhoc_add.Location = new System.Drawing.Point(19, 72);
+            this.btnQuanlimonhoc_add.Name = "btnQuanlimonhoc_add";
+            this.btnQuanlimonhoc_add.Size = new System.Drawing.Size(159, 29);
+            this.btnQuanlimonhoc_add.TabIndex = 52;
+            this.btnQuanlimonhoc_add.Text = "Tạo mới môn học";
+            this.btnQuanlimonhoc_add.UseVisualStyleBackColor = true;
+            this.btnQuanlimonhoc_add.Click += new System.EventHandler(this.btnQuanlimonhoc_add_Click);
             // 
             // label75
             // 
@@ -176,36 +173,11 @@
             // dgwQuảnlí
             // 
             this.dgwQuảnlí.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgwQuảnlí.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3});
             this.dgwQuảnlí.Location = new System.Drawing.Point(62, 114);
             this.dgwQuảnlí.Name = "dgwQuảnlí";
             this.dgwQuảnlí.Size = new System.Drawing.Size(1257, 418);
             this.dgwQuảnlí.TabIndex = 50;
             this.dgwQuảnlí.DoubleClick += new System.EventHandler(this.dgwQuảnlí_DoubleClick);
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Mã môn học";
-            this.Column1.Name = "Column1";
-            this.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Column1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Column1.Width = 200;
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column2.HeaderText = "Tên môn học";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 514;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Giảng viên phụ trách";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 500;
             // 
             // label9
             // 
@@ -351,7 +323,7 @@
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(731, 627);
+            this.btnNext.Location = new System.Drawing.Point(724, 627);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(50, 30);
             this.btnNext.TabIndex = 1;
@@ -372,7 +344,7 @@
             // pnCơsởvậtchất
             // 
             this.pnCơsởvậtchất.Controls.Add(this.wbCơsởvậtchất);
-            this.pnCơsởvậtchất.Location = new System.Drawing.Point(145, 95);
+            this.pnCơsởvậtchất.Location = new System.Drawing.Point(108, 95);
             this.pnCơsởvậtchất.Name = "pnCơsởvậtchất";
             this.pnCơsởvậtchất.Size = new System.Drawing.Size(1161, 481);
             this.pnCơsởvậtchất.TabIndex = 6;
@@ -392,7 +364,7 @@
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(576, 12);
+            this.label35.Location = new System.Drawing.Point(546, 12);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(273, 18);
             this.label35.TabIndex = 5;
@@ -408,129 +380,6 @@
             this.tabCơsởvậtchất.TabIndex = 12;
             this.tabCơsởvậtchất.Text = "Cơ sở vật chất";
             this.tabCơsởvậtchất.UseVisualStyleBackColor = true;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(478, 12);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(457, 18);
-            this.label34.TabIndex = 4;
-            this.label34.Text = "DANH SÁCH ĐỘI NGŨ GIẢNG VIÊN THỰC HIỆN CHƯƠNG TRÌNH";
-            // 
-            // panel10
-            // 
-            this.panel10.AutoScroll = true;
-            this.panel10.Controls.Add(this.label34);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel10.Location = new System.Drawing.Point(3, 3);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1343, 575);
-            this.panel10.TabIndex = 0;
-            // 
-            // tabĐộingũgiảngviên
-            // 
-            this.tabĐộingũgiảngviên.Controls.Add(this.panel10);
-            this.tabĐộingũgiảngviên.Location = new System.Drawing.Point(4, 29);
-            this.tabĐộingũgiảngviên.Name = "tabĐộingũgiảngviên";
-            this.tabĐộingũgiảngviên.Padding = new System.Windows.Forms.Padding(3);
-            this.tabĐộingũgiảngviên.Size = new System.Drawing.Size(1349, 581);
-            this.tabĐộingũgiảngviên.TabIndex = 11;
-            this.tabĐộingũgiảngviên.Text = "Danh sách đội ngũ";
-            this.tabĐộingũgiảngviên.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(499, 12);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(401, 18);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "MÔ TẢ VẮN TẮT NỘI DUNG VÀ KHỐI LƯỢNG HỌC PHẦN";
-            // 
-            // panel9
-            // 
-            this.panel9.AutoScroll = true;
-            this.panel9.Controls.Add(this.label5);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel9.Location = new System.Drawing.Point(0, 0);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1349, 581);
-            this.panel9.TabIndex = 0;
-            // 
-            // tabMôtảvắntắt
-            // 
-            this.tabMôtảvắntắt.Controls.Add(this.panel9);
-            this.tabMôtảvắntắt.Location = new System.Drawing.Point(4, 29);
-            this.tabMôtảvắntắt.Name = "tabMôtảvắntắt";
-            this.tabMôtảvắntắt.Size = new System.Drawing.Size(1349, 581);
-            this.tabMôtảvắntắt.TabIndex = 14;
-            this.tabMôtảvắntắt.Text = "Mô tả vắn tắt";
-            this.tabMôtảvắntắt.UseVisualStyleBackColor = true;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(627, 12);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(170, 18);
-            this.label33.TabIndex = 3;
-            this.label33.Text = "KẾ HOẠCH GIẢNG DẠY";
-            // 
-            // panel8
-            // 
-            this.panel8.AutoScroll = true;
-            this.panel8.Controls.Add(this.label33);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(3, 3);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1343, 575);
-            this.panel8.TabIndex = 0;
-            // 
-            // tabKếhoạchgiảngdạy
-            // 
-            this.tabKếhoạchgiảngdạy.Controls.Add(this.panel8);
-            this.tabKếhoạchgiảngdạy.Location = new System.Drawing.Point(4, 29);
-            this.tabKếhoạchgiảngdạy.Name = "tabKếhoạchgiảngdạy";
-            this.tabKếhoạchgiảngdạy.Padding = new System.Windows.Forms.Padding(3);
-            this.tabKếhoạchgiảngdạy.Size = new System.Drawing.Size(1349, 581);
-            this.tabKếhoạchgiảngdạy.TabIndex = 10;
-            this.tabKếhoạchgiảngdạy.Text = "Kế hoạch giảng dạy";
-            this.tabKếhoạchgiảngdạy.UseVisualStyleBackColor = true;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(599, 12);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(204, 18);
-            this.label28.TabIndex = 2;
-            this.label28.Text = "NỘI DUNG CHƯƠNG TRÌNH";
-            // 
-            // panel7
-            // 
-            this.panel7.AutoScroll = true;
-            this.panel7.Controls.Add(this.label28);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(3, 3);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1343, 575);
-            this.panel7.TabIndex = 0;
-            // 
-            // tabNộidungchươngtrình
-            // 
-            this.tabNộidungchươngtrình.Controls.Add(this.panel7);
-            this.tabNộidungchươngtrình.Location = new System.Drawing.Point(4, 29);
-            this.tabNộidungchươngtrình.Name = "tabNộidungchươngtrình";
-            this.tabNộidungchươngtrình.Padding = new System.Windows.Forms.Padding(3);
-            this.tabNộidungchươngtrình.Size = new System.Drawing.Size(1349, 581);
-            this.tabNộidungchươngtrình.TabIndex = 9;
-            this.tabNộidungchươngtrình.Text = "Nội dung chương trình";
-            this.tabNộidungchươngtrình.UseVisualStyleBackColor = true;
             // 
             // txtNgành
             // 
@@ -661,10 +510,6 @@
             this.tclMain.Controls.Add(this.tabMụctiêu);
             this.tclMain.Controls.Add(this.tabNhiềumục);
             this.tclMain.Controls.Add(this.tabQuảnlí);
-            this.tclMain.Controls.Add(this.tabNộidungchươngtrình);
-            this.tclMain.Controls.Add(this.tabKếhoạchgiảngdạy);
-            this.tclMain.Controls.Add(this.tabMôtảvắntắt);
-            this.tclMain.Controls.Add(this.tabĐộingũgiảngviên);
             this.tclMain.Controls.Add(this.tabCơsởvậtchất);
             this.tclMain.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tclMain.Location = new System.Drawing.Point(3, -29);
@@ -841,6 +686,7 @@
             // 
             this.nThờigian_họckì.Location = new System.Drawing.Point(518, 62);
             this.nThờigian_họckì.Name = "nThờigian_họckì";
+            this.nThờigian_họckì.ReadOnly = true;
             this.nThờigian_họckì.Size = new System.Drawing.Size(135, 26);
             this.nThờigian_họckì.TabIndex = 34;
             // 
@@ -855,10 +701,22 @@
             // 
             // nThờigian_năm
             // 
+            this.nThờigian_năm.DecimalPlaces = 1;
+            this.nThờigian_năm.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            65536});
             this.nThờigian_năm.Location = new System.Drawing.Point(293, 62);
+            this.nThờigian_năm.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             this.nThờigian_năm.Name = "nThờigian_năm";
             this.nThờigian_năm.Size = new System.Drawing.Size(135, 26);
             this.nThờigian_năm.TabIndex = 32;
+            this.nThờigian_năm.ValueChanged += new System.EventHandler(this.nThờigian_năm_ValueChanged);
             // 
             // label41
             // 
@@ -873,97 +731,70 @@
             // 
             this.toolStripStatusLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(220, 18);
-            this.toolStripStatusLabel2.Text = "                                        Mục lục";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(208, 18);
+            this.toolStripStatusLabel2.Text = "                                     Mục lục";
             this.toolStripStatusLabel2.MouseHover += new System.EventHandler(this.HoverMucluc);
             // 
             // toolStripMenuItem13
             // 
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(442, 22);
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(323, 22);
             this.toolStripMenuItem13.Text = "Cơ sở vật chất phục vụ học tập";
             this.toolStripMenuItem13.Click += new System.EventHandler(this.ClickCosovatchat);
-            // 
-            // toolStripMenuItem12
-            // 
-            this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(442, 22);
-            this.toolStripMenuItem12.Text = "Danh sách đội ngũ giảng viên thực hiện chương trình";
-            this.toolStripMenuItem12.Click += new System.EventHandler(this.ClickDanhsachgiaovien);
-            // 
-            // toolStripMenuItem11
-            // 
-            this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(442, 22);
-            this.toolStripMenuItem11.Text = "Mô tả vắn tắt nội dung và khối lượng các học phần";
-            this.toolStripMenuItem11.Click += new System.EventHandler(this.ClickHuongdanthuchien);
-            // 
-            // toolStripMenuItem10
-            // 
-            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(442, 22);
-            this.toolStripMenuItem10.Text = "Kế hoạch giảng dạy (dự kiến)";
-            this.toolStripMenuItem10.Click += new System.EventHandler(this.ClickKehoachgiangday);
-            // 
-            // toolStripMenuItem9
-            // 
-            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(442, 22);
-            this.toolStripMenuItem9.Text = "Nội dung chương trình (tên và khối lượng các học phần):";
-            this.toolStripMenuItem9.Click += new System.EventHandler(this.ClickNoidungchuongtrinh);
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(442, 22);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(323, 22);
             this.toolStripMenuItem8.Text = "Quản lí môn học";
+            this.toolStripMenuItem8.Click += new System.EventHandler(this.toolStripMenuItem8_Click);
             // 
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(442, 22);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(323, 22);
             this.toolStripMenuItem7.Text = "Thang điểm";
             this.toolStripMenuItem7.Click += new System.EventHandler(this.ClickThangdiem);
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(442, 22);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(323, 22);
             this.toolStripMenuItem6.Text = "Quy trình đào tạo, điều kiện tốt nghiệp";
             this.toolStripMenuItem6.Click += new System.EventHandler(this.ClickQuytrinhdaotao);
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(442, 22);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(323, 22);
             this.toolStripMenuItem5.Text = "Đối tượng tuyển sinh";
             this.toolStripMenuItem5.Click += new System.EventHandler(this.ClickDoituongtuyensinh);
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(442, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(323, 22);
             this.toolStripMenuItem4.Text = "Khối lượng kiến thức toàn khóa";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.ClickKhoiluongkienthuc);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(442, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(323, 22);
             this.toolStripMenuItem3.Text = "Thời gian đào tạo";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.ClickThoigiandaotao);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(442, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(323, 22);
             this.toolStripMenuItem2.Text = "Mục tiêu đào tạo";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.ClickMuctieudaotao);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(442, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(323, 22);
             this.toolStripMenuItem1.Text = "Thông tin chung";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.ClickThôngtinchung);
             // 
@@ -979,10 +810,6 @@
             this.toolStripMenuItem6,
             this.toolStripMenuItem7,
             this.toolStripMenuItem8,
-            this.toolStripMenuItem9,
-            this.toolStripMenuItem10,
-            this.toolStripMenuItem11,
-            this.toolStripMenuItem12,
             this.toolStripMenuItem13});
             this.msMụclục.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.msMụclục.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -1000,7 +827,7 @@
             // 
             // panel3
             // 
-            this.panel3.Location = new System.Drawing.Point(477, 7);
+            this.panel3.Location = new System.Drawing.Point(461, 6);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(185, 21);
             this.panel3.TabIndex = 18;
@@ -1019,7 +846,7 @@
             // 
             // btnPrevious
             // 
-            this.btnPrevious.Location = new System.Drawing.Point(619, 627);
+            this.btnPrevious.Location = new System.Drawing.Point(600, 627);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(50, 30);
             this.btnPrevious.TabIndex = 0;
@@ -1058,6 +885,7 @@
             this.btnSave.TabIndex = 19;
             this.btnSave.Text = "Lưu";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // GUI_EP
             // 
@@ -1080,18 +908,6 @@
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
             this.tabCơsởvậtchất.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
-            this.tabĐộingũgiảngviên.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            this.tabMôtảvắntắt.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.tabKếhoạchgiảngdạy.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.tabNộidungchươngtrình.ResumeLayout(false);
             this.tabThôngtinchung.ResumeLayout(false);
             this.tabThôngtinchung.PerformLayout();
             this.tclMain.ResumeLayout(false);
@@ -1136,18 +952,6 @@
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.TabPage tabCơsởvậtchất;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.TabPage tabĐộingũgiảngviên;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TabPage tabMôtảvắntắt;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.TabPage tabKếhoạchgiảngdạy;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TabPage tabNộidungchươngtrình;
         private System.Windows.Forms.TextBox txtNgành;
         private System.Windows.Forms.TextBox txtTênEL;
         private System.Windows.Forms.Label label1;
@@ -1181,10 +985,6 @@
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem13;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem10;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem9;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem8;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
@@ -1203,9 +1003,8 @@
         private System.Windows.Forms.Label label75;
         private System.Windows.Forms.DataGridView dgwQuảnlí;
         private System.Windows.Forms.WebBrowser wbKhốilượngkt;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnQuanlimonhoc_add;
+        private System.Windows.Forms.Button btnQuanli_view;
     }
 }
