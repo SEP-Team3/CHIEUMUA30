@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Prototype_SEP_Team3.Admin;
+using Prototype_SEP_Team3.Detailed_Syllabus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,16 +10,18 @@ namespace Prototype_SEP_Team3
 {
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
+        ///// <summary>
+        ///// The main entry point for the application.
+        ///// </summary>
+        //[STAThread]
         static void Main()
         {
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Educational_Program.GUI_EP(1));
+            Application.Run(new GUI_DS(1,1));
+            //Application.Run(new GUI_PhanQuyen());
+            //Application.Run(new GUI_Login());
         }
     }
 }

@@ -30,12 +30,12 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.lstCTDT = new System.Windows.Forms.DataGridView();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.tẠOCHƯƠNGTRÌNHĐÀOTẠOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnTaoCTDT = new System.Windows.Forms.ToolStripMenuItem();
             this.qUẢNLÝTÀIKHOẢNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lstCTDT)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,13 +59,13 @@
             this.label3.TabIndex = 10;
             this.label3.Text = "Tìm kiếm";
             // 
-            // dataGridView1
+            // lstCTDT
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(53, 150);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1155, 404);
-            this.dataGridView1.TabIndex = 9;
+            this.lstCTDT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.lstCTDT.Location = new System.Drawing.Point(53, 150);
+            this.lstCTDT.Name = "lstCTDT";
+            this.lstCTDT.Size = new System.Drawing.Size(1155, 404);
+            this.lstCTDT.TabIndex = 9;
             // 
             // textBox1
             // 
@@ -78,7 +78,7 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tẠOCHƯƠNGTRÌNHĐÀOTẠOToolStripMenuItem,
+            this.btnTaoCTDT,
             this.qUẢNLÝTÀIKHOẢNToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -86,11 +86,12 @@
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // tẠOCHƯƠNGTRÌNHĐÀOTẠOToolStripMenuItem
+            // btnTaoCTDT
             // 
-            this.tẠOCHƯƠNGTRÌNHĐÀOTẠOToolStripMenuItem.Name = "tẠOCHƯƠNGTRÌNHĐÀOTẠOToolStripMenuItem";
-            this.tẠOCHƯƠNGTRÌNHĐÀOTẠOToolStripMenuItem.Size = new System.Drawing.Size(190, 20);
-            this.tẠOCHƯƠNGTRÌNHĐÀOTẠOToolStripMenuItem.Text = "TẠO CHƯƠNG TRÌNH ĐÀO TẠO";
+            this.btnTaoCTDT.Name = "btnTaoCTDT";
+            this.btnTaoCTDT.Size = new System.Drawing.Size(190, 20);
+            this.btnTaoCTDT.Text = "TẠO CHƯƠNG TRÌNH ĐÀO TẠO";
+            this.btnTaoCTDT.Click += new System.EventHandler(this.btnTaoCTDT_Click);
             // 
             // qUẢNLÝTÀIKHOẢNToolStripMenuItem
             // 
@@ -104,14 +105,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 587);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.lstCTDT);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GUI_Admin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GUI_Admin";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lstCTDT)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -123,10 +125,10 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView lstCTDT;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem tẠOCHƯƠNGTRÌNHĐÀOTẠOToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnTaoCTDT;
         private System.Windows.Forms.ToolStripMenuItem qUẢNLÝTÀIKHOẢNToolStripMenuItem;
     }
 }
