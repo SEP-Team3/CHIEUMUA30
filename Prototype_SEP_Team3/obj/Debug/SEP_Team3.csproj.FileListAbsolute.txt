@@ -34,49 +34,1063 @@ D:\Data\Dữ liệu cũ\CMU\SEP\Do\Prototype_SEP_Team3\bin\Debug\Detailed Syllab
 D:\GitHub\SEP\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe.config
 D:\GitHub\SEP\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.exe
 D:\GitHub\SEP\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.pdb
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe.config
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.exe
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.pdb
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\bin\Debug\Detailed Syllabus\DSCkeditor.html
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\bin\Debug\Educational Program\EPCkeditor.html
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.pdb
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\SEP_Team3.csprojResolveAssemblyReference.cache
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_Admin.resources
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_Admin_CTĐT.resources
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_PhanQuyen.resources
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_TaiKhoan.resources
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Detailed_Syllabus.GUI_DS.resources
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_Course.resources
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_EP.resources
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Form1.resources
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Chinh.resources
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Login.resources
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Properties.Resources.resources
-C:\Users\DELL\Documents\GitHub\Educational-Program\Prototype_SEP_Team3\obj\Debug\SEP_Team3.csproj.GenerateResource.Cache
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe.config
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.exe
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.pdb
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\bin\Debug\Detailed Syllabus\DSCkeditor.html
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\bin\Debug\Educational Program\EPCkeditor.html
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.pdb
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\SEP_Team3.csprojResolveAssemblyReference.cache
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_Admin.resources
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_Admin_CTĐT.resources
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_PhanQuyen.resources
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_TaiKhoan.resources
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Detailed_Syllabus.GUI_DS.resources
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_Course.resources
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_EP.resources
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Login.resources
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Properties.Resources.resources
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\SEP_Team3.csproj.GenerateResource.Cache
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\bin\Debug\EntityFramework.dll
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\bin\Debug\EntityFramework.SqlServer.dll
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\bin\Debug\EntityFramework.xml
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\bin\Debug\EntityFramework.SqlServer.xml
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Chinh_BST_GVGD.resources
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Chinh_GV.resources
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe.CodeAnalysisLog.xml
-D:\Sang's Document\SEP\Prototype\Educational-Program-master\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe.lastcodeanalysissucceeded
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe.config
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.exe
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.pdb
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\bin\Debug\Detailed Syllabus\DSCkeditor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\bin\Debug\Educational Program\EPCkeditor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.pdb
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\SEP_Team3.csprojResolveAssemblyReference.cache
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_Admin.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_Admin_CTĐT.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_PhanQuyen.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_TaiKhoan.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Detailed_Syllabus.GUI_DS.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_Course.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_EP.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Form1.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Chinh.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Login.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Properties.Resources.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\obj\Debug\SEP_Team3.csproj.GenerateResource.Cache
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\bin\Debug\EntityFramework.dll
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\bin\Debug\EntityFramework.SqlServer.dll
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\bin\Debug\EntityFramework.xml
+D:\Data\Dữ liệu cũ\CMU\SEP\SEP Github\Educational-Program\Prototype_SEP_Team3\bin\Debug\EntityFramework.SqlServer.xml
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe.config
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.exe
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.pdb
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Detailed Syllabus\DSCkeditor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\EPCkeditor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.pdb
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\EntityFramework.dll
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\EntityFramework.SqlServer.dll
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\EntityFramework.xml
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\EntityFramework.SqlServer.xml
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\SEP_Team3.csprojResolveAssemblyReference.cache
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_Admin.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_Admin_CTĐT.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_PhanQuyen.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_TaiKhoan.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Detailed_Syllabus.GUI_DS.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_Course.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_EP.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Form1.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Chinh.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Login.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Properties.Resources.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\obj\Debug\SEP_Team3.csproj.GenerateResource.Cache
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\adapters\jquery.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\build-config.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\ckeditor.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\config.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\contents.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\af.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ar.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\az.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\bg.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\bn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\bs.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\cs.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\cy.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\da.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\de-ch.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\de.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\el.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\en-au.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\en-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\en-gb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\en.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\eo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\es.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\et.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\eu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fa.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fr-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\gl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\gu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\he.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\hi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\hr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\hu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\id.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\is.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\it.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ja.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ka.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\km.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ko.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ku.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\lt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\lv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\mk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\mn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ms.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\nb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\nl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\no.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\oc.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\pl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\pt-br.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\pt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ro.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ru.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\si.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sq.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sr-latn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\th.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\tr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\tt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ug.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\uk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\vi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\zh-cn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\zh.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\af.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ar.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\az.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\bg.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\cs.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\cy.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\da.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\de-ch.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\de.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\el.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\en-gb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\en.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\eo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\es.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\et.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\eu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fa.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fr-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\gl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\gu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\he.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\hi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\hr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\hu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\id.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\it.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ja.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\km.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ko.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ku.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\lt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\lv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\mk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\mn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\nb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\nl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\no.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\oc.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\pl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\pt-br.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\pt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ro.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ru.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\si.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sq.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sr-latn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\th.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\tr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\tt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ug.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\uk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\vi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\zh-cn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\zh.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\about\dialogs\about.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\about\dialogs\logo_ckeditor.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\dialog\dialogDefinition.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\icons.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\icons_hidpi.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\image\dialogs\image.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\image\images\noimage.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\link\dialogs\anchor.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\link\dialogs\link.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\link\images\anchor.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\link\images\hidpi\anchor.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\magicline\images\hidpi\icon-rtl.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\magicline\images\hidpi\icon.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\magicline\images\icon-rtl.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\magicline\images\icon.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\pastefromword\filter\default.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\dialogs\dialog.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\dialogs\options.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\dialogs\toolbar.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\af.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ar.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\az.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\bg.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\cs.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\cy.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\da.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\de-ch.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\de.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\el.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en-au.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en-gb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\eo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\es.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\et.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\eu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fa.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fr-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\gl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\he.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\hr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\hu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\id.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\it.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ja.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\km.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ko.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ku.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\lt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\lv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\nb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\nl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\no.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\oc.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\pl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\pt-br.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\pt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ru.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\si.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sq.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\th.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\tr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\tt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ug.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\uk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\vi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\zh-cn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\zh.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\_translationstatus.txt
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\specialchar.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\tableselection\styles\tableselection.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\tabletools\dialogs\tableCell.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\table\dialogs\table.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\ciframe.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\tmpFrameset.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\wsc.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\wsc.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\wsc_ie.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\css\samples.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\github-top.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\header-bg.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\header-separator.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\logo.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\navigation-tip.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\index.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\js\sample.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\js\sf.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\ajax.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\api.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\appendto.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\inlineall\logo.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\sample.jpg
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\uilanguages\languages.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\datafiltering.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\dialog\assets\my_dialog.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\dialog\dialog.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\divreplace.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\enterkey\enterkey.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.swf
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\assets\outputforflash\swfobject.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\outputforflash.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\outputhtml.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\index.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\inlineall.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\inlinebycode.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\inlinetextarea.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\jquery.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\magicline\magicline.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\readonly.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\replacebyclass.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\replacebycode.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\sample.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\sample.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\tabindex.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\toolbar\toolbar.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\uicolor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\uilanguages.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\wysiwygarea\fullpage.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\xhtmlstyle.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\css\fontello.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.svg
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\index.html
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\js\abstracttoolbarmodifier.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\js\fulltoolbareditor.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\js\toolbarmodifier.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\js\toolbartextmodifier.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\javascript.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\dialog.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\dialog_ie.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\dialog_ie8.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\dialog_iequirks.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor_gecko.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor_ie.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor_ie8.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor_iequirks.css
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\icons.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\icons_hidpi.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\arrow.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\close.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\hidpi\close.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\hidpi\lock-open.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\hidpi\lock.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\hidpi\refresh.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\lock-open.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\lock.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\refresh.png
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\spinner.gif
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\styles.js
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\CHANGES.md
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\LICENSE.md
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\CHANGELOG.md
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\LICENSE.md
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\README.md
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\LICENSE.md
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\README.md
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\README.md
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\posteddata.php
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\sample_posteddata.php
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\config.json
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.eot
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.ttf
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.woff
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE
+D:\Data\Dữ liệu cũ\CMU\SEP\Git tinyuky5\Course\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\readme.md
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe.config
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.exe
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.pdb
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\SEP_Team3.csprojResolveAssemblyReference.cache
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_Admin.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_Admin_CTĐT.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_PhanQuyen.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_TaiKhoan.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Detailed_Syllabus.GUI_DS.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_Course.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_EP.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Form1.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Chinh.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Login.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Properties.Resources.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\obj\Debug\SEP_Team3.csproj.GenerateResource.Cache
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Detailed Syllabus\DSCkeditor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\adapters\jquery.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\build-config.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\ckeditor.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\config.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\contents.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\af.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ar.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\az.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\bg.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\bn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\bs.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\cs.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\cy.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\da.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\de-ch.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\de.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\el.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\en-au.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\en-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\en-gb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\en.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\eo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\es.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\et.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\eu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fa.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fr-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\gl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\gu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\he.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\hi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\hr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\hu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\id.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\is.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\it.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ja.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ka.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\km.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ko.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ku.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\lt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\lv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\mk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\mn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ms.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\nb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\nl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\no.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\oc.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\pl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\pt-br.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\pt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ro.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ru.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\si.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sq.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sr-latn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\th.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\tr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\tt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ug.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\uk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\vi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\zh-cn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\zh.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\af.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ar.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\az.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\bg.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\cs.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\cy.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\da.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\de-ch.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\de.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\el.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\en-gb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\en.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\eo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\es.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\et.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\eu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fa.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fr-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\gl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\gu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\he.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\hi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\hr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\hu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\id.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\it.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ja.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\km.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ko.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ku.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\lt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\lv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\mk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\mn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\nb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\nl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\no.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\oc.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\pl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\pt-br.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\pt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ro.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ru.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\si.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sq.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sr-latn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\th.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\tr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\tt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ug.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\uk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\vi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\zh-cn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\zh.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\about\dialogs\about.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\about\dialogs\logo_ckeditor.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\dialog\dialogDefinition.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\icons.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\icons_hidpi.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\image\dialogs\image.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\image\images\noimage.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\link\dialogs\anchor.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\link\dialogs\link.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\link\images\anchor.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\link\images\hidpi\anchor.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\magicline\images\hidpi\icon-rtl.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\magicline\images\hidpi\icon.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\magicline\images\icon-rtl.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\magicline\images\icon.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\pastefromword\filter\default.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\dialogs\dialog.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\dialogs\options.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\dialogs\toolbar.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\af.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ar.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\az.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\bg.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\cs.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\cy.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\da.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\de-ch.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\de.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\el.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en-au.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en-gb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\eo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\es.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\et.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\eu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fa.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fr-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\gl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\he.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\hr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\hu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\id.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\it.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ja.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\km.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ko.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ku.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\lt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\lv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\nb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\nl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\no.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\oc.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\pl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\pt-br.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\pt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ru.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\si.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sq.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\th.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\tr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\tt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ug.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\uk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\vi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\zh-cn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\zh.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\_translationstatus.txt
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\specialchar.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\tableselection\styles\tableselection.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\tabletools\dialogs\tableCell.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\table\dialogs\table.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\ciframe.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\tmpFrameset.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\wsc.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\wsc.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\wsc_ie.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\css\samples.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\github-top.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\header-bg.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\header-separator.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\logo.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\navigation-tip.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\index.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\js\sample.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\js\sf.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\ajax.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\api.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\appendto.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\inlineall\logo.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\sample.jpg
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\uilanguages\languages.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\datafiltering.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\dialog\assets\my_dialog.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\dialog\dialog.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\divreplace.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\enterkey\enterkey.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.swf
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\assets\outputforflash\swfobject.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\outputforflash.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\outputhtml.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\index.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\inlineall.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\inlinebycode.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\inlinetextarea.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\jquery.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\magicline\magicline.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\readonly.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\replacebyclass.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\replacebycode.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\sample.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\sample.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\tabindex.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\toolbar\toolbar.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\uicolor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\uilanguages.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\wysiwygarea\fullpage.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\xhtmlstyle.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\css\fontello.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.svg
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\index.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\js\abstracttoolbarmodifier.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\js\fulltoolbareditor.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\js\toolbarmodifier.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\js\toolbartextmodifier.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\javascript.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\dialog.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\dialog_ie.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\dialog_ie8.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\dialog_iequirks.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor_gecko.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor_ie.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor_ie8.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor_iequirks.css
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\icons.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\icons_hidpi.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\arrow.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\close.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\hidpi\close.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\hidpi\lock-open.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\hidpi\lock.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\hidpi\refresh.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\lock-open.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\lock.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\refresh.png
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\spinner.gif
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\styles.js
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\EPCkeditor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\CHANGES.md
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\LICENSE.md
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\CHANGELOG.md
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\LICENSE.md
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\README.md
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\LICENSE.md
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\README.md
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\README.md
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\posteddata.php
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\sample_posteddata.php
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\config.json
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.eot
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.ttf
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.woff
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\readme.md
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.pdb
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\EntityFramework.dll
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\EntityFramework.SqlServer.dll
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\EntityFramework.xml
+D:\Data\Dữ liệu cũ\CMU\SEP\120620171620\Prototype_SEP_Team3\bin\Debug\EntityFramework.SqlServer.xml
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe.config
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.exe
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.pdb
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Detailed Syllabus\DSCkeditor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\adapters\jquery.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\build-config.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\ckeditor.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\config.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\contents.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\af.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ar.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\az.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\bg.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\bn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\bs.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\cs.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\cy.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\da.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\de-ch.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\de.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\el.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\en-au.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\en-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\en-gb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\en.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\eo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\es.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\et.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\eu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fa.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fr-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\fr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\gl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\gu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\he.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\hi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\hr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\hu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\id.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\is.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\it.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ja.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ka.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\km.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ko.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ku.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\lt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\lv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\mk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\mn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ms.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\nb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\nl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\no.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\oc.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\pl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\pt-br.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\pt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ro.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ru.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\si.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sq.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sr-latn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\sv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\th.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\tr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\tt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\ug.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\uk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\vi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\zh-cn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\lang\zh.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\af.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ar.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\az.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\bg.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\cs.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\cy.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\da.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\de-ch.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\de.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\el.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\en-gb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\en.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\eo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\es.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\et.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\eu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fa.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fr-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\gl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\gu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\he.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\hi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\hr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\hu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\id.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\it.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ja.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\km.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ko.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ku.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\lt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\lv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\mk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\mn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\nb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\nl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\no.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\oc.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\pl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\pt-br.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\pt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ro.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ru.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\si.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sq.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sr-latn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\th.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\tr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\tt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ug.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\uk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\vi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\zh-cn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\zh.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\about\dialogs\about.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\about\dialogs\logo_ckeditor.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\dialog\dialogDefinition.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\icons.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\icons_hidpi.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\image\dialogs\image.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\image\images\noimage.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\link\dialogs\anchor.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\link\dialogs\link.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\link\images\anchor.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\link\images\hidpi\anchor.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\magicline\images\hidpi\icon-rtl.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\magicline\images\hidpi\icon.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\magicline\images\icon-rtl.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\magicline\images\icon.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\pastefromword\filter\default.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\dialogs\dialog.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\dialogs\options.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\dialogs\toolbar.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\af.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ar.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\az.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\bg.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\cs.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\cy.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\da.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\de-ch.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\de.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\el.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en-au.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en-gb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\eo.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\es.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\et.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\eu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fa.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fr-ca.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\gl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\he.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\hr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\hu.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\id.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\it.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ja.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\km.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ko.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ku.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\lt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\lv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\nb.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\nl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\no.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\oc.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\pl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\pt-br.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\pt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ru.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\si.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sl.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sq.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sv.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\th.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\tr.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\tt.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ug.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\uk.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\vi.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\zh-cn.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\zh.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\lang\_translationstatus.txt
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\specialchar\dialogs\specialchar.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\tableselection\styles\tableselection.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\tabletools\dialogs\tableCell.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\table\dialogs\table.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\ciframe.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\tmpFrameset.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\wsc.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\wsc.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\dialogs\wsc_ie.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\css\samples.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\github-top.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\header-bg.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\header-separator.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\logo.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\img\navigation-tip.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\index.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\js\sample.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\js\sf.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\ajax.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\api.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\appendto.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\inlineall\logo.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\sample.jpg
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\uilanguages\languages.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\datafiltering.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\dialog\assets\my_dialog.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\dialog\dialog.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\divreplace.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\enterkey\enterkey.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.swf
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\assets\outputforflash\swfobject.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\outputforflash.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\outputhtml.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\index.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\inlineall.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\inlinebycode.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\inlinetextarea.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\jquery.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\magicline\magicline.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\readonly.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\replacebyclass.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\replacebycode.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\sample.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\sample.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\tabindex.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\toolbar\toolbar.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\uicolor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\uilanguages.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\wysiwygarea\fullpage.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\xhtmlstyle.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\css\fontello.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.svg
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\index.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\js\abstracttoolbarmodifier.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\js\fulltoolbareditor.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\js\toolbarmodifier.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\js\toolbartextmodifier.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\javascript.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\dialog.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\dialog_ie.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\dialog_ie8.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\dialog_iequirks.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor_gecko.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor_ie.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor_ie8.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\editor_iequirks.css
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\icons.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\icons_hidpi.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\arrow.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\close.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\hidpi\close.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\hidpi\lock-open.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\hidpi\lock.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\hidpi\refresh.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\lock-open.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\lock.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\refresh.png
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\images\spinner.gif
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\styles.js
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\CHANGES.md
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\LICENSE.md
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\CHANGELOG.md
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\LICENSE.md
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\scayt\README.md
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\LICENSE.md
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\plugins\wsc\README.md
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\README.md
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\assets\posteddata.php
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\old\sample_posteddata.php
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\config.json
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.eot
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.ttf
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.woff
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\ckeditor\skins\moono-lisa\readme.md
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.exe
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Prototype_SEP_Team3.pdb
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\EntityFramework.dll
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\EntityFramework.SqlServer.dll
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\EntityFramework.xml
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\EntityFramework.SqlServer.xml
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\SEP_Team3.csprojResolveAssemblyReference.cache
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_Admin.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_Admin_CTĐT.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_PhanQuyen.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Admin.GUI_TaiKhoan.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Detailed_Syllabus.GUI_DS.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_Course.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_EP.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Properties.Resources.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\SEP_Team3.csproj.GenerateResource.Cache
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Educational_Program.GUI_VIEW.resources
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\3Ckeditor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\4Ckeditor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\2Ckeditor.html
+D:\Data\Dữ liệu cũ\CMU\SEP\SourceSEP\120620171620\Prototype_SEP_Team3\bin\Debug\Educational Program\1Ckeditor.html
