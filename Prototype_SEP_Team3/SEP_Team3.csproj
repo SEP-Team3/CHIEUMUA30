@@ -21,7 +21,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,16 +33,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
@@ -56,77 +56,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin\BUS_Admin_CTĐT.cs" />
-    <Compile Include="Admin\BUS_PhanQuyen.cs" />
-    <Compile Include="Admin\GUI_Admin.cs">
+    <Compile Include="Admin\BUS_TaiKhoan.cs" />
+    <Compile Include="Admin\GUI_TaiKhoan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\GUI_Admin.Designer.cs">
-      <DependentUpon>GUI_Admin.cs</DependentUpon>
+    <Compile Include="Admin\GUI_TaiKhoan.Designer.cs">
+      <DependentUpon>GUI_TaiKhoan.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\GUI_Admin_CTĐT.cs">
+    <Compile Include="Educational Program\BUS_Course.cs" />
+    <Compile Include="Educational Program\BUS_EP.cs" />
+    <Compile Include="Educational Program\GUI_Course.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\GUI_Admin_CTĐT.Designer.cs">
-      <DependentUpon>GUI_Admin_CTĐT.cs</DependentUpon>
+    <Compile Include="Educational Program\GUI_Course.Designer.cs">
+      <DependentUpon>GUI_Course.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin\GUI_PhanQuyen.cs">
+    <Compile Include="Educational Program\GUI_EP.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin\GUI_PhanQuyen.Designer.cs">
-      <DependentUpon>GUI_PhanQuyen.cs</DependentUpon>
+    <Compile Include="Educational Program\GUI_EP.Designer.cs">
+      <DependentUpon>GUI_EP.cs</DependentUpon>
     </Compile>
-    <Compile Include="Detailed Syllabus\BUS_DCCT.cs" />
-    <Compile Include="Detailed Syllabus\GUI_DS.cs">
+    <Compile Include="Educational Program\GUI_VIEW.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Detailed Syllabus\GUI_DS.Designer.cs">
-      <DependentUpon>GUI_DS.cs</DependentUpon>
+    <Compile Include="Educational Program\GUI_VIEW.Designer.cs">
+      <DependentUpon>GUI_VIEW.cs</DependentUpon>
     </Compile>
-    <Compile Include="Detailed Syllabus\KeHoachGiangDayCuThe_List.cs" />
-    <Compile Include="Detailed Syllabus\KeHoachKiemTra_List.cs" />
-    <Compile Include="Detailed Syllabus\MaTran_CDR_HD_NoiDungList.cs" />
-    <Compile Include="Detailed Syllabus\PhuongPhapDanhGiaKQHT_List.cs" />
-    <Compile Include="GUI_Chinh_BST_GVGD.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI_Chinh_BST_GVGD.Designer.cs">
-      <DependentUpon>GUI_Chinh_BST_GVGD.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI_Chinh_GV.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI_Chinh_GV.Designer.cs">
-      <DependentUpon>GUI_Chinh_GV.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI_Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI_Login.Designer.cs">
-      <DependentUpon>GUI_Login.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Educational Program\Montienquyet_dtgv.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Admin\GUI_Admin.resx">
-      <DependentUpon>GUI_Admin.cs</DependentUpon>
+    <EmbeddedResource Include="Admin\GUI_TaiKhoan.resx">
+      <DependentUpon>GUI_TaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\GUI_Admin_CTĐT.resx">
-      <DependentUpon>GUI_Admin_CTĐT.cs</DependentUpon>
+    <EmbeddedResource Include="Educational Program\GUI_Course.resx">
+      <DependentUpon>GUI_Course.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin\GUI_PhanQuyen.resx">
-      <DependentUpon>GUI_PhanQuyen.cs</DependentUpon>
+    <EmbeddedResource Include="Educational Program\GUI_EP.resx">
+      <DependentUpon>GUI_EP.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Detailed Syllabus\GUI_DS.resx">
-      <DependentUpon>GUI_DS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI_Chinh_BST_GVGD.resx">
-      <DependentUpon>GUI_Chinh_BST_GVGD.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI_Chinh_GV.resx">
-      <DependentUpon>GUI_Chinh_GV.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI_Login.resx">
-      <DependentUpon>GUI_Login.cs</DependentUpon>
+    <EmbeddedResource Include="Educational Program\GUI_VIEW.resx">
+      <DependentUpon>GUI_VIEW.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -137,6 +107,57 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Educational Program\ckeditor\CHANGES.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\LICENSE.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\plugins\scayt\CHANGELOG.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\plugins\scayt\LICENSE.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\plugins\scayt\README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\plugins\wsc\LICENSE.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\plugins\wsc\README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\samples\old\assets\posteddata.php">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\samples\old\sample_posteddata.php">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\samples\toolbarconfigurator\font\config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.eot">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Educational Program\ckeditor\skins\moono-lisa\readme.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -148,15 +169,937 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Detailed Syllabus\DSCkeditor.html">
+    <Content Include="Educational Program\ckeditor\adapters\jquery.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\build-config.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\ckeditor.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\config.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\contents.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\af.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\ar.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\az.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\bg.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\bn.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\bs.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\ca.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\cs.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\cy.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\da.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\de-ch.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\de.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\el.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\en-au.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\en-ca.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\en-gb.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\en.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\eo.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\es.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\et.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\eu.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\fa.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\fi.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\fo.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\fr-ca.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\fr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\gl.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\gu.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\he.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\hi.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\hr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\hu.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\id.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\is.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\it.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\ja.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\ka.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\km.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\ko.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\ku.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\lt.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\lv.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\mk.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\mn.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\ms.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\nb.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\nl.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\no.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\oc.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\pl.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\pt-br.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\pt.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\ro.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\ru.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\si.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\sk.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\sl.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\sq.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\sr-latn.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\sr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\sv.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\th.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\tr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\tt.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\ug.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\uk.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\vi.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\zh-cn.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\lang\zh.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\af.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ar.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\az.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\bg.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ca.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\cs.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\cy.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\da.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\de-ch.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\de.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\el.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\en-gb.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\en.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\eo.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\es.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\et.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\eu.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fa.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fi.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fo.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fr-ca.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\fr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\gl.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\gu.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\he.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\hi.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\hr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\hu.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\id.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\it.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ja.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\km.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ko.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ku.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\lt.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\lv.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\mk.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\mn.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\nb.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\nl.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\no.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\oc.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\pl.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\pt-br.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\pt.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ro.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ru.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\si.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sk.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sl.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sq.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sr-latn.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\sv.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\th.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\tr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\tt.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\ug.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\uk.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\vi.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\zh-cn.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\zh.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\about\dialogs\about.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\about\dialogs\logo_ckeditor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\dialog\dialogDefinition.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\icons.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\icons_hidpi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\image\dialogs\image.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\image\images\noimage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\link\dialogs\anchor.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\link\dialogs\link.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\link\images\anchor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\link\images\hidpi\anchor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\magicline\images\hidpi\icon-rtl.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\magicline\images\hidpi\icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\magicline\images\icon-rtl.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\magicline\images\icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\pastefromword\filter\default.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\scayt\dialogs\dialog.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\scayt\dialogs\options.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\scayt\dialogs\toolbar.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\scayt\skins\moono-lisa\scayt.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\af.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ar.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\az.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\bg.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ca.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\cs.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\cy.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\da.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\de-ch.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\de.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\el.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en-au.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en-ca.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en-gb.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\en.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\eo.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\es.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\et.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\eu.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fa.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fi.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fr-ca.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\fr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\gl.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\he.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\hr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\hu.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\id.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\it.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ja.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\km.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ko.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ku.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\lt.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\lv.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\nb.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\nl.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\no.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\oc.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\pl.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\pt-br.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\pt.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ru.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\si.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sk.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sl.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sq.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\sv.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\th.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\tr.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\tt.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\ug.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\uk.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\vi.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\zh-cn.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\zh.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\lang\_translationstatus.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\specialchar\dialogs\specialchar.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\tableselection\styles\tableselection.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\tabletools\dialogs\tableCell.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\table\dialogs\table.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\wsc\dialogs\ciframe.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\wsc\dialogs\tmpFrameset.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\wsc\dialogs\wsc.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\wsc\dialogs\wsc.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\wsc\dialogs\wsc_ie.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\plugins\wsc\skins\moono-lisa\wsc.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\css\samples.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\img\github-top.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\img\header-bg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\img\header-separator.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\img\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\img\navigation-tip.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\index.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\js\sample.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\js\sf.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\ajax.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\api.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\appendto.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\assets\inlineall\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\assets\sample.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\assets\uilanguages\languages.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\datafiltering.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\dialog\assets\my_dialog.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\dialog\dialog.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\divreplace.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\enterkey\enterkey.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.swf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\htmlwriter\assets\outputforflash\swfobject.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\htmlwriter\outputforflash.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\htmlwriter\outputhtml.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\index.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\inlineall.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\inlinebycode.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\inlinetextarea.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\jquery.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\magicline\magicline.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\readonly.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\replacebyclass.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\replacebycode.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\sample.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\sample.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\tabindex.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\toolbar\toolbar.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\uicolor.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\uilanguages.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\wysiwygarea\fullpage.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\old\xhtmlstyle.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\css\fontello.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\font\fontello.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\index.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\js\abstracttoolbarmodifier.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\js\fulltoolbareditor.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\js\toolbarmodifier.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\js\toolbartextmodifier.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\javascript.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\dialog.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\dialog_ie.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\dialog_ie8.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\dialog_iequirks.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\editor.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\editor_gecko.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\editor_ie.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\editor_ie8.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\editor_iequirks.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\icons.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\icons_hidpi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\images\arrow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\images\close.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\images\hidpi\close.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\images\hidpi\lock-open.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\images\hidpi\lock.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\images\hidpi\refresh.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\images\lock-open.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\images\lock.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\images\refresh.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\skins\moono-lisa\images\spinner.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\ckeditor\styles.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\3Ckeditor.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\4Ckeditor.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\2Ckeditor.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Educational Program\1Ckeditor.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Educational Program\" />
+    <Folder Include="Detailed Syllabus\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

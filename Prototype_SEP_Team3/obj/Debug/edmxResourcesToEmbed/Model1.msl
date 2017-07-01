@@ -266,14 +266,9 @@
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_CreateDetailedSyllabus_MaTran2CDR_Sang" FunctionName="team3Model.Store.DetailedSyllabus_CreateDetailedSyllabus_MaTran2CDR_Sang" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_CreateDetailedSyllabus_MaTranCDRHDDG_Sang" FunctionName="team3Model.Store.DetailedSyllabus_CreateDetailedSyllabus_MaTranCDRHDDG_Sang" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_CreateGVGD_Sang" FunctionName="team3Model.Store.DetailedSyllabus_CreateGVGD_Sang" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_CreateMTMH_Sang" FunctionName="team3Model.Store.DetailedSyllabus_CreateMTMH_Sang" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_CreatePPDGKQHT" FunctionName="team3Model.Store.DetailedSyllabus_CreatePPDGKQHT" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_deleteDetailedSyllabus_ChuanDauRaMonHoc_Sang" FunctionName="team3Model.Store.DetailedSyllabus_deleteDetailedSyllabus_ChuanDauRaMonHoc_Sang" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_DeleteDetailedSyllabus_MaTran2CDR_Sang" FunctionName="team3Model.Store.DetailedSyllabus_DeleteDetailedSyllabus_MaTran2CDR_Sang" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_DeleteDetailedSyllabus_MaTranCDRvsHDGD_Sang" FunctionName="team3Model.Store.DetailedSyllabus_DeleteDetailedSyllabus_MaTranCDRvsHDGD_Sang" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_DeleteMaTranCDRHD_Sang" FunctionName="team3Model.Store.DetailedSyllabus_DeleteMaTranCDRHD_Sang" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_DeleteMTMH_Sang" FunctionName="team3Model.Store.DetailedSyllabus_DeleteMTMH_Sang" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_DeletePPDGKQHT" FunctionName="team3Model.Store.DetailedSyllabus_DeletePPDGKQHT" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_updateDetailedSyllabus_ChuanDauRaMonHoc_Sang" FunctionName="team3Model.Store.DetailedSyllabus_updateDetailedSyllabus_ChuanDauRaMonHoc_Sang" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_updateDetailedSyllabus_ChuanDauRaMonHoc_Thinh" FunctionName="team3Model.Store.DetailedSyllabus_updateDetailedSyllabus_ChuanDauRaMonHoc_Thinh" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_UpdateDetailedSyllabus_HPHT_Sang" FunctionName="team3Model.Store.DetailedSyllabus_UpdateDetailedSyllabus_HPHT_Sang" />
@@ -286,9 +281,6 @@
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_UpdateDetailedSyllabus_Sang" FunctionName="team3Model.Store.DetailedSyllabus_UpdateDetailedSyllabus_Sang" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_updateDetailedSyllabus_TaiLieuMonHoc_Thinh" FunctionName="team3Model.Store.DetailedSyllabus_updateDetailedSyllabus_TaiLieuMonHoc_Thinh" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_UpdateGVGD_Sang" FunctionName="team3Model.Store.DetailedSyllabus_UpdateGVGD_Sang" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_UpdateMaTranCDRHD_Sang" FunctionName="team3Model.Store.DetailedSyllabus_UpdateMaTranCDRHD_Sang" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_UpdateMTMH_Sang" FunctionName="team3Model.Store.DetailedSyllabus_UpdateMTMH_Sang" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_UpdatePPDGKQHT" FunctionName="team3Model.Store.DetailedSyllabus_UpdatePPDGKQHT" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_updateSTTDetailedSyllabus_ChuanDauRaMonHoc_Sang" FunctionName="team3Model.Store.DetailedSyllabus_updateSTTDetailedSyllabus_ChuanDauRaMonHoc_Sang" />
     <FunctionImportMapping FunctionImportName="Load_DCCT_Thinh" FunctionName="team3Model.Store.Load_DCCT_Thinh">
       <ResultMapping>
@@ -505,12 +497,5 @@
     </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="SP_THOIGIANDAOTAO_HANDLE" FunctionName="team3Model.Store.SP_THOIGIANDAOTAO_HANDLE" />
     <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="team3Model.Store.sp_upgraddiagrams" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_CreateKHKT" FunctionName="team3Model.Store.DetailedSyllabus_CreateKHKT" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_DeleteKHKT" FunctionName="team3Model.Store.DetailedSyllabus_DeleteKHKT" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_UpdateKHKT" FunctionName="team3Model.Store.DetailedSyllabus_UpdateKHKT" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_UpdateTaiLieu_Sang" FunctionName="team3Model.Store.DetailedSyllabus_UpdateTaiLieu_Sang" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_Delete_MT_CDRMH_HDGDPPGD" FunctionName="team3Model.Store.DetailedSyllabus_Delete_MT_CDRMH_HDGDPPGD" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_deleteTaiLieu_Sang" FunctionName="team3Model.Store.DetailedSyllabus_deleteTaiLieu_Sang" />
-    <FunctionImportMapping FunctionImportName="DetailedSyllabus_HoanThanh_Sang" FunctionName="team3Model.Store.DetailedSyllabus_HoanThanh_Sang" />
   </EntityContainerMapping>
 </Mapping>

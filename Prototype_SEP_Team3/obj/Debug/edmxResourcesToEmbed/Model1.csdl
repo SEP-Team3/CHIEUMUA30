@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="team3Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+<Schema Namespace="team3Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityType Name="ChuanDauRaMonHoc">
     <Key>
       <PropertyRef Name="Id" />
@@ -164,7 +164,7 @@
     <Property Name="DeCuongChiTiet_Id" Type="Int32" />
     <Property Name="Loai" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
     <Property Name="NoiDung" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
-    <Property Name="STT" Type="Double" />
+    <Property Name="STT" Type="Int32" />
     <NavigationProperty Name="DeCuongChiTiet" Relationship="Self.FK_MucTieuMonHoc_DeCuongChiTiet" FromRole="MucTieuMonHoc" ToRole="DeCuongChiTiet" />
   </EntityType>
   <EntityType Name="PhanQuyenTaiKhoan">
@@ -217,7 +217,7 @@
     <Property Name="DeCuongChiTiet_Id" Type="Int32" Nullable="false" />
     <Property Name="Loai" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
     <Property Name="NoiDung" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
-    <Property Name="STT" Type="Double" />
+    <Property Name="STT" Type="Int32" />
     <NavigationProperty Name="DeCuongChiTiet" Relationship="Self.FK_TaiLieuMonHoc_DeCuongChiTiet" FromRole="TaiLieuMonHoc" ToRole="DeCuongChiTiet" />
   </EntityType>
   <EntityType Name="ThongTinChung_CTDT">
@@ -615,19 +615,6 @@
       <Parameter Name="TroG" Mode="In" Type="String" />
       <Parameter Name="TenGV" Mode="In" Type="String" />
     </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_CreateMTMH_Sang">
-      <Parameter Name="DCCT_Id" Mode="In" Type="Int32" />
-      <Parameter Name="Loai" Mode="In" Type="String" />
-      <Parameter Name="NoiDung" Mode="In" Type="String" />
-      <Parameter Name="Stt" Mode="In" Type="Double" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_CreatePPDGKQHT">
-      <Parameter Name="dcctid" Mode="In" Type="Int32" />
-      <Parameter Name="loainoidung" Mode="In" Type="String" />
-      <Parameter Name="solandanhgia" Mode="In" Type="String" />
-      <Parameter Name="trongso" Mode="In" Type="Int32" />
-      <Parameter Name="hinhthucdanhgia" Mode="In" Type="String" />
-    </FunctionImport>
     <FunctionImport Name="DetailedSyllabus_deleteDetailedSyllabus_ChuanDauRaMonHoc_Sang">
       <Parameter Name="DeCuongChiTiet_Id" Mode="In" Type="Int32" />
       <Parameter Name="NoiDung" Mode="In" Type="String" />
@@ -638,18 +625,6 @@
     </FunctionImport>
     <FunctionImport Name="DetailedSyllabus_DeleteDetailedSyllabus_MaTranCDRvsHDGD_Sang">
       <Parameter Name="CDRMH_Id" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_DeleteMaTranCDRHD_Sang">
-      <Parameter Name="ID" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_DeleteMTMH_Sang">
-      <Parameter Name="DeCuongChiTiet_Id" Mode="In" Type="Int32" />
-      <Parameter Name="Loai" Mode="In" Type="String" />
-      <Parameter Name="NoiDung" Mode="In" Type="String" />
-      <Parameter Name="STT" Mode="In" Type="Double" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_DeletePPDGKQHT">
-      <Parameter Name="id" Mode="In" Type="Int32" />
     </FunctionImport>
     <FunctionImport Name="DetailedSyllabus_updateDetailedSyllabus_ChuanDauRaMonHoc_Sang">
       <Parameter Name="DeCuongChiTiet_Id" Mode="In" Type="Int32" />
@@ -714,7 +689,7 @@
       <Parameter Name="DeCuongChiTiet_Id" Mode="In" Type="Int32" />
       <Parameter Name="Loai" Mode="In" Type="String" />
       <Parameter Name="NoiDung" Mode="In" Type="String" />
-      <Parameter Name="STT" Mode="In" Type="Double" />
+      <Parameter Name="STT" Mode="In" Type="Int32" />
     </FunctionImport>
     <FunctionImport Name="DetailedSyllabus_UpdateGVGD_Sang">
       <Parameter Name="DCCT_Id" Mode="In" Type="Int32" />
@@ -723,24 +698,6 @@
       <Parameter Name="Email" Mode="In" Type="String" />
       <Parameter Name="TroG" Mode="In" Type="String" />
       <Parameter Name="TenGV" Mode="In" Type="String" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_UpdateMaTranCDRHD_Sang">
-      <Parameter Name="ID" Mode="In" Type="Int32" />
-      <Parameter Name="NoiDung" Mode="In" Type="String" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_UpdateMTMH_Sang">
-      <Parameter Name="DCCT_Id" Mode="In" Type="Int32" />
-      <Parameter Name="Loai" Mode="In" Type="String" />
-      <Parameter Name="NoiDung" Mode="In" Type="String" />
-      <Parameter Name="Stt" Mode="In" Type="Double" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_UpdatePPDGKQHT">
-      <Parameter Name="id" Mode="In" Type="Int32" />
-      <Parameter Name="dcctid" Mode="In" Type="Int32" />
-      <Parameter Name="loainoidung" Mode="In" Type="String" />
-      <Parameter Name="solandanhgia" Mode="In" Type="String" />
-      <Parameter Name="trongso" Mode="In" Type="Int32" />
-      <Parameter Name="hinhthucdanhgia" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="DetailedSyllabus_updateSTTDetailedSyllabus_ChuanDauRaMonHoc_Sang">
       <Parameter Name="DeCuongChiTiet_Id" Mode="In" Type="Int32" />
@@ -856,37 +813,6 @@
       <Parameter Name="tgdt" Mode="In" Type="Double" />
     </FunctionImport>
     <FunctionImport Name="sp_upgraddiagrams" />
-    <FunctionImport Name="DetailedSyllabus_CreateKHKT">
-      <Parameter Name="dcctid" Mode="In" Type="Int32" />
-      <Parameter Name="hinhthuc" Mode="In" Type="String" />
-      <Parameter Name="noidung" Mode="In" Type="String" />
-      <Parameter Name="thoidiem" Mode="In" Type="String" />
-      <Parameter Name="congcukt" Mode="In" Type="String" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_DeleteKHKT">
-      <Parameter Name="id" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_UpdateKHKT">
-      <Parameter Name="id" Mode="In" Type="Int32" />
-      <Parameter Name="dcctid" Mode="In" Type="Int32" />
-      <Parameter Name="hinhthuc" Mode="In" Type="String" />
-      <Parameter Name="noidung" Mode="In" Type="String" />
-      <Parameter Name="thoidiem" Mode="In" Type="String" />
-      <Parameter Name="congcukt" Mode="In" Type="String" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_UpdateTaiLieu_Sang">
-      <Parameter Name="Id" Mode="In" Type="Int32" />
-      <Parameter Name="NoiDung" Mode="In" Type="String" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_Delete_MT_CDRMH_HDGDPPGD">
-      <Parameter Name="id" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_deleteTaiLieu_Sang">
-      <Parameter Name="Id" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_HoanThanh_Sang">
-      <Parameter Name="Id" Mode="In" Type="Int32" />
-    </FunctionImport>
   </EntityContainer>
   <ComplexType Name="Admin_CTDTSearch_Result">
     <Property Type="Int32" Name="ID" Nullable="false" />
@@ -953,7 +879,7 @@
   </ComplexType>
   <ComplexType Name="Load_MucTieuMonHoc_Thinh_Result">
     <Property Type="String" Name="NoiDung" Nullable="true" MaxLength="500" />
-    <Property Type="Double" Name="STT" Nullable="true" />
+    <Property Type="Int32" Name="STT" Nullable="true" />
   </ComplexType>
   <ComplexType Name="Load_NoiDungChuongTrinh_MonHoc_Thinh_Result">
     <Property Type="Int32" Name="LoaiKienThuc" Nullable="false" />
@@ -978,7 +904,7 @@
   </ComplexType>
   <ComplexType Name="Load_TaiLieu_MonHoc_Thinh_Result">
     <Property Type="String" Name="NoiDung" Nullable="true" MaxLength="1000" />
-    <Property Type="Double" Name="STT" Nullable="true" />
+    <Property Type="Int32" Name="STT" Nullable="true" />
   </ComplexType>
   <ComplexType Name="LoadChuanDauRaCTDTTheoMonHoc_Result">
     <Property Type="String" Name="NoiDung" Nullable="true" MaxLength="500" />
