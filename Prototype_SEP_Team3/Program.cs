@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Prototype_SEP_Team3.Admin;
+using Prototype_SEP_Team3.Detailed_Syllabus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,7 +19,8 @@ namespace Prototype_SEP_Team3
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Educational_Program.GUI_EP(1));
+            //Application.Run(new Educational_Program.GUI_EP(1));
+            Application.Run(new GUI_DS(1,1));
         }
     }
 }
