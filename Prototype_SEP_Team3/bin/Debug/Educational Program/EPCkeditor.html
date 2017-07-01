@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <script src="../ckeditor/ckeditor.js"></script>
+</head>
+<body>
+    <form>
+        <textarea name="editor1" id="editor1" rows="10" cols="80"></textarea>
+        <script>
+            CKEDITOR.replace('editor1');
+            function text() {
+                var data = CKEDITOR.instances.editor1.getData();
+                return data;
+            }
+        </script>
+    </form>
+</body>
+</html>
