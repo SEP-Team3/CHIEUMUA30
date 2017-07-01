@@ -6,7 +6,7 @@ using System.IO;
 using System.Threading.Tasks;
 using Word = Microsoft.Office.Interop.Word;
 using System.Runtime.InteropServices;
-namespace CDDT
+namespace Prototype_SEP_Team3.Educational_Program
 {
 
     class ExportDocument
