@@ -4,19 +4,16 @@
 <head>
     <meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
-    <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+    <script src="../ckeditor/ckeditor.js"></script>
 </head>
 <body>
     <form>
         <textarea name="editor1" id="editor1" rows="10" cols="80"></textarea>
-        <script type="text/javascript">
+        <script>
             CKEDITOR.replace('editor1');
-            function getcontent() {
+            function text() {
                 var data = CKEDITOR.instances.editor1.getData();
                 return data;
-            }
-            function setcontent(load) {
-                CKEDITOR.instances.editor1.setData(load);
             }
         </script>
     </form>
