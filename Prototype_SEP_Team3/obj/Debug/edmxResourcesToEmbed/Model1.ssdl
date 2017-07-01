@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="team3Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="team3Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="ChuanDauRaMonHoc">
     <Key>
       <PropertyRef Name="Id" />
@@ -133,7 +133,7 @@
     <Property Name="DeCuongChiTiet_Id" Type="int" />
     <Property Name="Loai" Type="nvarchar" MaxLength="100" />
     <Property Name="NoiDung" Type="nvarchar" MaxLength="500" />
-    <Property Name="STT" Type="float" />
+    <Property Name="STT" Type="int" />
   </EntityType>
   <EntityType Name="PhanQuyenTaiKhoan">
     <Key>
@@ -181,7 +181,7 @@
     <Property Name="DeCuongChiTiet_Id" Type="int" Nullable="false" />
     <Property Name="Loai" Type="nvarchar" MaxLength="100" />
     <Property Name="NoiDung" Type="nvarchar" MaxLength="1000" />
-    <Property Name="STT" Type="float" />
+    <Property Name="STT" Type="int" />
   </EntityType>
   <EntityType Name="ThongTinChung_CTDT">
     <Key>
@@ -482,29 +482,6 @@
     <Parameter Name="TroG" Type="nvarchar" Mode="In" />
     <Parameter Name="TenGV" Type="nvarchar" Mode="In" />
   </Function>
-  <Function Name="DetailedSyllabus_CreateKHKT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="dcctid" Type="int" Mode="In" />
-    <Parameter Name="hinhthuc" Type="nvarchar" Mode="In" />
-    <Parameter Name="noidung" Type="nvarchar" Mode="In" />
-    <Parameter Name="thoidiem" Type="nvarchar" Mode="In" />
-    <Parameter Name="congcukt" Type="nvarchar" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_CreateMTMH_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="DCCT_Id" Type="int" Mode="In" />
-    <Parameter Name="Loai" Type="nvarchar" Mode="In" />
-    <Parameter Name="NoiDung" Type="nvarchar" Mode="In" />
-    <Parameter Name="Stt" Type="float" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_CreatePPDGKQHT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="dcctid" Type="int" Mode="In" />
-    <Parameter Name="loainoidung" Type="nvarchar" Mode="In" />
-    <Parameter Name="solandanhgia" Type="nvarchar" Mode="In" />
-    <Parameter Name="trongso" Type="int" Mode="In" />
-    <Parameter Name="hinhthucdanhgia" Type="nvarchar" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_Delete_MT_CDRMH_HDGDPPGD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="id" Type="int" Mode="In" />
-  </Function>
   <Function Name="DetailedSyllabus_deleteDetailedSyllabus_ChuanDauRaMonHoc_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="DeCuongChiTiet_Id" Type="int" Mode="In" />
     <Parameter Name="NoiDung" Type="nvarchar(max)" Mode="In" />
@@ -515,27 +492,6 @@
   </Function>
   <Function Name="DetailedSyllabus_DeleteDetailedSyllabus_MaTranCDRvsHDGD_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="CDRMH_Id" Type="int" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_DeleteKHKT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="id" Type="int" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_DeleteMaTranCDRHD_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="ID" Type="int" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_DeleteMTMH_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="DeCuongChiTiet_Id" Type="int" Mode="In" />
-    <Parameter Name="Loai" Type="nvarchar" Mode="In" />
-    <Parameter Name="NoiDung" Type="nvarchar" Mode="In" />
-    <Parameter Name="STT" Type="float" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_DeletePPDGKQHT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="id" Type="int" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_deleteTaiLieu_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="Id" Type="int" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_HoanThanh_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="Id" Type="int" Mode="In" />
   </Function>
   <Function Name="DetailedSyllabus_updateDetailedSyllabus_ChuanDauRaMonHoc_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="DeCuongChiTiet_Id" Type="int" Mode="In" />
@@ -600,7 +556,7 @@
     <Parameter Name="DeCuongChiTiet_Id" Type="int" Mode="In" />
     <Parameter Name="Loai" Type="nvarchar" Mode="In" />
     <Parameter Name="NoiDung" Type="nvarchar" Mode="In" />
-    <Parameter Name="STT" Type="float" Mode="In" />
+    <Parameter Name="STT" Type="int" Mode="In" />
   </Function>
   <Function Name="DetailedSyllabus_UpdateGVGD_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="DCCT_Id" Type="int" Mode="In" />
@@ -610,40 +566,10 @@
     <Parameter Name="TroG" Type="nvarchar" Mode="In" />
     <Parameter Name="TenGV" Type="nvarchar" Mode="In" />
   </Function>
-  <Function Name="DetailedSyllabus_UpdateKHKT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="id" Type="int" Mode="In" />
-    <Parameter Name="dcctid" Type="int" Mode="In" />
-    <Parameter Name="hinhthuc" Type="nvarchar" Mode="In" />
-    <Parameter Name="noidung" Type="nvarchar" Mode="In" />
-    <Parameter Name="thoidiem" Type="nvarchar" Mode="In" />
-    <Parameter Name="congcukt" Type="nvarchar" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_UpdateMaTranCDRHD_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="ID" Type="int" Mode="In" />
-    <Parameter Name="NoiDung" Type="nvarchar(max)" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_UpdateMTMH_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="DCCT_Id" Type="int" Mode="In" />
-    <Parameter Name="Loai" Type="nvarchar" Mode="In" />
-    <Parameter Name="NoiDung" Type="nvarchar" Mode="In" />
-    <Parameter Name="Stt" Type="float" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_UpdatePPDGKQHT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="id" Type="int" Mode="In" />
-    <Parameter Name="dcctid" Type="int" Mode="In" />
-    <Parameter Name="loainoidung" Type="nvarchar" Mode="In" />
-    <Parameter Name="solandanhgia" Type="nvarchar" Mode="In" />
-    <Parameter Name="trongso" Type="int" Mode="In" />
-    <Parameter Name="hinhthucdanhgia" Type="nvarchar" Mode="In" />
-  </Function>
   <Function Name="DetailedSyllabus_updateSTTDetailedSyllabus_ChuanDauRaMonHoc_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="DeCuongChiTiet_Id" Type="int" Mode="In" />
     <Parameter Name="STT" Type="int" Mode="In" />
     <Parameter Name="NoiDung" Type="nvarchar(max)" Mode="In" />
-  </Function>
-  <Function Name="DetailedSyllabus_UpdateTaiLieu_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
-    <Parameter Name="Id" Type="int" Mode="In" />
-    <Parameter Name="NoiDung" Type="nvarchar" Mode="In" />
   </Function>
   <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
   <Function Name="Load_DCCT_Thinh" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
