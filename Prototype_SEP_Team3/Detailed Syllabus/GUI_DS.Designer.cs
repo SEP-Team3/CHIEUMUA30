@@ -72,6 +72,10 @@
             this.label13 = new System.Windows.Forms.Label();
             this.tabNhiềumục = new System.Windows.Forms.TabPage();
             this.pnThôngtinchung = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.wbPhanbothoigian = new System.Windows.Forms.WebBrowser();
+            this.pnKhốilượngkt = new System.Windows.Forms.Panel();
+            this.wbThoiGianHoc = new System.Windows.Forms.WebBrowser();
             this.label50 = new System.Windows.Forms.Label();
             this.txtGVTG = new System.Windows.Forms.TextBox();
             this.label55 = new System.Windows.Forms.Label();
@@ -186,21 +190,30 @@
             this.label32 = new System.Windows.Forms.Label();
             this.tabYCvaKHCT = new System.Windows.Forms.TabPage();
             this.pnYCMH = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.wbYeuCauMH = new System.Windows.Forms.WebBrowser();
             this.label47 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtKHGDCT_Buoi = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.nbrKHGDCT_Tiet = new System.Windows.Forms.NumericUpDown();
             this.label43 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label42 = new System.Windows.Forms.Label();
             this.lstKHGDCT = new System.Windows.Forms.ListBox();
-            this.btnKHGDCT_Sua = new System.Windows.Forms.Button();
-            this.btnKHGDCT_Huy = new System.Windows.Forms.Button();
+            this.btnKHGDCT_Xoa = new System.Windows.Forms.Button();
             this.btnKHGDCT_Them = new System.Windows.Forms.Button();
             this.label51 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.btnNext = new System.Windows.Forms.Button();
+
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.wbNoidungBH = new System.Windows.Forms.WebBrowser();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.wbHDBH = new System.Windows.Forms.WebBrowser();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.wbTailieuBH = new System.Windows.Forms.WebBrowser();
+            this.nKHGDCT_buoi = new System.Windows.Forms.NumericUpDown();
+
             this.btnExport = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.statusStrip2.SuspendLayout();
@@ -209,6 +222,8 @@
             this.tabThôngtinchung.SuspendLayout();
             this.tabNhiềumục.SuspendLayout();
             this.pnThôngtinchung.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.pnKhốilượngkt.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lstHocPhanTruoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nbrSoTinChi)).BeginInit();
             this.tabMụctiêu.SuspendLayout();
@@ -227,7 +242,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtPPDG_TrongSo)).BeginInit();
             this.tabYCvaKHCT.SuspendLayout();
             this.pnYCMH.SuspendLayout();
+            this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nbrKHGDCT_Tiet)).BeginInit();
+            this.panel11.SuspendLayout();
+            this.panel12.SuspendLayout();
+            this.panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nKHGDCT_buoi)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -647,6 +667,8 @@
             // pnThôngtinchung
             // 
             this.pnThôngtinchung.AutoScroll = true;
+            this.pnThôngtinchung.Controls.Add(this.panel2);
+            this.pnThôngtinchung.Controls.Add(this.pnKhốilượngkt);
             this.pnThôngtinchung.Controls.Add(this.label50);
             this.pnThôngtinchung.Controls.Add(this.txtGVTG);
             this.pnThôngtinchung.Controls.Add(this.label55);
@@ -672,6 +694,40 @@
             this.pnThôngtinchung.Name = "pnThôngtinchung";
             this.pnThôngtinchung.Size = new System.Drawing.Size(1349, 581);
             this.pnThôngtinchung.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.wbPhanbothoigian);
+            this.panel2.Location = new System.Drawing.Point(43, 913);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1161, 481);
+            this.panel2.TabIndex = 95;
+            // 
+            // wbPhanbothoigian
+            // 
+            this.wbPhanbothoigian.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wbPhanbothoigian.Location = new System.Drawing.Point(0, 0);
+            this.wbPhanbothoigian.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbPhanbothoigian.Name = "wbPhanbothoigian";
+            this.wbPhanbothoigian.Size = new System.Drawing.Size(1161, 481);
+            this.wbPhanbothoigian.TabIndex = 0;
+            // 
+            // pnKhốilượngkt
+            // 
+            this.pnKhốilượngkt.Controls.Add(this.wbThoiGianHoc);
+            this.pnKhốilượngkt.Location = new System.Drawing.Point(53, 399);
+            this.pnKhốilượngkt.Name = "pnKhốilượngkt";
+            this.pnKhốilượngkt.Size = new System.Drawing.Size(1161, 321);
+            this.pnKhốilượngkt.TabIndex = 94;
+            // 
+            // wbThoiGianHoc
+            // 
+            this.wbThoiGianHoc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wbThoiGianHoc.Location = new System.Drawing.Point(0, 0);
+            this.wbThoiGianHoc.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbThoiGianHoc.Name = "wbThoiGianHoc";
+            this.wbThoiGianHoc.Size = new System.Drawing.Size(1161, 321);
+            this.wbThoiGianHoc.TabIndex = 0;
             // 
             // label50
             // 
@@ -1813,17 +1869,20 @@
             // pnYCMH
             // 
             this.pnYCMH.AutoScroll = true;
+            this.pnYCMH.Controls.Add(this.nKHGDCT_buoi);
+            this.pnYCMH.Controls.Add(this.panel13);
+            this.pnYCMH.Controls.Add(this.panel12);
+            this.pnYCMH.Controls.Add(this.panel11);
+            this.pnYCMH.Controls.Add(this.panel6);
             this.pnYCMH.Controls.Add(this.label47);
             this.pnYCMH.Controls.Add(this.label4);
-            this.pnYCMH.Controls.Add(this.txtKHGDCT_Buoi);
             this.pnYCMH.Controls.Add(this.label2);
             this.pnYCMH.Controls.Add(this.nbrKHGDCT_Tiet);
             this.pnYCMH.Controls.Add(this.label43);
             this.pnYCMH.Controls.Add(this.textBox3);
             this.pnYCMH.Controls.Add(this.label42);
             this.pnYCMH.Controls.Add(this.lstKHGDCT);
-            this.pnYCMH.Controls.Add(this.btnKHGDCT_Sua);
-            this.pnYCMH.Controls.Add(this.btnKHGDCT_Huy);
+            this.pnYCMH.Controls.Add(this.btnKHGDCT_Xoa);
             this.pnYCMH.Controls.Add(this.btnKHGDCT_Them);
             this.pnYCMH.Controls.Add(this.label51);
             this.pnYCMH.Controls.Add(this.label49);
@@ -1833,10 +1892,27 @@
             this.pnYCMH.Size = new System.Drawing.Size(1349, 581);
             this.pnYCMH.TabIndex = 0;
             // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.wbYeuCauMH);
+            this.panel6.Location = new System.Drawing.Point(39, 74);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(1161, 297);
+            this.panel6.TabIndex = 104;
+            // 
+            // wbYeuCauMH
+            // 
+            this.wbYeuCauMH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wbYeuCauMH.Location = new System.Drawing.Point(0, 0);
+            this.wbYeuCauMH.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbYeuCauMH.Name = "wbYeuCauMH";
+            this.wbYeuCauMH.Size = new System.Drawing.Size(1161, 297);
+            this.wbYeuCauMH.TabIndex = 0;
+            // 
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(66, 1382);
+            this.label47.Location = new System.Drawing.Point(66, 1405);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(118, 20);
             this.label47.TabIndex = 103;
@@ -1845,18 +1921,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(66, 1042);
+            this.label4.Location = new System.Drawing.Point(66, 1070);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(163, 20);
             this.label4.TabIndex = 99;
             this.label4.Text = "Hoạt động dạy và học";
-            // 
-            // txtKHGDCT_Buoi
-            // 
-            this.txtKHGDCT_Buoi.Location = new System.Drawing.Point(520, 647);
-            this.txtKHGDCT_Buoi.Name = "txtKHGDCT_Buoi";
-            this.txtKHGDCT_Buoi.Size = new System.Drawing.Size(375, 26);
-            this.txtKHGDCT_Buoi.TabIndex = 95;
             // 
             // label2
             // 
@@ -1909,37 +1978,31 @@
             // 
             this.lstKHGDCT.HorizontalScrollbar = true;
             this.lstKHGDCT.ItemHeight = 20;
-            this.lstKHGDCT.Location = new System.Drawing.Point(260, 1738);
+            this.lstKHGDCT.Location = new System.Drawing.Point(260, 1809);
             this.lstKHGDCT.Name = "lstKHGDCT";
             this.lstKHGDCT.Size = new System.Drawing.Size(752, 444);
             this.lstKHGDCT.TabIndex = 89;
+            this.lstKHGDCT.DoubleClick += new System.EventHandler(this.lstKHGDCT_DoubleClick_1);
             // 
-            // btnKHGDCT_Sua
+            // btnKHGDCT_Xoa
             // 
-            this.btnKHGDCT_Sua.Location = new System.Drawing.Point(494, 1687);
-            this.btnKHGDCT_Sua.Name = "btnKHGDCT_Sua";
-            this.btnKHGDCT_Sua.Size = new System.Drawing.Size(72, 43);
-            this.btnKHGDCT_Sua.TabIndex = 90;
-            this.btnKHGDCT_Sua.Text = "Sửa";
-            this.btnKHGDCT_Sua.UseVisualStyleBackColor = true;
-            // 
-            // btnKHGDCT_Huy
-            // 
-            this.btnKHGDCT_Huy.Location = new System.Drawing.Point(672, 1687);
-            this.btnKHGDCT_Huy.Name = "btnKHGDCT_Huy";
-            this.btnKHGDCT_Huy.Size = new System.Drawing.Size(72, 43);
-            this.btnKHGDCT_Huy.TabIndex = 91;
-            this.btnKHGDCT_Huy.Text = "Hủy";
-            this.btnKHGDCT_Huy.UseVisualStyleBackColor = true;
+            this.btnKHGDCT_Xoa.Location = new System.Drawing.Point(672, 1758);
+            this.btnKHGDCT_Xoa.Name = "btnKHGDCT_Xoa";
+            this.btnKHGDCT_Xoa.Size = new System.Drawing.Size(72, 43);
+            this.btnKHGDCT_Xoa.TabIndex = 91;
+            this.btnKHGDCT_Xoa.Text = "Xóa";
+            this.btnKHGDCT_Xoa.UseVisualStyleBackColor = true;
+            this.btnKHGDCT_Xoa.Click += new System.EventHandler(this.btnKHGDCT_Xoa_Click);
             // 
             // btnKHGDCT_Them
             // 
-            this.btnKHGDCT_Them.Location = new System.Drawing.Point(581, 1687);
+            this.btnKHGDCT_Them.Location = new System.Drawing.Point(581, 1758);
             this.btnKHGDCT_Them.Name = "btnKHGDCT_Them";
             this.btnKHGDCT_Them.Size = new System.Drawing.Size(72, 43);
             this.btnKHGDCT_Them.TabIndex = 88;
             this.btnKHGDCT_Them.Text = ">>>";
             this.btnKHGDCT_Them.UseVisualStyleBackColor = true;
+            this.btnKHGDCT_Them.Click += new System.EventHandler(this.btnKHGDCT_Them_Click_1);
             // 
             // label51
             // 
@@ -1953,7 +2016,7 @@
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(102, 741);
+            this.label49.Location = new System.Drawing.Point(73, 732);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(127, 20);
             this.label49.TabIndex = 92;
@@ -1969,6 +2032,65 @@
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.wbNoidungBH);
+            this.panel11.Location = new System.Drawing.Point(75, 763);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(1161, 297);
+            this.panel11.TabIndex = 105;
+            // 
+            // wbNoidungBH
+            // 
+            this.wbNoidungBH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wbNoidungBH.Location = new System.Drawing.Point(0, 0);
+            this.wbNoidungBH.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbNoidungBH.Name = "wbNoidungBH";
+            this.wbNoidungBH.Size = new System.Drawing.Size(1161, 297);
+            this.wbNoidungBH.TabIndex = 0;
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.wbHDBH);
+            this.panel12.Location = new System.Drawing.Point(75, 1096);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(1161, 297);
+            this.panel12.TabIndex = 106;
+            // 
+            // wbHDBH
+            // 
+            this.wbHDBH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wbHDBH.Location = new System.Drawing.Point(0, 0);
+            this.wbHDBH.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbHDBH.Name = "wbHDBH";
+            this.wbHDBH.Size = new System.Drawing.Size(1161, 297);
+            this.wbHDBH.TabIndex = 0;
+            // 
+            // panel13
+            // 
+            this.panel13.Controls.Add(this.wbTailieuBH);
+            this.panel13.Location = new System.Drawing.Point(72, 1435);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(1161, 297);
+            this.panel13.TabIndex = 107;
+            // 
+            // wbTailieuBH
+            // 
+            this.wbTailieuBH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wbTailieuBH.Location = new System.Drawing.Point(0, 0);
+            this.wbTailieuBH.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbTailieuBH.Name = "wbTailieuBH";
+            this.wbTailieuBH.Size = new System.Drawing.Size(1161, 297);
+            this.wbTailieuBH.TabIndex = 0;
+            // 
+            // nKHGDCT_buoi
+            // 
+            this.nKHGDCT_buoi.Location = new System.Drawing.Point(520, 648);
+            this.nKHGDCT_buoi.Name = "nKHGDCT_buoi";
+            this.nKHGDCT_buoi.Size = new System.Drawing.Size(375, 26);
+            this.nKHGDCT_buoi.TabIndex = 108;
+
             // btnExport
             // 
             this.btnExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1979,6 +2101,7 @@
             this.btnExport.Text = "Xuất file Word";
             this.btnExport.UseVisualStyleBackColor = true;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
+
             // 
             // GUI_DS
             // 
@@ -2001,6 +2124,8 @@
             this.tabNhiềumục.ResumeLayout(false);
             this.pnThôngtinchung.ResumeLayout(false);
             this.pnThôngtinchung.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.pnKhốilượngkt.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.lstHocPhanTruoc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nbrSoTinChi)).EndInit();
             this.tabMụctiêu.ResumeLayout(false);
@@ -2026,7 +2151,12 @@
             this.tabYCvaKHCT.ResumeLayout(false);
             this.pnYCMH.ResumeLayout(false);
             this.pnYCMH.PerformLayout();
+            this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nbrKHGDCT_Tiet)).EndInit();
+            this.panel11.ResumeLayout(false);
+            this.panel12.ResumeLayout(false);
+            this.panel13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.nKHGDCT_buoi)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2177,15 +2307,13 @@
         private System.Windows.Forms.Panel pnYCMH;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtKHGDCT_Buoi;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown nbrKHGDCT_Tiet;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.ListBox lstKHGDCT;
-        private System.Windows.Forms.Button btnKHGDCT_Sua;
-        private System.Windows.Forms.Button btnKHGDCT_Huy;
+        private System.Windows.Forms.Button btnKHGDCT_Xoa;
         private System.Windows.Forms.Button btnKHGDCT_Them;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label49;
@@ -2206,7 +2334,24 @@
         private System.Windows.Forms.Button btnMaTran_2CDR;
         private System.Windows.Forms.Button btnMT2CDR_Update;
         private System.Windows.Forms.Panel pnMT2CDR;
+
+        private System.Windows.Forms.Button btnHoanThanh;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.WebBrowser wbPhanbothoigian;
+        private System.Windows.Forms.Panel pnKhốilượngkt;
+        private System.Windows.Forms.WebBrowser wbThoiGianHoc;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.WebBrowser wbYeuCauMH;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.WebBrowser wbTailieuBH;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.WebBrowser wbHDBH;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.WebBrowser wbNoidungBH;
+        private System.Windows.Forms.NumericUpDown nKHGDCT_buoi;
+
         private System.Windows.Forms.Button btnExport;
+
 
     }
 }

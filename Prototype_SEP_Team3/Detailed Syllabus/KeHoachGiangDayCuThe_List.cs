@@ -8,15 +8,15 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
 {
     public class KeHoachGiangDayCuThe_List
     {
-        public string buoi;
+        public int buoi;
         public int tiet;
-        public List<string> noiDung;
-        public List<string> hoatDong;
-        public List<string> taiLieu;
+        public string noiDung;
+        public string hoatDong;
+        public string taiLieu;
 
-        public KeHoachGiangDayCuThe_List(string buoi, int tiet, List<string> noiDung, List<string> hoatDong, List<string> taiLieu)
+        public KeHoachGiangDayCuThe_List(int ibuoi, int tiet, string noiDung, string hoatDong, string taiLieu)
         {
-            this.buoi = buoi;
+            this.buoi = ibuoi;
             this.tiet = tiet;
             this.noiDung = noiDung;
             this.hoatDong = hoatDong;

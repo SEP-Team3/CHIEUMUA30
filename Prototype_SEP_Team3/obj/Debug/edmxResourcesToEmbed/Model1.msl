@@ -243,15 +243,6 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="Admin_Select_Sang" FunctionName="team3Model.Store.Admin_Select_Sang">
-      <ResultMapping>
-        <ComplexTypeMapping TypeName="team3Model.Admin_Select_Sang_Result">
-          <ScalarProperty Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="MÃ CHƯƠNG TRÌNH ĐÀO TẠO" />
-          <ScalarProperty Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="TÊN CHƯƠNG TRÌNH ĐÀO TẠO" />
-          <ScalarProperty Name="NGƯỜI_PHỤ_TRÁCH" ColumnName="NGƯỜI PHỤ TRÁCH" />
-        </ComplexTypeMapping>
-      </ResultMapping>
-    </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="Admin_updateCTDT_Thinh" FunctionName="team3Model.Store.Admin_updateCTDT_Thinh" />
     <FunctionImportMapping FunctionImportName="Authorize_Create_Sang" FunctionName="team3Model.Store.Authorize_Create_Sang" />
     <FunctionImportMapping FunctionImportName="Authorize_Search_Sang" FunctionName="team3Model.Store.Authorize_Search_Sang">
@@ -530,29 +521,9 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="Search_CTDTForGV_Sang" FunctionName="team3Model.Store.Search_CTDTForGV_Sang">
-      <ResultMapping>
-        <ComplexTypeMapping TypeName="team3Model.Search_CTDTForGV_Sang_Result">
-          <ScalarProperty Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="MÃ CHƯƠNG TRÌNH ĐÀO TẠO" />
-          <ScalarProperty Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="TÊN CHƯƠNG TRÌNH ĐÀO TẠO" />
-          <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
-          <ScalarProperty Name="NGÀNH" ColumnName="NGÀNH" />
-        </ComplexTypeMapping>
-      </ResultMapping>
-    </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="Search_DCCT_Sang" FunctionName="team3Model.Store.Search_DCCT_Sang">
       <ResultMapping>
         <ComplexTypeMapping TypeName="team3Model.Search_DCCT_Sang_Result">
-          <ScalarProperty Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="MÃ ĐỀ CƯƠNG CHI TIẾT" />
-          <ScalarProperty Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="TÊN ĐỀ CƯƠNG CHI TIẾT" />
-          <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
-          <ScalarProperty Name="HOÀN_THÀNH" ColumnName="HOÀN THÀNH" />
-        </ComplexTypeMapping>
-      </ResultMapping>
-    </FunctionImportMapping>
-    <FunctionImportMapping FunctionImportName="Search_DCCTForGV_Sang" FunctionName="team3Model.Store.Search_DCCTForGV_Sang">
-      <ResultMapping>
-        <ComplexTypeMapping TypeName="team3Model.Search_DCCTForGV_Sang_Result">
           <ScalarProperty Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="MÃ ĐỀ CƯƠNG CHI TIẾT" />
           <ScalarProperty Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="TÊN ĐỀ CƯƠNG CHI TIẾT" />
           <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />

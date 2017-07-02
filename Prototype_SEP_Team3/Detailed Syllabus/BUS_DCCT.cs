@@ -652,60 +652,118 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
         public TableLayoutPanel Draw_MT_2CDR(List<MaTran_CDRMH_CDRCTDT> ilst, int id)
         {
             DBEntities model = new DBEntities();
-
+            int mhid = model.DeCuongChiTiets.Single(x=>x.Id==id).MonHoc_Id.Value;
+            int ctdtid = model.MonHocs.Single(x=>x.Id==mhid).ChuongTrinhDaoTao_Id;
             TableLayoutPanel rs = new TableLayoutPanel();
-            List<MaTran_CDRMH_CDRCTDT> lst1 = ilst.Where(x => x.CDRMH_Id == ilst[0].CDRMH_Id).ToList();
-            int col = 0;
+            List<MucTieuDaoTao> lst = model.MucTieuDaoTaos.Where(x => x.ChuongTrinhDaoTao_Id == ctdtid && x.Loai != "Chung").ToList();
+            List<ChuanDauRaMonHoc> lst1 = model.ChuanDauRaMonHocs.Where(x => x.DeCuongChiTiet_Id == id).ToList();
+            rs.Controls.Add(new Label() { Text = "CĐR", Anchor = AnchorStyles.None, BackColor = Color.White, AutoSize = true, Dock = DockStyle.Fill }, 0, 0);
             int row = 0;
-            rs.Controls.Add(new Label() { Text = "CĐR", Anchor = AnchorStyles.None, BackColor = Color.White, AutoSize = true, Dock = DockStyle.Fill }, col, row);
-            col++;
-
-            List<string> sttLst = new List<string>();
-            foreach (MaTran_CDRMH_CDRCTDT a in lst1)
+            int col = 1;
+            for (int i = 0; i < lst.Count; i++)
             {
-
-                string sttrs = model.MucTieuDaoTaos.Single(x => x.Id == a.CDRCTDT_Id).STT.ToString();
-                sttLst.Add(sttrs);
-            }
-            foreach (string a in sttLst)
-            {
-                rs.Controls.Add(new Label() { Text = a, Anchor = AnchorStyles.None, BackColor = Color.White, Dock = DockStyle.Fill }, col, row);
+                if(lst[i].Loai=="Phẩm chất"){
+                    rs.Controls.Add(new Label() { Text ="1."+ lst[i].STT.ToString(), Anchor = AnchorStyles.None, BackColor = Color.White, AutoSize = true, Dock = DockStyle.Fill }, col, row);
                 col++;
+                }
+                if(lst[i].Loai=="Kiến thức"){
+                    rs.Controls.Add(new Label() { Text = "2."+lst[i].STT.ToString(), Anchor = AnchorStyles.None, BackColor = Color.White, AutoSize = true, Dock = DockStyle.Fill }, col, row);
+                col++;
+                }
+                if(lst[i].Loai=="Kĩ năng"){
+                    rs.Controls.Add(new Label() { Text = "3."+lst[i].STT.ToString(), Anchor = AnchorStyles.None, BackColor = Color.White, AutoSize = true, Dock = DockStyle.Fill }, col, row);
+                col++;
+                }
+                if(lst[i].Loai=="Thái độ"){
+                    rs.Controls.Add(new Label() { Text = "4."+lst[i].STT.ToString(), Anchor = AnchorStyles.None, BackColor = Color.White, AutoSize = true, Dock = DockStyle.Fill }, col, row);
+                col++;
+                }
+                
             }
-            col = 0;
-            row++;
-            sttLst.Clear();
-            List<MaTran_CDRMH_CDRCTDT> lst2 = ilst.Where(x => x.CDRCTDT_Id == lst1[0].CDRCTDT_Id).ToList();
-            foreach (MaTran_CDRMH_CDRCTDT a in lst2)
+            row++;         
+            foreach (ChuanDauRaMonHoc a in lst1)
             {
-
-                string sttrs = model.ChuanDauRaMonHocs.Single(x => x.Id == a.CDRMH_Id).STT.ToString();
-                sttLst.Add(sttrs);
-            }
-            foreach (string a in sttLst)
-            {
-                rs.Controls.Add(new Label() { Text = a, Anchor = AnchorStyles.None, BackColor = Color.White, Dock = DockStyle.Fill }, col, row);
-                row++;
-            }
-            row = 1;
-            for (int i = 0; i < lst2.Count; i++)
-            {
-                col = 1;
-                List<MaTran_CDRMH_CDRCTDT> lst3 = ilst.Where(x => x.CDRMH_Id == lst2[i].CDRMH_Id).ToList();
-                foreach (MaTran_CDRMH_CDRCTDT a in lst3)
+                col = 0;
+                rs.Controls.Add(new Label() { Text = a.STT.ToString(), Anchor = AnchorStyles.None, BackColor = Color.White, AutoSize = true, Dock = DockStyle.Fill }, col, row);
+                col++;
+                
+                foreach (MucTieuDaoTao b in lst)
                 {
                     string mapstr = "";
-                    if (a.Mapped == true)
+                    try
                     {
-                        mapstr = "X";
+                        int f1 = a.Id;
+                        int f2 = b.Id;
+                        MaTran_CDRMH_CDRCTDT c = ilst.Single(x => x.CDRMH_Id == f1 && x.CDRCTDT_Id == f2);
+                        if (c.Mapped == true)
+                        {
+                            mapstr = "X";
+                        }
+                        rs.Controls.Add(new Label() { Text = mapstr, Anchor = AnchorStyles.None, BackColor = Color.White, AutoSize = true, Dock = DockStyle.Fill }, col, row);
+                        col++;
                     }
-                    rs.Controls.Add(new Label() { Text = mapstr, Anchor = AnchorStyles.None, BackColor = Color.White, Dock = DockStyle.Fill }, col, row);
-                    col++;
-
+                    catch
+                    {
+                        rs.Controls.Add(new Label() { Text = mapstr, Anchor = AnchorStyles.None, BackColor = Color.White, AutoSize = true, Dock = DockStyle.Fill }, col, row);
+                        col++;
+                    }
+                    
                 }
                 row++;
             }
-            return rs;
+            
+                //List<MaTran_CDRMH_CDRCTDT> lst1 = ilst.Where(x => x.CDRMH_Id == ilst[0].CDRMH_Id).ToList();
+                //int col = 0;
+                //int row = 0;
+                //rs.Controls.Add(new Label() { Text = "CĐR", Anchor = AnchorStyles.None, BackColor = Color.White, AutoSize = true, Dock = DockStyle.Fill }, col, row);
+                //col++;
+
+                //List<string> sttLst = new List<string>();
+                //foreach (MaTran_CDRMH_CDRCTDT a in lst1)
+                //{
+
+                //    string sttrs = model.MucTieuDaoTaos.Single(x => x.Id == a.CDRCTDT_Id).STT.ToString();
+                //    sttLst.Add(sttrs);
+                //}
+                //foreach (string a in sttLst)
+                //{
+                //    rs.Controls.Add(new Label() { Text = a, Anchor = AnchorStyles.None, BackColor = Color.White, Dock = DockStyle.Fill }, col, row);
+                //    col++;
+                //}
+                //col = 0;
+                //row++;
+                //sttLst.Clear();
+                //List<MaTran_CDRMH_CDRCTDT> lst2 = ilst.Where(x => x.CDRCTDT_Id == lst1[0].CDRCTDT_Id).ToList();
+                //foreach (MaTran_CDRMH_CDRCTDT a in lst2)
+                //{
+
+                //    string sttrs = model.ChuanDauRaMonHocs.Single(x => x.Id == a.CDRMH_Id).STT.ToString();
+                //    sttLst.Add(sttrs);
+                //}
+                //foreach (string a in sttLst)
+                //{
+                //    rs.Controls.Add(new Label() { Text = a, Anchor = AnchorStyles.None, BackColor = Color.White, Dock = DockStyle.Fill }, col, row);
+                //    row++;
+                //}
+                //row = 1;
+                //for (int i = 0; i < lst2.Count; i++)
+                //{
+                //    col = 1;
+                //    List<MaTran_CDRMH_CDRCTDT> lst3 = ilst.Where(x => x.CDRMH_Id == lst2[i].CDRMH_Id).ToList();
+                //    foreach (MaTran_CDRMH_CDRCTDT a in lst3)
+                //    {
+                //        string mapstr = "";
+                //        if (a.Mapped == true)
+                //        {
+                //            mapstr = "X";
+                //        }
+                //        rs.Controls.Add(new Label() { Text = mapstr, Anchor = AnchorStyles.None, BackColor = Color.White, Dock = DockStyle.Fill }, col, row);
+                //        col++;
+
+                //    }
+                //    row++;
+                //}
+                return rs;
 
         }
     }

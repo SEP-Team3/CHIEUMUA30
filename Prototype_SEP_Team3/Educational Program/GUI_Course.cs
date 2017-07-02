@@ -25,7 +25,18 @@ namespace Prototype_SEP_Team3.Educational_Program
             InitializeComponent();
             //Set up khi form
             DBEntities db = new DBEntities();
-            cboQuảnlí_giáoviên.DataSource = db.TaiKhoans.ToList();
+            List<PhanQuyenTaiKhoan> pqlst = db.PhanQuyenTaiKhoans.Where(x=>x.ChucVu=="Giảng viên").ToList();
+            List<TaiKhoan> tklst = new List<TaiKhoan>();
+            foreach(PhanQuyenTaiKhoan d in pqlst){
+                TaiKhoan find = db.TaiKhoans.Single(x=>x.Id==d.TaiKhoan_Id);
+                tklst.Add(find);
+            }
+            if (pqlst.Count == 0)
+            {
+                MessageBox.Show("Hệ thống chưa có giảng viên nên không thể thêm mới môn học");
+                this.Close();
+            }
+            cboQuảnlí_giáoviên.DataSource = tklst;
             cboQuảnlí_giáoviên.ValueMember = "Id";
             cboQuảnlí_giáoviên.DisplayMember = "Ten";
 

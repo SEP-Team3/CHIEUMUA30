@@ -31,7 +31,7 @@ namespace Prototype_SEP_Team3.Educational_Program
 
         BUS_EP bus = new BUS_EP();
 
-        public GUI_EP(int id)
+        public GUI_EP(int id,int finish)
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
@@ -51,6 +51,16 @@ namespace Prototype_SEP_Team3.Educational_Program
 
             loadCTDT();
 
+
+            if (finish == 1)
+            {
+                btnSave.Enabled = false;
+                btnMụctiêu_sửa.Enabled = false;
+                btnMụctiêu_hủy.Enabled = false;
+                btnĐàotạo_add.Enabled = false;
+                nThờigian_năm.ReadOnly = true;
+                btnQuanlimonhoc_add.Enabled = false;
+            }
 
         }
         //LOAD FORM
@@ -806,7 +816,14 @@ namespace Prototype_SEP_Team3.Educational_Program
                 load.LoaiHinh = txtLoạiđàotạo.Text;
 
                 //Mục tiêu đào tạo
-                db.SP_MUCTIEUDAOTAO_DEL(idctdt);
+                try
+                {
+                    db.SP_MUCTIEUDAOTAO_DEL(idctdt);
+                }
+                catch
+                {
+                    MessageBox.Show("Mục tiêu đào đạo đang được sử dụng nên không thể chỉnh sửa");
+                }
                 for (int i = 0; i < mtc.Count; i++)
                 {
                     MucTieuDaoTao add = new MucTieuDaoTao();
