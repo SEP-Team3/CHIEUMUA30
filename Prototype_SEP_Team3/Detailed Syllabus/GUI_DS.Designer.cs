@@ -55,7 +55,6 @@
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.pnForm = new System.Windows.Forms.Panel();
-            this.btnHoanThanh = new System.Windows.Forms.Button();
             this.tclMain = new System.Windows.Forms.TabControl();
             this.tabThôngtinchung = new System.Windows.Forms.TabPage();
             this.label19 = new System.Windows.Forms.Label();
@@ -202,6 +201,7 @@
             this.label51 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.btnNext = new System.Windows.Forms.Button();
+            this.btnExport = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.statusStrip2.SuspendLayout();
             this.pnForm.SuspendLayout();
@@ -442,9 +442,9 @@
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(1075, 648);
+            this.btnSave.Location = new System.Drawing.Point(1173, 648);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 41);
+            this.btnSave.Size = new System.Drawing.Size(142, 41);
             this.btnSave.TabIndex = 18;
             this.btnSave.Text = "Lưu";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -452,28 +452,17 @@
             // 
             // pnForm
             // 
-            this.pnForm.Controls.Add(this.btnHoanThanh);
             this.pnForm.Controls.Add(this.btnSave);
             this.pnForm.Controls.Add(this.btnPrevious);
             this.pnForm.Controls.Add(this.panel1);
             this.pnForm.Controls.Add(this.tclMain);
             this.pnForm.Controls.Add(this.btnNext);
+            this.pnForm.Controls.Add(this.btnExport);
             this.pnForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnForm.Location = new System.Drawing.Point(0, 0);
             this.pnForm.Name = "pnForm";
             this.pnForm.Size = new System.Drawing.Size(1354, 733);
             this.pnForm.TabIndex = 17;
-            // 
-            // btnHoanThanh
-            // 
-            this.btnHoanThanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHoanThanh.Location = new System.Drawing.Point(1173, 648);
-            this.btnHoanThanh.Name = "btnHoanThanh";
-            this.btnHoanThanh.Size = new System.Drawing.Size(142, 41);
-            this.btnHoanThanh.TabIndex = 19;
-            this.btnHoanThanh.Text = "Hoàn thành";
-            this.btnHoanThanh.UseVisualStyleBackColor = true;
-            this.btnHoanThanh.Click += new System.EventHandler(this.btnHoanThanh_Click);
             // 
             // tclMain
             // 
@@ -1980,6 +1969,17 @@
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // btnExport
+            // 
+            this.btnExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExport.Location = new System.Drawing.Point(1173, 648);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(142, 41);
+            this.btnExport.TabIndex = 20;
+            this.btnExport.Text = "Xuất file Word";
+            this.btnExport.UseVisualStyleBackColor = true;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
+            // 
             // GUI_DS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2206,7 +2206,7 @@
         private System.Windows.Forms.Button btnMaTran_2CDR;
         private System.Windows.Forms.Button btnMT2CDR_Update;
         private System.Windows.Forms.Panel pnMT2CDR;
-        private System.Windows.Forms.Button btnHoanThanh;
+        private System.Windows.Forms.Button btnExport;
 
     }
 }

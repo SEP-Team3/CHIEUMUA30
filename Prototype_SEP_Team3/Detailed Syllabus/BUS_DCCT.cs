@@ -57,7 +57,7 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             ListHocPhanTruoc.Columns[2].HeaderText = "Mã môn tiên quyết";
             ListHocPhanTruoc.Columns[3].HeaderText = "Chọn";
             ListHocPhanTruoc.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
+            
             try
             {
                 MaTran_CDRMH_CDRCTDT.DataSource = model.ChuanDauRaMonHocs.Where(x => x.DeCuongChiTiet_Id == mh.Id).ToList();
@@ -482,6 +482,69 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             return flag;
         }
 
+        public bool Update_Finish_2(int Id, bool finish)
+        {
+            bool flag = false;
+            try
+            {
+                model.Update_HoanThanh_Sang(Id, finish);
+                model.SaveChanges();
+                flag = true;
+            }
+            catch
+            {
+                flag = false;
+            }
+            return flag;
+        }
+
+        public bool Update_Finish_CTDT(int Id, bool finish)
+        {
+            bool flag = false;
+            try
+            {
+                model.Update_HoanThanhCTDT_Sang(Id, finish);
+                model.SaveChanges();
+                flag = true;
+            }
+            catch
+            {
+                flag = false;
+            }
+            return flag;
+        }
+
+        public bool Select_Finish_1(int accId)
+        {
+            bool flag = false;
+            try
+            {
+                model.DCCT_SelectFinishTrue_Sang(accId);
+                model.SaveChanges();
+                flag = true;
+            }
+            catch
+            {
+                flag = false;
+            }
+            return flag;
+        }
+
+        public bool Select_Finish_0(int accId)
+        {
+            bool flag = false;
+            try
+            {
+                model.DCCT_SelectFinishFalse_Sang(accId);
+                model.SaveChanges();
+                flag = true;
+            }
+            catch
+            {
+                flag = false;
+            }
+            return flag;
+        }
 
         public bool CreateGVGD(int getId, string diachi, string sdt, string email, string troGiang, string GVPTMH)
         {

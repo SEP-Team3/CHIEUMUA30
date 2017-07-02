@@ -52,9 +52,6 @@ namespace Prototype_SEP_Team3.Educational_Program
             loadCTDT();
 
 
-
-
-
         }
         //LOAD FORM
         private void loadCTDT()
