@@ -2154,3 +2154,5 @@ D:\Data\Dữ liệu cũ\CMU\SEP\Final Source\CHIEUMUA30\Prototype_SEP_Team3\bin\
 D:\Data\Dữ liệu cũ\CMU\SEP\Final Source\CHIEUMUA30\Prototype_SEP_Team3\bin\Debug\EntityFramework.SqlServer.dll
 D:\Data\Dữ liệu cũ\CMU\SEP\Final Source\CHIEUMUA30\Prototype_SEP_Team3\bin\Debug\EntityFramework.xml
 D:\Data\Dữ liệu cũ\CMU\SEP\Final Source\CHIEUMUA30\Prototype_SEP_Team3\bin\Debug\EntityFramework.SqlServer.xml
+D:\Data\Dữ liệu cũ\CMU\SEP\Final Source\CHIEUMUA30\Prototype_SEP_Team3\bin\Debug\Educational Program\ChuongTrinhDaoTaoTemplate.docx
+D:\Data\Dữ liệu cũ\CMU\SEP\Final Source\CHIEUMUA30\Prototype_SEP_Team3\bin\Debug\Detailed Syllabus\DCCTTemplate.docx

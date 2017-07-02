@@ -89,12 +89,12 @@ namespace Prototype_SEP_Team3
                     ThongTinChung_CTDT a = model.ThongTinChung_CTDT.Single(x => x.ChuongTrinhDaoTao_Id == ctdtID);
                     if (a.Finish == true)
                     {
-                        GUI_EP ds = new GUI_EP(ctdtID, 1);
+                        GUI_EP ds = new GUI_EP(ctdtID, 1,0);
                         ds.ShowDialog();
                     }
                     else
                     {
-                        GUI_EP ds = new GUI_EP(ctdtID, 0);
+                        GUI_EP ds = new GUI_EP(ctdtID, 0,0);
                         ds.ShowDialog();
                     }
                     
@@ -123,27 +123,30 @@ namespace Prototype_SEP_Team3
                         var cell = row.Cells[0];
                         int dcctID = (int)cell.Value;
                         dcct = model.DeCuongChiTiets.FirstOrDefault(x => x.Id == dcctID);
-
-                        if (dcct.Finish == true)
+                        if (dcct.TenDCCT != null && dcct.TenTiengAnh != null && dcct.MonHoc_Id != null && dcct.TrinhDo != null && dcct.PhanBoThoiGian != null && dcct.YeuCauMonHoc != null && dcct.KhoiKienThuc != null)
                         {
-                            bool flag = bus.Update_Finish_2(dcctID, false);
-                            if (flag == true)
+                            if (dcct.Finish == true)
                             {
-                                MessageBox.Show("Cập nhật thành công");
+                                bool flag = bus.Update_Finish_2(dcctID, false);
+                                if (flag == true)
+                                {
+                                    MessageBox.Show("Cập nhật thành công");
+                                }
+                                lstMain.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                                lstMain.DataSource = model.DCCT_Select_Sang(getTK_ID);
                             }
-                            lstMain.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-                            lstMain.DataSource = model.DCCT_Select_Sang(getTK_ID);
-                        }
-                        else
-                        {
-                            bool flag = bus.Update_Finish_2(dcctID, true);
-                            if (flag == true)
+                            else
                             {
-                                MessageBox.Show("Cập nhật thành công");
+                                bool flag = bus.Update_Finish_2(dcctID, true);
+                                if (flag == true)
+                                {
+                                    MessageBox.Show("Cập nhật thành công");
+                                }
+                                lstMain.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                                lstMain.DataSource = model.DCCT_Select_Sang(getTK_ID);
                             }
-                            lstMain.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-                            lstMain.DataSource = model.DCCT_Select_Sang(getTK_ID);
                         }
+                        
                     }
 
                     else if (pq == "Ban soạn thảo")
@@ -152,27 +155,35 @@ namespace Prototype_SEP_Team3
                         var cell = row.Cells[0];
                         int ctdtID = (int)cell.Value;
                         ttc = model.ThongTinChung_CTDT.FirstOrDefault(x => x.ChuongTrinhDaoTao_Id==ctdtID);
-
-                        if (ttc.Finish == true)
+                        if((ttc.TenChuongTrinh!=null)&&(ttc.TenTiengAnh!=null)&&ttc.TrinhDo!=null&&ttc!=null&&ttc.LoaiHinh!=null&&ttc.ThoiGianDaoTao!=0
+                            && ttc.ThangDiem != 0 && ttc.KhoiLuongKienThucToanKhoa != null && ttc.DoiTuongTuyenSinh != null && ttc.QuyTrinhDaoTao != null && ttc.CoSoVatChat != null)
                         {
-                            bool flag = bus.Update_Finish_CTDT(ctdtID, false);
-                            if (flag == true)
+                            if (ttc.Finish == true)
                             {
-                                MessageBox.Show("Cập nhật thành công");
+                                bool flag = bus.Update_Finish_CTDT(ctdtID, false);
+                                if (flag == true)
+                                {
+                                    MessageBox.Show("Cập nhật thành công");
+                                }
+                                lstMain.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                                lstMain.DataSource = model.CTDT_Select_Sang(getTK_ID);
                             }
-                            lstMain.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-                            lstMain.DataSource = model.CTDT_Select_Sang(getTK_ID);
+                            else
+                            {
+                                bool flag = bus.Update_Finish_CTDT(ctdtID, true);
+                                if (flag == true)
+                                {
+                                    MessageBox.Show("Cập nhật thành công");
+                                }
+                                lstMain.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                                lstMain.DataSource = model.CTDT_Select_Sang(getTK_ID);
+                            }
                         }
                         else
                         {
-                            bool flag = bus.Update_Finish_CTDT(ctdtID, true);
-                            if (flag == true)
-                            {
-                                MessageBox.Show("Cập nhật thành công");
-                            }
-                            lstMain.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-                            lstMain.DataSource = model.CTDT_Select_Sang(getTK_ID);
+                            MessageBox.Show("Chương trình đào tạo chưa đủ các thông tin cần thiết","Thông báo");
                         }
+                        
                     }
                     
                 }

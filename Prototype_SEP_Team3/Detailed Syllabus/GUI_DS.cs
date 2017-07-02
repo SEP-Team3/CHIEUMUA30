@@ -2969,6 +2969,29 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
 
         private void btnExport_Click(object sender, EventArgs e)
         {
+            DialogResult messageResult = MessageBox.Show("Save this file?", "Save", MessageBoxButtons.OKCancel);
+            if (messageResult == DialogResult.OK)
+            {
+                using (var dialog = new System.Windows.Forms.SaveFileDialog())
+                {
+                    dialog.DefaultExt = "*.txt";
+                    dialog.Filter = "Word files (*.docx)|*.docx";
+                    DialogResult result = dialog.ShowDialog();
+                    if (result == DialogResult.OK)
+                    {
+                        string filename = dialog.FileName;
+                        ExportDocument epd = new ExportDocument(getId, getCTDT_ID, filename);
+                        if (epd.exportWord())
+                        {
+                            MessageBox.Show("Thành Công");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Thất bại");
+                        }
+                    }
+                }
+            }
         }
 
         private void btnKHGDCT_Them_Click_1(object sender, EventArgs e)

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.IO;
 using System.Threading.Tasks;
 using Word = Microsoft.Office.Interop.Word;
-using System.Runtime.InteropServices;
+
 namespace Prototype_SEP_Team3.Detailed_Syllabus
 {
     class ExportDocument
@@ -111,7 +111,7 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             {
                 WordApp.Visible = false;
                 string c = Directory.GetCurrentDirectory();
-                WordApp.Documents.Open(Path.Combine(c, "DCCTTemplate.docx"));
+                WordApp.Documents.Open(Path.Combine(c, "Detailed Syllabus\\DCCTTemplate.docx"));
                 doc = WordApp.ActiveDocument;
                 bookmarks = doc.Bookmarks;
                 insertInfomation();

@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,7 +32,7 @@ namespace Prototype_SEP_Team3.Educational_Program
 
         BUS_EP bus = new BUS_EP();
 
-        public GUI_EP(int id,int finish)
+        public GUI_EP(int id,int finish,int gv)
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
@@ -51,7 +52,17 @@ namespace Prototype_SEP_Team3.Educational_Program
 
             loadCTDT();
 
-
+            if (gv == 1)
+            {
+                btnSave.Enabled = false;
+                btnMụctiêu_sửa.Enabled = false;
+                btnMụctiêu_hủy.Enabled = false;
+                btnĐàotạo_add.Enabled = false;
+                nThờigian_năm.ReadOnly = true;
+                btnQuanlimonhoc_add.Enabled = false;
+                btnExport.Visible = false;
+                btnSave.Visible = false;
+            }
             if (finish == 1)
             {
                 btnSave.Enabled = false;
@@ -66,8 +77,9 @@ namespace Prototype_SEP_Team3.Educational_Program
             else
             {
                 btnExport.Visible = false;
-                btnSave.Visible = true;
             }
+            
+            
             
 
         }
@@ -980,6 +992,33 @@ namespace Prototype_SEP_Team3.Educational_Program
             TableLayoutPanel rs4 = bus.drawNDVT(ilst3, ihk, mtq);
             GUI_VIEW a = new GUI_VIEW(rs1, rs2, rs3, rs4);
             a.ShowDialog();
+        }
+
+        private void btnExport_Click(object sender, EventArgs e)
+        {
+            DialogResult messageResult = MessageBox.Show("Save this file?", "Save", MessageBoxButtons.OKCancel);
+            if (messageResult == DialogResult.OK)
+            {
+                using (var dialog = new System.Windows.Forms.SaveFileDialog())
+                {
+                    dialog.DefaultExt = "*.txt";
+                    dialog.Filter = "Word files (*.docx)|*.docx";
+                    DialogResult result = dialog.ShowDialog();
+                    if (result == DialogResult.OK)
+                    {
+                        string filename = dialog.FileName;
+                        ExportDocument epd = new ExportDocument(idctdt, filename);
+                        if (epd.exportWord())
+                        {
+                            MessageBox.Show("Thành Công");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Thất bại");
+                        }
+                    }
+                }
+            }
         }
 
     }

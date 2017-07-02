@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.IO;
 using System.Threading.Tasks;
 using Word = Microsoft.Office.Interop.Word;
-using System.Runtime.InteropServices;
+
 namespace Prototype_SEP_Team3.Educational_Program
 {
-
     class ExportDocument
     {
         public ExportDocument(int ChuongTrinhDaoTao_ID, String url)
@@ -32,7 +31,7 @@ namespace Prototype_SEP_Team3.Educational_Program
                 HK = ((int)((float)entity.ThongTinChung_CTDT.Single(i => i.ChuongTrinhDaoTao_Id == ChuongTrinhDaoTao).ThoiGianDaoTao.Value) * 2);
                 WordApp.Visible = false;
                 string c = Directory.GetCurrentDirectory();
-                WordApp.Documents.Open(Path.Combine(c, "ChuongTrinhDaoTaoTemplate.docx"));
+                WordApp.Documents.Open(Path.Combine(c, "Educational Program\\ChuongTrinhDaoTaoTemplate.docx"));
                 doc = WordApp.ActiveDocument;
                 bookmarks = doc.Bookmarks;
                 addInfo();
@@ -83,7 +82,7 @@ namespace Prototype_SEP_Team3.Educational_Program
             addBookMark("txtDoiTuongTuyenSinh", listThongTinChung[0].DoiTuongTuyenSinh);
             addBookMark("txtDKTotNghiep", listThongTinChung[0].QuyTrinhDaoTao);
             addBookMark("txtThangDiem", listThongTinChung[0].ThangDiem + "");
-            List<MucTieuDaoTao> listMucTieu = entity.MucTieuDaoTaos.Where(i => i.ChuongTrinhDaoTao_Id == ChuongTrinhDaoTao).Where(i => i.Loai.Contains("chung")).ToList();
+            List<MucTieuDaoTao> listMucTieu = entity.MucTieuDaoTaos.Where(i => i.ChuongTrinhDaoTao_Id == ChuongTrinhDaoTao).Where(i => i.Loai.Contains("Chung")).ToList();
             myBookmark = bookmarks["prMucTieuDaoTao"];
             bookmarkRange = myBookmark.Range;
             for (int i = 0; i < listMucTieu.Count; i++)
@@ -169,20 +168,20 @@ namespace Prototype_SEP_Team3.Educational_Program
         {
             myBookmark = bookmarks[bookmarksName];
             bookmarkRange = myBookmark.Range;
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listLyLuan = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "11").ToList();
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listKHXaHoi = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "12").ToList();
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listNhanVanNgheThuat = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "13").ToList();
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listNgoaiNgu = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "14").ToList();
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listTinHoc = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "15").ToList();
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listGDTC = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "16").ToList();
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listGDQP = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "17").ToList();
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listCoSo = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "21").ToList();
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listChungNC = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "22").ToList();
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listSauNC = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "23").ToList();
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listKienThucNganhThu2 = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "24").ToList();
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listBoTroTuDo = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "25").ToList();
-            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listTotNghiep = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(1, "26").ToList();
-            List<MonHoc> listMH = entity.MonHocs.Where(i => i.ChuongTrinhDaoTao_Id == 1).ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listLyLuan = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "11").ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listKHXaHoi = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "12").ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listNhanVanNgheThuat = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "13").ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listNgoaiNgu = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "14").ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listTinHoc = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "15").ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listGDTC = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "16").ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listGDQP = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "17").ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listCoSo = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "21").ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listChungNC = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "22").ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listSauNC = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "23").ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listKienThucNganhThu2 = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "24").ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listBoTroTuDo = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "25").ToList();
+            List<Load_NoiDungChuongTrinh_MonHoc_Thinh_Result> listTotNghiep = entity.Load_NoiDungChuongTrinh_MonHoc_Thinh(ChuongTrinhDaoTao, "26").ToList();
+            List<MonHoc> listMH = entity.MonHocs.Where(i => i.ChuongTrinhDaoTao_Id == ChuongTrinhDaoTao).ToList();
             int numLyLuan = listLyLuan.Count;
             int numXaHoi = listKHXaHoi.Count;
             int numNhanVanNgheThuat = listNhanVanNgheThuat.Count;
@@ -625,6 +624,8 @@ namespace Prototype_SEP_Team3.Educational_Program
                     }
                 }
             }
+            int numTC = sumLyLuan + sumXaHoi + sumNhanVan + sumNgoaiNgu + sumTinHoc + sumGDQP + sumGDTC + sumKTCS + sumKTChung + sumKTChuyen + sumKTChuyen2 + sumKTBoTro + sumTotNghiep;
+            addBookMark("txtTongSo", "                                                Total                                                                          " + numTC);
             int x = -1;
             foreach (Word.Row row in firstTable.Rows)
             {
@@ -1018,4 +1019,5 @@ namespace Prototype_SEP_Team3.Educational_Program
         }
 
     }
+    
 }

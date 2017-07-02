@@ -103,8 +103,8 @@
             this.btnPrevious = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnForm = new System.Windows.Forms.Panel();
-            this.btnSave = new System.Windows.Forms.Button();
             this.btnExport = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgwQuảnlí)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nThangđiểm)).BeginInit();
@@ -878,6 +878,17 @@
             this.pnForm.Size = new System.Drawing.Size(1362, 741);
             this.pnForm.TabIndex = 16;
             // 
+            // btnExport
+            // 
+            this.btnExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExport.Location = new System.Drawing.Point(1160, 621);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(174, 41);
+            this.btnExport.TabIndex = 20;
+            this.btnExport.Text = "XUẤT FILE WORD";
+            this.btnExport.UseVisualStyleBackColor = true;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
+            // 
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -888,16 +899,6 @@
             this.btnSave.Text = "LƯU";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
-            // btnExport
-            // 
-            this.btnExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExport.Location = new System.Drawing.Point(1160, 621);
-            this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(174, 41);
-            this.btnExport.TabIndex = 20;
-            this.btnExport.Text = "XUẤT FILE WORD";
-            this.btnExport.UseVisualStyleBackColor = true;
             // 
             // GUI_EP
             // 

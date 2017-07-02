@@ -106,7 +106,7 @@
             this.Controls.Add(this.label1);
             this.Name = "GUI_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "GUI_Login";
+            this.Text = "Đăng nhập";
             this.ResumeLayout(false);
             this.PerformLayout();
 

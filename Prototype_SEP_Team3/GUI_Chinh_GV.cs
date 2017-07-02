@@ -15,7 +15,6 @@ namespace Prototype_SEP_Team3
     public partial class GUI_Chinh_GV : Form
     {
         int getTK_ID;
-
         public GUI_Chinh_GV(int re)
         {
             InitializeComponent();
@@ -60,9 +59,19 @@ namespace Prototype_SEP_Team3
                     var row = lstMainCTDT.SelectedRows[0];
                     var cell = row.Cells[0];
                     int ctdtID = (int)cell.Value;
+                    ThongTinChung_CTDT f = model.ThongTinChung_CTDT.Single(x => x.ChuongTrinhDaoTao_Id == ctdtID);
+                    if (f.Finish == true)
+                    {
+                        GUI_EP ds = new GUI_EP(ctdtID, 1, 1);
+                        ds.ShowDialog();
+                    }
+                    else
+                    {
+                        GUI_EP ds = new GUI_EP(ctdtID, 0, 1);
+                        ds.ShowDialog();
+                    }
 
-                    GUI_EP ds = new GUI_EP(ctdtID,1);
-                    ds.ShowDialog();
+                    
                 }
             }
         }
