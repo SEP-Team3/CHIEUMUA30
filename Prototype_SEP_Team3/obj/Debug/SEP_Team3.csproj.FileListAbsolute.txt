@@ -1442,3 +1442,5 @@ D:\GitHub\CHIEUMUA30\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.Detailed_
 D:\GitHub\CHIEUMUA30\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Chinh_BST_GVGD.resources
 D:\GitHub\CHIEUMUA30\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Chinh_GV.resources
 D:\GitHub\CHIEUMUA30\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.GUI_Login.resources
+D:\CHIEUMUA30\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.exe
+D:\CHIEUMUA30\Prototype_SEP_Team3\obj\Debug\Prototype_SEP_Team3.pdb
