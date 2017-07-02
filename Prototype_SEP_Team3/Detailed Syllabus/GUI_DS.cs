@@ -103,6 +103,14 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             btnKHGDCT_Sua.Visible = false;
             btnKHGDCT_Huy.Visible = false;
             btnMT2CDR_Update.Visible = false;
+            btnExport.Visible = false;
+
+            bool finish = model.DeCuongChiTiets.FirstOrDefault(x=>x.Id==getId).Finish;
+            if (finish == true)
+            {
+                btnSave.Visible = false;
+                btnExport.Visible = true;
+            }
             #endregion
 
             #region NEW CÁC LIST
@@ -2895,92 +2903,9 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
         //    }
         //}
 
-        private void btnHoanThanh_Click(object sender, EventArgs e)
+        private void btnExport_Click(object sender, EventArgs e)
         {
-            DBEntities model = new DBEntities();
 
-            DeCuongChiTiet dcct = model.DeCuongChiTiets.Single(x => x.Id == getId);
-            //if (checkck == 1)
-            //{
-
-            //dcct
-            string tenChuongTrinh = txtTenChuongTrinh.Text;
-            string tenTiengAnh = txtTenTiengAnh.Text;
-            string trinhDo = txtTrinhDo.Text;
-
-            // BUS 
-            bool flag = bus.Update_DCCT(getId, tenChuongTrinh, tenTiengAnh, trinhDo);
-
-            //mon hoc
-            string maHocPhan = txtMaHocPhan.Text;
-            string vanTat = txtMoTaVanTat.Text;
-
-            // BUS 
-            bool flag1 = bus.Update_Course(dcct.MonHoc_Id.Value, tenChuongTrinh, tenTiengAnh, vanTat, maHocPhan);
-
-            //?????????????????????????????????
-            int tinChi = int.Parse(nbrSoTinChi.Value.ToString());
-
-
-            //gvgd
-            string GVPTMH = txtGVPTMH.Text;
-            string diachi = txtDCCQ.Text;
-            string sdt = txtDCLH.Text;
-            string email = txtDCLH.Text;
-            string troGiang = txtGVTG.Text;
-
-            GVGD gv = model.GVGDs.FirstOrDefault(x => x.DCCT_Id == getId);
-
-            // BUS
-            bool flag2 = false;
-            bool flag3 = false;
-
-            if (gv == null)
-            {
-                flag2 = bus.CreateGVGD(getId, diachi, sdt, email, troGiang, GVPTMH);
-
-            }
-            else
-            {
-                flag3 = bus.UpdateGVGD(getId, diachi, sdt, email, troGiang, GVPTMH);
-
-            }
-
-            if ((flag == true) && (flag1 == true) && ((flag2 == true) || (flag3 == true)))
-            {
-                MessageBox.Show("Đã lưu");
-            }
-            else
-            {
-                MessageBox.Show("Lưu thất bại");
-            }
-
-            //object ob1 = wbPhanbothoigian.Document.InvokeScript("getcontent");
-            //object ob2 = wbThoiGianHoc.Document.InvokeScript("getcontent");
-            //object ob3 = wbYeuCauMH.Document.InvokeScript("getcontent");
-
-            //string[] hdarr = new string[] { ob1.ToString(), ob2.ToString(), ob3.ToString() };
-
-            //handleCK(hdarr, getId);
-
-            //DBEntities db = new DBEntities();
-            //DeCuongChiTiet add = db.DeCuongChiTiets.Single(x => x.Id == getId);
-            //add.PhanBoThoiGian = ConvertUnicdoe(ob1.ToString());
-            //GVDG add2 = db.GVDGs.Single(x => x.DCCT_Id == getId);
-            //add2.ThoiGian = ConvertUnicdoe(ob2.ToString());
-            //add.YeuCauMonHoc = ConvertUnicdoe(ob3.ToString());
-            //db.SaveChanges();
-
-            int getMH_ID = model.DeCuongChiTiets.FirstOrDefault(x => x.Id == getId).MonHoc_Id.Value;
-
-            foreach (DataGridViewRow row in lstHocPhanTruoc.Rows)
-            {
-                int ma = int.Parse(row.Cells[0].Value.ToString());
-                int mtq = int.Parse(row.Cells[2].Value.ToString());
-                bool flagUpdate = bus.Update_HocPhan(ma, getMH_ID, mtq, (bool)row.Cells[3].Value);
-            }
-
-            bus.Update_Finish(getId);
         }
 
     }

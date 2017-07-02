@@ -39,7 +39,7 @@
     <Property Name="YeuCauMonHoc" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
     <Property Name="GiangVienPhuTrach" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="KhoiKienThuc" Type="Int32" />
-    <Property Name="Finish" Type="Boolean" />
+    <Property Name="Finish" Type="Boolean" Nullable="false" />
     <NavigationProperty Name="ChuanDauRaMonHocs" Relationship="Self.FK_ChuanDauRaMonHoc_DeCuongChiTiet" FromRole="DeCuongChiTiet" ToRole="ChuanDauRaMonHoc" />
     <NavigationProperty Name="MonHoc" Relationship="Self.FK_DeCuongChiTiet_MonHoc" FromRole="DeCuongChiTiet" ToRole="MonHoc" />
     <NavigationProperty Name="GVGDs" Relationship="Self.FK_GVGD_DeCuongChiTiet" FromRole="DeCuongChiTiet" ToRole="GVGD" />
@@ -237,6 +237,7 @@
     <Property Name="DoiTuongTuyenSinh" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="QuyTrinhDaoTao" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="CoSoVatChat" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Finish" Type="Boolean" Nullable="false" />
     <NavigationProperty Name="ChuongTrinhDaoTao" Relationship="Self.FK_ThongTinChung_CTDT_ChuongTrinhDaoTao" FromRole="ThongTinChung_CTDT" ToRole="ChuongTrinhDaoTao" />
   </EntityType>
   <Association Name="FK_ChuanDauRaMonHoc_DeCuongChiTiet">
@@ -567,10 +568,14 @@
       <Parameter Name="NguoiPhuTrachID" Mode="In" Type="Int32" />
       <Parameter Name="CopyTuCTDT" Mode="In" Type="Int32" />
     </FunctionImport>
+    <FunctionImport Name="Admin_createThongTinChungCTDT_Thinh">
+      <Parameter Name="TenCTDT" Mode="In" Type="String" />
+    </FunctionImport>
     <FunctionImport Name="Admin_CTDTSearch" ReturnType="Collection(team3Model.Admin_CTDTSearch_Result)">
       <Parameter Name="TEXTSEARCH" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="Admin_CTDTSelectAll" ReturnType="Collection(team3Model.Admin_CTDTSelectAll_Result)" />
+    <FunctionImport Name="Admin_Select_Sang" ReturnType="Collection(team3Model.Admin_Select_Sang_Result)" />
     <FunctionImport Name="Admin_updateCTDT_Thinh">
       <Parameter Name="id" Mode="In" Type="Int32" />
       <Parameter Name="TenCTDT" Mode="In" Type="String" />
@@ -596,6 +601,26 @@
       <Parameter Name="NDVT" Mode="In" Type="String" />
       <Parameter Name="MaHP" Mode="In" Type="String" />
     </FunctionImport>
+    <FunctionImport Name="CTDT_Select_Sang" ReturnType="Collection(team3Model.CTDT_Select_Sang_Result)">
+      <Parameter Name="accID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CTDT_SelectFinishFalse_Sang" ReturnType="Collection(team3Model.CTDT_SelectFinishFalse_Sang_Result)">
+      <Parameter Name="accID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CTDT_SelectFinishTrue_Sang" ReturnType="Collection(team3Model.CTDT_SelectFinishTrue_Sang_Result)">
+      <Parameter Name="accID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CTDT_SelectForGV_Sang" ReturnType="Collection(team3Model.CTDT_SelectForGV_Sang_Result)" />
+    <FunctionImport Name="DCCT_Select_Sang" ReturnType="Collection(team3Model.DCCT_Select_Sang_Result)">
+      <Parameter Name="accID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DCCT_SelectFinishFalse_Sang" ReturnType="Collection(team3Model.DCCT_SelectFinishFalse_Sang_Result)">
+      <Parameter Name="accID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DCCT_SelectFinishTrue_Sang" ReturnType="Collection(team3Model.DCCT_SelectFinishTrue_Sang_Result)">
+      <Parameter Name="accID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DCCT_SelectForGV_Sang" ReturnType="Collection(team3Model.DCCT_SelectForGV_Sang_Result)" />
     <FunctionImport Name="DetailedSyllabus_CreateDetailedSyllabus_MaTran2CDR_Sang">
       <Parameter Name="DCCT_Id" Mode="In" Type="Int32" />
       <Parameter Name="CDRMH_Id" Mode="In" Type="Int32" />
@@ -615,6 +640,13 @@
       <Parameter Name="TroG" Mode="In" Type="String" />
       <Parameter Name="TenGV" Mode="In" Type="String" />
     </FunctionImport>
+    <FunctionImport Name="DetailedSyllabus_CreateKHKT">
+      <Parameter Name="dcctid" Mode="In" Type="Int32" />
+      <Parameter Name="hinhthuc" Mode="In" Type="String" />
+      <Parameter Name="noidung" Mode="In" Type="String" />
+      <Parameter Name="thoidiem" Mode="In" Type="String" />
+      <Parameter Name="congcukt" Mode="In" Type="String" />
+    </FunctionImport>
     <FunctionImport Name="DetailedSyllabus_CreateMTMH_Sang">
       <Parameter Name="DCCT_Id" Mode="In" Type="Int32" />
       <Parameter Name="Loai" Mode="In" Type="String" />
@@ -628,6 +660,9 @@
       <Parameter Name="trongso" Mode="In" Type="Int32" />
       <Parameter Name="hinhthucdanhgia" Mode="In" Type="String" />
     </FunctionImport>
+    <FunctionImport Name="DetailedSyllabus_Delete_MT_CDRMH_HDGDPPGD">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+    </FunctionImport>
     <FunctionImport Name="DetailedSyllabus_deleteDetailedSyllabus_ChuanDauRaMonHoc_Sang">
       <Parameter Name="DeCuongChiTiet_Id" Mode="In" Type="Int32" />
       <Parameter Name="NoiDung" Mode="In" Type="String" />
@@ -638,6 +673,9 @@
     </FunctionImport>
     <FunctionImport Name="DetailedSyllabus_DeleteDetailedSyllabus_MaTranCDRvsHDGD_Sang">
       <Parameter Name="CDRMH_Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DetailedSyllabus_DeleteKHKT">
+      <Parameter Name="id" Mode="In" Type="Int32" />
     </FunctionImport>
     <FunctionImport Name="DetailedSyllabus_DeleteMaTranCDRHD_Sang">
       <Parameter Name="ID" Mode="In" Type="Int32" />
@@ -650,6 +688,12 @@
     </FunctionImport>
     <FunctionImport Name="DetailedSyllabus_DeletePPDGKQHT">
       <Parameter Name="id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DetailedSyllabus_deleteTaiLieu_Sang">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DetailedSyllabus_HoanThanh_Sang">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
     </FunctionImport>
     <FunctionImport Name="DetailedSyllabus_updateDetailedSyllabus_ChuanDauRaMonHoc_Sang">
       <Parameter Name="DeCuongChiTiet_Id" Mode="In" Type="Int32" />
@@ -724,6 +768,14 @@
       <Parameter Name="TroG" Mode="In" Type="String" />
       <Parameter Name="TenGV" Mode="In" Type="String" />
     </FunctionImport>
+    <FunctionImport Name="DetailedSyllabus_UpdateKHKT">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="dcctid" Mode="In" Type="Int32" />
+      <Parameter Name="hinhthuc" Mode="In" Type="String" />
+      <Parameter Name="noidung" Mode="In" Type="String" />
+      <Parameter Name="thoidiem" Mode="In" Type="String" />
+      <Parameter Name="congcukt" Mode="In" Type="String" />
+    </FunctionImport>
     <FunctionImport Name="DetailedSyllabus_UpdateMaTranCDRHD_Sang">
       <Parameter Name="ID" Mode="In" Type="Int32" />
       <Parameter Name="NoiDung" Mode="In" Type="String" />
@@ -745,6 +797,10 @@
     <FunctionImport Name="DetailedSyllabus_updateSTTDetailedSyllabus_ChuanDauRaMonHoc_Sang">
       <Parameter Name="DeCuongChiTiet_Id" Mode="In" Type="Int32" />
       <Parameter Name="STT" Mode="In" Type="Int32" />
+      <Parameter Name="NoiDung" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="DetailedSyllabus_UpdateTaiLieu_Sang">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
       <Parameter Name="NoiDung" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="Load_DCCT_Thinh" ReturnType="Collection(team3Model.Load_DCCT_Thinh_Result)">
@@ -795,6 +851,20 @@
     <FunctionImport Name="LoadChuanDauRaCTDTTheoMonHoc" ReturnType="Collection(team3Model.LoadChuanDauRaCTDTTheoMonHoc_Result)" />
     <FunctionImport Name="MonTienQuyet_Select_Sang" ReturnType="Collection(team3Model.MonTienQuyet_Select_Sang_Result)">
       <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Search_CTDT_Sang" ReturnType="Collection(team3Model.Search_CTDT_Sang_Result)">
+      <Parameter Name="TEXTSEARCH" Mode="In" Type="String" />
+      <Parameter Name="accID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Search_CTDTForGV_Sang" ReturnType="Collection(team3Model.Search_CTDTForGV_Sang_Result)">
+      <Parameter Name="TEXTSEARCH" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Search_DCCT_Sang" ReturnType="Collection(team3Model.Search_DCCT_Sang_Result)">
+      <Parameter Name="TEXTSEARCH" Mode="In" Type="String" />
+      <Parameter Name="accID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Search_DCCTForGV_Sang" ReturnType="Collection(team3Model.Search_DCCTForGV_Sang_Result)">
+      <Parameter Name="TEXTSEARCH" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="sp_alterdiagram">
       <Parameter Name="diagramname" Mode="In" Type="String" />
@@ -856,42 +926,19 @@
       <Parameter Name="tgdt" Mode="In" Type="Double" />
     </FunctionImport>
     <FunctionImport Name="sp_upgraddiagrams" />
-    <FunctionImport Name="DetailedSyllabus_CreateKHKT">
-      <Parameter Name="dcctid" Mode="In" Type="Int32" />
-      <Parameter Name="hinhthuc" Mode="In" Type="String" />
-      <Parameter Name="noidung" Mode="In" Type="String" />
-      <Parameter Name="thoidiem" Mode="In" Type="String" />
-      <Parameter Name="congcukt" Mode="In" Type="String" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_DeleteKHKT">
-      <Parameter Name="id" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_UpdateKHKT">
-      <Parameter Name="id" Mode="In" Type="Int32" />
-      <Parameter Name="dcctid" Mode="In" Type="Int32" />
-      <Parameter Name="hinhthuc" Mode="In" Type="String" />
-      <Parameter Name="noidung" Mode="In" Type="String" />
-      <Parameter Name="thoidiem" Mode="In" Type="String" />
-      <Parameter Name="congcukt" Mode="In" Type="String" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_UpdateTaiLieu_Sang">
+    <FunctionImport Name="Update_HoanThanh_Sang">
       <Parameter Name="Id" Mode="In" Type="Int32" />
-      <Parameter Name="NoiDung" Mode="In" Type="String" />
+      <Parameter Name="Finish" Mode="In" Type="Boolean" />
     </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_Delete_MT_CDRMH_HDGDPPGD">
-      <Parameter Name="id" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_deleteTaiLieu_Sang">
+    <FunctionImport Name="Update_HoanThanhCTDT_Sang">
       <Parameter Name="Id" Mode="In" Type="Int32" />
-    </FunctionImport>
-    <FunctionImport Name="DetailedSyllabus_HoanThanh_Sang">
-      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Finish" Mode="In" Type="Boolean" />
     </FunctionImport>
   </EntityContainer>
   <ComplexType Name="Admin_CTDTSearch_Result">
     <Property Type="Int32" Name="ID" Nullable="false" />
     <Property Type="String" Name="Tên_CTÐT" Nullable="false" MaxLength="100" />
-    <Property Type="String" Name="Tên_ngu_i_ph__trách" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Tên_người_phụ_trách" Nullable="false" MaxLength="100" />
     <Property Type="String" Name="Copy_T__CTDT" Nullable="true" MaxLength="100" />
   </ComplexType>
   <ComplexType Name="Admin_CTDTSelectAll_Result">
@@ -899,6 +946,11 @@
     <Property Type="String" Name="Tên_CTÐT" Nullable="false" MaxLength="100" />
     <Property Type="String" Name="Tên_ngu_i_ph__trách" Nullable="false" MaxLength="100" />
     <Property Type="String" Name="Copy_T__CTDT" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="Admin_Select_Sang_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="NGƯỜI_PHỤ_TRÁCH" Nullable="false" MaxLength="100" />
   </ComplexType>
   <ComplexType Name="Authorize_Search_Sang_Result">
     <Property Type="Int32" Name="Id" Nullable="false" />
@@ -909,6 +961,58 @@
     <Property Type="Int32" Name="Id" Nullable="false" />
     <Property Type="String" Name="Ten" Nullable="false" MaxLength="100" />
     <Property Type="String" Name="ChucVu" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="CTDT_Select_Sang_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NGÀNH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="CTDT_SelectFinishFalse_Sang_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NGÀNH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="CTDT_SelectFinishTrue_Sang_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NGÀNH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="CTDT_SelectForGV_Sang_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NGÀNH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="DCCT_Select_Sang_Result">
+    <Property Type="Int32" Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="false" />
+    <Property Type="String" Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="DCCT_SelectFinishFalse_Sang_Result">
+    <Property Type="Int32" Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="false" />
+    <Property Type="String" Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="DCCT_SelectFinishTrue_Sang_Result">
+    <Property Type="Int32" Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="false" />
+    <Property Type="String" Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="DCCT_SelectForGV_Sang_Result">
+    <Property Type="Int32" Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="false" />
+    <Property Type="String" Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
   </ComplexType>
   <ComplexType Name="Load_DCCT_Thinh_Result">
     <Property Type="String" Name="TenDCCT" Nullable="true" MaxLength="100" />
@@ -989,6 +1093,30 @@
     <Property Type="String" Name="TenMonHoc" Nullable="false" MaxLength="100" />
     <Property Type="Int32" Name="MonTienQuyet_Id" Nullable="false" />
     <Property Type="Boolean" Name="Status" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="Search_CTDT_Sang_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NGÀNH" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="Search_CTDTForGV_Sang_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NGÀNH" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="Search_DCCT_Sang_Result">
+    <Property Type="Int32" Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="false" />
+    <Property Type="String" Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="Search_DCCTForGV_Sang_Result">
+    <Property Type="Int32" Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="false" />
+    <Property Type="String" Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
   </ComplexType>
   <ComplexType Name="sp_helpdiagramdefinition_Result">
     <Property Type="Int32" Name="version" Nullable="true" />
