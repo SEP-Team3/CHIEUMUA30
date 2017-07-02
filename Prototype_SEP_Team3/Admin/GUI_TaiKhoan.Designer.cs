@@ -215,6 +215,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GUI_TaiKhoan";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GUI_TaiKhoan";
             ((System.ComponentModel.ISupportInitialize)(this.dtgvTK)).EndInit();
             this.menuStrip1.ResumeLayout(false);

@@ -60,7 +60,15 @@ namespace Prototype_SEP_Team3.Educational_Program
                 btnĐàotạo_add.Enabled = false;
                 nThờigian_năm.ReadOnly = true;
                 btnQuanlimonhoc_add.Enabled = false;
+                btnExport.Visible = true;
+                btnSave.Visible = false;
             }
+            else
+            {
+                btnExport.Visible = false;
+                btnSave.Visible = true;
+            }
+            
 
         }
         //LOAD FORM

@@ -104,6 +104,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnForm = new System.Windows.Forms.Panel();
             this.btnSave = new System.Windows.Forms.Button();
+            this.btnExport = new System.Windows.Forms.Button();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgwQuảnlí)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nThangđiểm)).BeginInit();
@@ -865,6 +866,7 @@
             // 
             // pnForm
             // 
+            this.pnForm.Controls.Add(this.btnExport);
             this.pnForm.Controls.Add(this.btnSave);
             this.pnForm.Controls.Add(this.btnPrevious);
             this.pnForm.Controls.Add(this.panel1);
@@ -879,13 +881,23 @@
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(1216, 634);
+            this.btnSave.Location = new System.Drawing.Point(1160, 621);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 41);
+            this.btnSave.Size = new System.Drawing.Size(174, 41);
             this.btnSave.TabIndex = 19;
-            this.btnSave.Text = "Lưu";
+            this.btnSave.Text = "LƯU";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnExport
+            // 
+            this.btnExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExport.Location = new System.Drawing.Point(1160, 621);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(174, 41);
+            this.btnExport.TabIndex = 20;
+            this.btnExport.Text = "XUẤT FILE WORD";
+            this.btnExport.UseVisualStyleBackColor = true;
             // 
             // GUI_EP
             // 
@@ -1006,5 +1018,6 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnQuanlimonhoc_add;
         private System.Windows.Forms.Button btnQuanli_view;
+        private System.Windows.Forms.Button btnExport;
     }
 }

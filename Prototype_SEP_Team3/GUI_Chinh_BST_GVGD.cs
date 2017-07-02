@@ -86,9 +86,18 @@ namespace Prototype_SEP_Team3
                     var row = lstMain.SelectedRows[0];
                     var cell = row.Cells[0];
                     int ctdtID = (int)cell.Value;
-
-                    GUI_EP ds = new GUI_EP(ctdtID);
-                    ds.ShowDialog();
+                    ThongTinChung_CTDT a = model.ThongTinChung_CTDT.Single(x => x.ChuongTrinhDaoTao_Id == ctdtID);
+                    if (a.Finish == true)
+                    {
+                        GUI_EP ds = new GUI_EP(ctdtID, 1);
+                        ds.ShowDialog();
+                    }
+                    else
+                    {
+                        GUI_EP ds = new GUI_EP(ctdtID, 0);
+                        ds.ShowDialog();
+                    }
+                    
                 }
                
             }

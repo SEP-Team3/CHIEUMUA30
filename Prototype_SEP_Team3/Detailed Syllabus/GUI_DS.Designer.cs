@@ -190,6 +190,13 @@
             this.label32 = new System.Windows.Forms.Label();
             this.tabYCvaKHCT = new System.Windows.Forms.TabPage();
             this.pnYCMH = new System.Windows.Forms.Panel();
+            this.nKHGDCT_buoi = new System.Windows.Forms.NumericUpDown();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.wbTailieuBH = new System.Windows.Forms.WebBrowser();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.wbHDBH = new System.Windows.Forms.WebBrowser();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.wbNoidungBH = new System.Windows.Forms.WebBrowser();
             this.panel6 = new System.Windows.Forms.Panel();
             this.wbYeuCauMH = new System.Windows.Forms.WebBrowser();
             this.label47 = new System.Windows.Forms.Label();
@@ -205,15 +212,6 @@
             this.label51 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.btnNext = new System.Windows.Forms.Button();
-
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.wbNoidungBH = new System.Windows.Forms.WebBrowser();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.wbHDBH = new System.Windows.Forms.WebBrowser();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.wbTailieuBH = new System.Windows.Forms.WebBrowser();
-            this.nKHGDCT_buoi = new System.Windows.Forms.NumericUpDown();
-
             this.btnExport = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.statusStrip2.SuspendLayout();
@@ -242,12 +240,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtPPDG_TrongSo)).BeginInit();
             this.tabYCvaKHCT.SuspendLayout();
             this.pnYCMH.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nKHGDCT_buoi)).BeginInit();
+            this.panel13.SuspendLayout();
+            this.panel12.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nbrKHGDCT_Tiet)).BeginInit();
-            this.panel11.SuspendLayout();
-            this.panel12.SuspendLayout();
-            this.panel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nKHGDCT_buoi)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -486,7 +484,6 @@
             // 
             // tclMain
             // 
-            this.tclMain.Alignment = System.Windows.Forms.TabAlignment.Bottom;
             this.tclMain.Controls.Add(this.tabThôngtinchung);
             this.tclMain.Controls.Add(this.tabNhiềumục);
             this.tclMain.Controls.Add(this.tabMụctiêu);
@@ -518,7 +515,7 @@
             this.tabThôngtinchung.Controls.Add(this.label16);
             this.tabThôngtinchung.Controls.Add(this.label14);
             this.tabThôngtinchung.Controls.Add(this.label13);
-            this.tabThôngtinchung.Location = new System.Drawing.Point(4, 4);
+            this.tabThôngtinchung.Location = new System.Drawing.Point(4, 29);
             this.tabThôngtinchung.Name = "tabThôngtinchung";
             this.tabThôngtinchung.Padding = new System.Windows.Forms.Padding(3);
             this.tabThôngtinchung.Size = new System.Drawing.Size(1349, 581);
@@ -657,7 +654,7 @@
             // tabNhiềumục
             // 
             this.tabNhiềumục.Controls.Add(this.pnThôngtinchung);
-            this.tabNhiềumục.Location = new System.Drawing.Point(4, 4);
+            this.tabNhiềumục.Location = new System.Drawing.Point(4, 29);
             this.tabNhiềumục.Name = "tabNhiềumục";
             this.tabNhiềumục.Size = new System.Drawing.Size(1349, 581);
             this.tabNhiềumục.TabIndex = 13;
@@ -899,7 +896,7 @@
             // tabMụctiêu
             // 
             this.tabMụctiêu.Controls.Add(this.panel5);
-            this.tabMụctiêu.Location = new System.Drawing.Point(4, 4);
+            this.tabMụctiêu.Location = new System.Drawing.Point(4, 29);
             this.tabMụctiêu.Name = "tabMụctiêu";
             this.tabMụctiêu.Padding = new System.Windows.Forms.Padding(3);
             this.tabMụctiêu.Size = new System.Drawing.Size(1349, 581);
@@ -1017,7 +1014,7 @@
             // tabChuẩnđầura
             // 
             this.tabChuẩnđầura.Controls.Add(this.panel7);
-            this.tabChuẩnđầura.Location = new System.Drawing.Point(4, 4);
+            this.tabChuẩnđầura.Location = new System.Drawing.Point(4, 29);
             this.tabChuẩnđầura.Name = "tabChuẩnđầura";
             this.tabChuẩnđầura.Padding = new System.Windows.Forms.Padding(3);
             this.tabChuẩnđầura.Size = new System.Drawing.Size(1349, 581);
@@ -1120,7 +1117,7 @@
             // tabKếhoạchgiảngdạy
             // 
             this.tabKếhoạchgiảngdạy.Controls.Add(this.panel8);
-            this.tabKếhoạchgiảngdạy.Location = new System.Drawing.Point(4, 4);
+            this.tabKếhoạchgiảngdạy.Location = new System.Drawing.Point(4, 29);
             this.tabKếhoạchgiảngdạy.Name = "tabKếhoạchgiảngdạy";
             this.tabKếhoạchgiảngdạy.Padding = new System.Windows.Forms.Padding(3);
             this.tabKếhoạchgiảngdạy.Size = new System.Drawing.Size(1349, 581);
@@ -1233,7 +1230,7 @@
             // tabMôtảvắntắt
             // 
             this.tabMôtảvắntắt.Controls.Add(this.panel9);
-            this.tabMôtảvắntắt.Location = new System.Drawing.Point(4, 4);
+            this.tabMôtảvắntắt.Location = new System.Drawing.Point(4, 29);
             this.tabMôtảvắntắt.Name = "tabMôtảvắntắt";
             this.tabMôtảvắntắt.Size = new System.Drawing.Size(1349, 581);
             this.tabMôtảvắntắt.TabIndex = 14;
@@ -1432,7 +1429,7 @@
             // tabTàiliệu
             // 
             this.tabTàiliệu.Controls.Add(this.panel10);
-            this.tabTàiliệu.Location = new System.Drawing.Point(4, 4);
+            this.tabTàiliệu.Location = new System.Drawing.Point(4, 29);
             this.tabTàiliệu.Name = "tabTàiliệu";
             this.tabTàiliệu.Padding = new System.Windows.Forms.Padding(3);
             this.tabTàiliệu.Size = new System.Drawing.Size(1349, 581);
@@ -1550,7 +1547,7 @@
             // tabPPDG
             // 
             this.tabPPDG.Controls.Add(this.panel14);
-            this.tabPPDG.Location = new System.Drawing.Point(4, 4);
+            this.tabPPDG.Location = new System.Drawing.Point(4, 29);
             this.tabPPDG.Name = "tabPPDG";
             this.tabPPDG.Padding = new System.Windows.Forms.Padding(3);
             this.tabPPDG.Size = new System.Drawing.Size(1349, 581);
@@ -1859,7 +1856,7 @@
             // 
             this.tabYCvaKHCT.AutoScroll = true;
             this.tabYCvaKHCT.Controls.Add(this.pnYCMH);
-            this.tabYCvaKHCT.Location = new System.Drawing.Point(4, 4);
+            this.tabYCvaKHCT.Location = new System.Drawing.Point(4, 29);
             this.tabYCvaKHCT.Name = "tabYCvaKHCT";
             this.tabYCvaKHCT.Size = new System.Drawing.Size(1349, 581);
             this.tabYCvaKHCT.TabIndex = 16;
@@ -1891,6 +1888,64 @@
             this.pnYCMH.Name = "pnYCMH";
             this.pnYCMH.Size = new System.Drawing.Size(1349, 581);
             this.pnYCMH.TabIndex = 0;
+            // 
+            // nKHGDCT_buoi
+            // 
+            this.nKHGDCT_buoi.Location = new System.Drawing.Point(520, 648);
+            this.nKHGDCT_buoi.Name = "nKHGDCT_buoi";
+            this.nKHGDCT_buoi.Size = new System.Drawing.Size(375, 26);
+            this.nKHGDCT_buoi.TabIndex = 108;
+            // 
+            // panel13
+            // 
+            this.panel13.Controls.Add(this.wbTailieuBH);
+            this.panel13.Location = new System.Drawing.Point(72, 1435);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(1161, 297);
+            this.panel13.TabIndex = 107;
+            // 
+            // wbTailieuBH
+            // 
+            this.wbTailieuBH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wbTailieuBH.Location = new System.Drawing.Point(0, 0);
+            this.wbTailieuBH.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbTailieuBH.Name = "wbTailieuBH";
+            this.wbTailieuBH.Size = new System.Drawing.Size(1161, 297);
+            this.wbTailieuBH.TabIndex = 0;
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.wbHDBH);
+            this.panel12.Location = new System.Drawing.Point(75, 1096);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(1161, 297);
+            this.panel12.TabIndex = 106;
+            // 
+            // wbHDBH
+            // 
+            this.wbHDBH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wbHDBH.Location = new System.Drawing.Point(0, 0);
+            this.wbHDBH.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbHDBH.Name = "wbHDBH";
+            this.wbHDBH.Size = new System.Drawing.Size(1161, 297);
+            this.wbHDBH.TabIndex = 0;
+            // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.wbNoidungBH);
+            this.panel11.Location = new System.Drawing.Point(75, 763);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(1161, 297);
+            this.panel11.TabIndex = 105;
+            // 
+            // wbNoidungBH
+            // 
+            this.wbNoidungBH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wbNoidungBH.Location = new System.Drawing.Point(0, 0);
+            this.wbNoidungBH.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbNoidungBH.Name = "wbNoidungBH";
+            this.wbNoidungBH.Size = new System.Drawing.Size(1161, 297);
+            this.wbNoidungBH.TabIndex = 0;
             // 
             // panel6
             // 
@@ -2032,65 +2087,6 @@
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
-
-            // panel11
-            // 
-            this.panel11.Controls.Add(this.wbNoidungBH);
-            this.panel11.Location = new System.Drawing.Point(75, 763);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1161, 297);
-            this.panel11.TabIndex = 105;
-            // 
-            // wbNoidungBH
-            // 
-            this.wbNoidungBH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.wbNoidungBH.Location = new System.Drawing.Point(0, 0);
-            this.wbNoidungBH.MinimumSize = new System.Drawing.Size(20, 20);
-            this.wbNoidungBH.Name = "wbNoidungBH";
-            this.wbNoidungBH.Size = new System.Drawing.Size(1161, 297);
-            this.wbNoidungBH.TabIndex = 0;
-            // 
-            // panel12
-            // 
-            this.panel12.Controls.Add(this.wbHDBH);
-            this.panel12.Location = new System.Drawing.Point(75, 1096);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(1161, 297);
-            this.panel12.TabIndex = 106;
-            // 
-            // wbHDBH
-            // 
-            this.wbHDBH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.wbHDBH.Location = new System.Drawing.Point(0, 0);
-            this.wbHDBH.MinimumSize = new System.Drawing.Size(20, 20);
-            this.wbHDBH.Name = "wbHDBH";
-            this.wbHDBH.Size = new System.Drawing.Size(1161, 297);
-            this.wbHDBH.TabIndex = 0;
-            // 
-            // panel13
-            // 
-            this.panel13.Controls.Add(this.wbTailieuBH);
-            this.panel13.Location = new System.Drawing.Point(72, 1435);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(1161, 297);
-            this.panel13.TabIndex = 107;
-            // 
-            // wbTailieuBH
-            // 
-            this.wbTailieuBH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.wbTailieuBH.Location = new System.Drawing.Point(0, 0);
-            this.wbTailieuBH.MinimumSize = new System.Drawing.Size(20, 20);
-            this.wbTailieuBH.Name = "wbTailieuBH";
-            this.wbTailieuBH.Size = new System.Drawing.Size(1161, 297);
-            this.wbTailieuBH.TabIndex = 0;
-            // 
-            // nKHGDCT_buoi
-            // 
-            this.nKHGDCT_buoi.Location = new System.Drawing.Point(520, 648);
-            this.nKHGDCT_buoi.Name = "nKHGDCT_buoi";
-            this.nKHGDCT_buoi.Size = new System.Drawing.Size(375, 26);
-            this.nKHGDCT_buoi.TabIndex = 108;
-
             // btnExport
             // 
             this.btnExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2101,7 +2097,6 @@
             this.btnExport.Text = "Xuất file Word";
             this.btnExport.UseVisualStyleBackColor = true;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
-
             // 
             // GUI_DS
             // 
@@ -2151,12 +2146,12 @@
             this.tabYCvaKHCT.ResumeLayout(false);
             this.pnYCMH.ResumeLayout(false);
             this.pnYCMH.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nKHGDCT_buoi)).EndInit();
+            this.panel13.ResumeLayout(false);
+            this.panel12.ResumeLayout(false);
+            this.panel11.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nbrKHGDCT_Tiet)).EndInit();
-            this.panel11.ResumeLayout(false);
-            this.panel12.ResumeLayout(false);
-            this.panel13.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.nKHGDCT_buoi)).EndInit();
             this.ResumeLayout(false);
 
         }

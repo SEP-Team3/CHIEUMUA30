@@ -533,21 +533,25 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
                 MessageBox.Show("Lưu thất bại");
             }
 
-            object ob1 = wbPhanbothoigian.Document.InvokeScript("getcontent");
-            object ob2 = wbThoiGianHoc.Document.InvokeScript("getcontent");
-            object ob3 = wbYeuCauMH.Document.InvokeScript("getcontent");
+            if (checkck == 1)
+            {
+                object ob1 = wbPhanbothoigian.Document.InvokeScript("getcontent");
+                object ob2 = wbThoiGianHoc.Document.InvokeScript("getcontent");
+                object ob3 = wbYeuCauMH.Document.InvokeScript("getcontent");
 
-            string[] hdarr = new string[] { ob1.ToString(), ob2.ToString(), ob3.ToString() };
+                string[] hdarr = new string[] { ob1.ToString(), ob2.ToString(), ob3.ToString() };
 
-            handleCK(hdarr, getId);
+                handleCK(hdarr, getId);
 
-            DBEntities db = new DBEntities();
-            DeCuongChiTiet add = db.DeCuongChiTiets.Single(x => x.Id == getId);
-            add.PhanBoThoiGian = ConvertUnicdoe(ob1.ToString());
-            GVGD add2 = db.GVGDs.Single(x => x.DCCT_Id == getId);
-            add2.ThoiGian = ConvertUnicdoe(ob2.ToString());
-            add.YeuCauMonHoc = ConvertUnicdoe(ob3.ToString());
-            db.SaveChanges();
+                DBEntities db = new DBEntities();
+                DeCuongChiTiet add = db.DeCuongChiTiets.Single(x => x.Id == getId);
+                add.PhanBoThoiGian = ConvertUnicdoe(ob1.ToString());
+                GVGD add2 = db.GVGDs.Single(x => x.DCCT_Id == getId);
+                add2.ThoiGian = ConvertUnicdoe(ob2.ToString());
+                add.YeuCauMonHoc = ConvertUnicdoe(ob3.ToString());
+                db.SaveChanges();
+            }
+            
 
             int getMH_ID = model.DeCuongChiTiets.FirstOrDefault(x => x.Id == getId).MonHoc_Id.Value;
 

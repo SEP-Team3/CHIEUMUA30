@@ -442,6 +442,10 @@
     <Parameter Name="TEXTSEARCH" Type="nvarchar" Mode="In" />
   </Function>
   <Function Name="Admin_CTDTSelectAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Admin_Search" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TEXTSEARCH" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Admin_Select_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="Admin_updateCTDT_Thinh" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="id" Type="int" Mode="In" />
     <Parameter Name="TenCTDT" Type="nvarchar" Mode="In" />
@@ -723,9 +727,15 @@
     <Parameter Name="TEXTSEARCH" Type="nvarchar" Mode="In" />
     <Parameter Name="accID" Type="int" Mode="In" />
   </Function>
+  <Function Name="Search_CTDTForGV_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TEXTSEARCH" Type="nvarchar" Mode="In" />
+  </Function>
   <Function Name="Search_DCCT_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="TEXTSEARCH" Type="nvarchar" Mode="In" />
     <Parameter Name="accID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Search_DCCTForGV_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TEXTSEARCH" Type="nvarchar" Mode="In" />
   </Function>
   <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="diagramname" Type="nvarchar" Mode="In" />

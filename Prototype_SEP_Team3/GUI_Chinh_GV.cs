@@ -61,25 +61,7 @@ namespace Prototype_SEP_Team3
                     var cell = row.Cells[0];
                     int ctdtID = (int)cell.Value;
 
-                    GUI_EP ds = new GUI_EP(ctdtID);
-                    ds.ShowDialog();
-                }
-            }
-
-            if (lstMainDCCT.SelectedRows.Count == 1)
-            {
-                string pq = model.PhanQuyenTaiKhoans.FirstOrDefault(x => x.TaiKhoan_Id == getTK_ID).ChucVu;
-
-                if (pq == "Giáo vụ")
-                {
-                    var row = lstMainCTDT.SelectedRows[0];
-                    var cell = row.Cells[0];
-                    int dcctID = (int)cell.Value;
-
-                    DeCuongChiTiet dc = model.DeCuongChiTiets.FirstOrDefault(x => x.Id == dcctID);
-                    int ctdt_ID = dc.MonHoc.ChuongTrinhDaoTao_Id;
-
-                    GUI_DS ds = new GUI_DS(dcctID, ctdt_ID);
+                    GUI_EP ds = new GUI_EP(ctdtID,1);
                     ds.ShowDialog();
                 }
             }
@@ -95,6 +77,36 @@ namespace Prototype_SEP_Team3
         {
             DBEntities model = new DBEntities();
             lstMainDCCT.DataSource = model.Search_DCCTForGV_Sang(txtSearchDCCT.Text);
+        }
+
+        private void lstMainDCCT_DoubleClick(object sender, EventArgs e)
+        {
+            if (lstMainDCCT.SelectedRows.Count == 1)
+            {
+                DBEntities model = new DBEntities();
+                string pq = model.PhanQuyenTaiKhoans.FirstOrDefault(x => x.TaiKhoan_Id == getTK_ID).ChucVu;
+
+                if (pq == "Giáo vụ")
+                {
+                    var row = lstMainDCCT.SelectedRows[0];
+                    var cell = row.Cells[0];
+                    int dcctID = (int)cell.Value;
+
+                    DeCuongChiTiet dc = model.DeCuongChiTiets.FirstOrDefault(x => x.Id == dcctID);
+                    int ctdt_ID = dc.MonHoc.ChuongTrinhDaoTao_Id;
+
+                    GUI_DS ds = new GUI_DS(dcctID, ctdt_ID);
+                    ds.ShowDialog();
+                }
+            }
+        }
+
+        private void lblDangXuat_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            GUI_Login login = new GUI_Login();
+            login.Closed += (s, args) => this.Close();
+            login.ShowDialog();
         }
 
 

@@ -575,6 +575,10 @@
       <Parameter Name="TEXTSEARCH" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="Admin_CTDTSelectAll" ReturnType="Collection(team3Model.Admin_CTDTSelectAll_Result)" />
+    <FunctionImport Name="Admin_Search" ReturnType="Collection(team3Model.Admin_Search_Result)">
+      <Parameter Name="TEXTSEARCH" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Admin_Select_Sang" ReturnType="Collection(team3Model.Admin_Select_Sang_Result)" />
     <FunctionImport Name="Admin_updateCTDT_Thinh">
       <Parameter Name="id" Mode="In" Type="Int32" />
       <Parameter Name="TenCTDT" Mode="In" Type="String" />
@@ -855,9 +859,15 @@
       <Parameter Name="TEXTSEARCH" Mode="In" Type="String" />
       <Parameter Name="accID" Mode="In" Type="Int32" />
     </FunctionImport>
+    <FunctionImport Name="Search_CTDTForGV_Sang" ReturnType="Collection(team3Model.Search_CTDTForGV_Sang_Result)">
+      <Parameter Name="TEXTSEARCH" Mode="In" Type="String" />
+    </FunctionImport>
     <FunctionImport Name="Search_DCCT_Sang" ReturnType="Collection(team3Model.Search_DCCT_Sang_Result)">
       <Parameter Name="TEXTSEARCH" Mode="In" Type="String" />
       <Parameter Name="accID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Search_DCCTForGV_Sang" ReturnType="Collection(team3Model.Search_DCCTForGV_Sang_Result)">
+      <Parameter Name="TEXTSEARCH" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="sp_alterdiagram">
       <Parameter Name="diagramname" Mode="In" Type="String" />
@@ -932,13 +942,23 @@
     <Property Type="Int32" Name="ID" Nullable="false" />
     <Property Type="String" Name="Tên_CTÐT" Nullable="false" MaxLength="100" />
     <Property Type="String" Name="Tên_người_phụ_trách" Nullable="false" MaxLength="100" />
-    <Property Type="String" Name="Copy_T__CTDT" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Copy_TỪ_CTDT" Nullable="true" MaxLength="100" />
   </ComplexType>
   <ComplexType Name="Admin_CTDTSelectAll_Result">
     <Property Type="Int32" Name="ID" Nullable="false" />
     <Property Type="String" Name="Tên_CTÐT" Nullable="false" MaxLength="100" />
     <Property Type="String" Name="Tên_ngu_i_ph__trách" Nullable="false" MaxLength="100" />
     <Property Type="String" Name="Copy_T__CTDT" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="Admin_Search_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="NGƯỜI_PHỤ_TRÁCH" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="Admin_Select_Sang_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="NGƯỜI_PHỤ_TRÁCH" Nullable="false" MaxLength="100" />
   </ComplexType>
   <ComplexType Name="Authorize_Search_Sang_Result">
     <Property Type="Int32" Name="Id" Nullable="false" />
@@ -1088,7 +1108,19 @@
     <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
     <Property Type="String" Name="NGÀNH" Nullable="true" MaxLength="100" />
   </ComplexType>
+  <ComplexType Name="Search_CTDTForGV_Sang_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NGÀNH" Nullable="true" MaxLength="100" />
+  </ComplexType>
   <ComplexType Name="Search_DCCT_Sang_Result">
+    <Property Type="Int32" Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="false" />
+    <Property Type="String" Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="Search_DCCTForGV_Sang_Result">
     <Property Type="Int32" Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="false" />
     <Property Type="String" Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="true" MaxLength="100" />
     <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />

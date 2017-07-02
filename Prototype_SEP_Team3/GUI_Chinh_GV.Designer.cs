@@ -58,6 +58,7 @@
             this.lblDangXuat.TabIndex = 23;
             this.lblDangXuat.TabStop = true;
             this.lblDangXuat.Text = "Đăng xuất";
+            this.lblDangXuat.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblDangXuat_LinkClicked);
             // 
             // label3
             // 
@@ -134,6 +135,7 @@
             this.lstMainDCCT.Name = "lstMainDCCT";
             this.lstMainDCCT.Size = new System.Drawing.Size(1205, 377);
             this.lstMainDCCT.TabIndex = 26;
+            this.lstMainDCCT.DoubleClick += new System.EventHandler(this.lstMainDCCT_DoubleClick);
             // 
             // txtSearchDCCT
             // 
