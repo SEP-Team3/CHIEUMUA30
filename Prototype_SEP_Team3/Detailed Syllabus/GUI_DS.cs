@@ -3139,6 +3139,7 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             }
         }
 
+        //xóa list KHDGCT
         private void btnKHGDCT_Xoa_Click(object sender, EventArgs e)
         {
             DialogResult rsms = MessageBox.Show("Bạn có muốn xóa đối tượng này không?", "Thông báo", MessageBoxButtons.YesNo);
