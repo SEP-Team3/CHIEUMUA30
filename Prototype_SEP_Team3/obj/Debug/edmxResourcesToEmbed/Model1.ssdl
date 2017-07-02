@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="team3Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="team3Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="ChuanDauRaMonHoc">
     <Key>
       <PropertyRef Name="Id" />
@@ -32,7 +32,7 @@
     <Property Name="YeuCauMonHoc" Type="nvarchar" MaxLength="500" />
     <Property Name="GiangVienPhuTrach" Type="nvarchar(max)" />
     <Property Name="KhoiKienThuc" Type="int" />
-    <Property Name="Finish" Type="bit" />
+    <Property Name="Finish" Type="bit" Nullable="false" />
   </EntityType>
   <EntityType Name="GVGD">
     <Key>
@@ -200,6 +200,7 @@
     <Property Name="DoiTuongTuyenSinh" Type="nvarchar(max)" />
     <Property Name="QuyTrinhDaoTao" Type="nvarchar(max)" />
     <Property Name="CoSoVatChat" Type="nvarchar(max)" />
+    <Property Name="Finish" Type="bit" Nullable="false" />
   </EntityType>
   <Association Name="FK_ChuanDauRaMonHoc_DeCuongChiTiet">
     <End Role="DeCuongChiTiet" Type="Self.DeCuongChiTiet" Multiplicity="0..1" />
@@ -463,6 +464,18 @@
     <Parameter Name="NDVT" Type="nvarchar" Mode="In" />
     <Parameter Name="MaHP" Type="varchar" Mode="In" />
   </Function>
+  <Function Name="CTDT_Select_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="accID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DCCT_Select_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="accID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DCCT_SelectFinishFalse_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="accID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DCCT_SelectFinishTrue_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="accID" Type="int" Mode="In" />
+  </Function>
   <Function Name="DetailedSyllabus_CreateDetailedSyllabus_MaTran2CDR_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="DCCT_Id" Type="int" Mode="In" />
     <Parameter Name="CDRMH_Id" Type="int" Mode="In" />
@@ -695,6 +708,14 @@
   <Function Name="MonTienQuyet_Select_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="Id" Type="int" Mode="In" />
   </Function>
+  <Function Name="Search_CTDT_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TEXTSEARCH" Type="nvarchar" Mode="In" />
+    <Parameter Name="accID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Search_DCCT_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TEXTSEARCH" Type="nvarchar" Mode="In" />
+    <Parameter Name="accID" Type="int" Mode="In" />
+  </Function>
   <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
     <Parameter Name="owner_id" Type="int" Mode="In" />
@@ -755,6 +776,10 @@
     <Parameter Name="tgdt" Type="float" Mode="In" />
   </Function>
   <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Update_HoanThanh_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="Finish" Type="bit" Mode="In" />
+  </Function>
   <EntityContainer Name="team3ModelStoreContainer">
     <EntitySet Name="ChuanDauRaMonHoc" EntityType="Self.ChuanDauRaMonHoc" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ChuongTrinhDaoTao" EntityType="Self.ChuongTrinhDaoTao" Schema="dbo" store:Type="Tables" />

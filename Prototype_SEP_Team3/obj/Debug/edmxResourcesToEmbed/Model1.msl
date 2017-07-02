@@ -217,6 +217,7 @@
           <ScalarProperty Name="DoiTuongTuyenSinh" ColumnName="DoiTuongTuyenSinh" />
           <ScalarProperty Name="QuyTrinhDaoTao" ColumnName="QuyTrinhDaoTao" />
           <ScalarProperty Name="CoSoVatChat" ColumnName="CoSoVatChat" />
+          <ScalarProperty Name="Finish" ColumnName="Finish" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -226,7 +227,7 @@
         <ComplexTypeMapping TypeName="team3Model.Admin_CTDTSearch_Result">
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Tên_CTÐT" ColumnName="Tên CTÐT" />
-          <ScalarProperty Name="Tên_ngu_i_ph__trách" ColumnName="Tên ngu?i ph? trách" />
+          <ScalarProperty Name="Tên_người_phụ_trách" ColumnName="Tên người phụ trách" />
           <ScalarProperty Name="Copy_T__CTDT" ColumnName="Copy T? CTDT" />
         </ComplexTypeMapping>
       </ResultMapping>
@@ -263,6 +264,47 @@
     </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="Authorize_Update_Sang" FunctionName="team3Model.Store.Authorize_Update_Sang" />
     <FunctionImportMapping FunctionImportName="Course_Update_Sang" FunctionName="team3Model.Store.Course_Update_Sang" />
+    <FunctionImportMapping FunctionImportName="CTDT_Select_Sang" FunctionName="team3Model.Store.CTDT_Select_Sang">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="team3Model.CTDT_Select_Sang_Result">
+          <ScalarProperty Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="MÃ CHƯƠNG TRÌNH ĐÀO TẠO" />
+          <ScalarProperty Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="TÊN CHƯƠNG TRÌNH ĐÀO TẠO" />
+          <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
+          <ScalarProperty Name="NGÀNH" ColumnName="NGÀNH" />
+          <ScalarProperty Name="HOÀN_THÀNH" ColumnName="HOÀN THÀNH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DCCT_Select_Sang" FunctionName="team3Model.Store.DCCT_Select_Sang">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="team3Model.DCCT_Select_Sang_Result">
+          <ScalarProperty Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="MÃ ĐỀ CƯƠNG CHI TIẾT" />
+          <ScalarProperty Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="TÊN ĐỀ CƯƠNG CHI TIẾT" />
+          <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
+          <ScalarProperty Name="HOÀN_THÀNH" ColumnName="HOÀN THÀNH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DCCT_SelectFinishFalse_Sang" FunctionName="team3Model.Store.DCCT_SelectFinishFalse_Sang">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="team3Model.DCCT_SelectFinishFalse_Sang_Result">
+          <ScalarProperty Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="MÃ ĐỀ CƯƠNG CHI TIẾT" />
+          <ScalarProperty Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="TÊN ĐỀ CƯƠNG CHI TIẾT" />
+          <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
+          <ScalarProperty Name="HOÀN_THÀNH" ColumnName="HOÀN THÀNH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DCCT_SelectFinishTrue_Sang" FunctionName="team3Model.Store.DCCT_SelectFinishTrue_Sang">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="team3Model.DCCT_SelectFinishTrue_Sang_Result">
+          <ScalarProperty Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="MÃ ĐỀ CƯƠNG CHI TIẾT" />
+          <ScalarProperty Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="TÊN ĐỀ CƯƠNG CHI TIẾT" />
+          <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
+          <ScalarProperty Name="HOÀN_THÀNH" ColumnName="HOÀN THÀNH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_CreateDetailedSyllabus_MaTran2CDR_Sang" FunctionName="team3Model.Store.DetailedSyllabus_CreateDetailedSyllabus_MaTran2CDR_Sang" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_CreateDetailedSyllabus_MaTranCDRHDDG_Sang" FunctionName="team3Model.Store.DetailedSyllabus_CreateDetailedSyllabus_MaTranCDRHDDG_Sang" />
     <FunctionImportMapping FunctionImportName="DetailedSyllabus_CreateGVGD_Sang" FunctionName="team3Model.Store.DetailedSyllabus_CreateGVGD_Sang" />
@@ -425,6 +467,26 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Search_CTDT_Sang" FunctionName="team3Model.Store.Search_CTDT_Sang">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="team3Model.Search_CTDT_Sang_Result">
+          <ScalarProperty Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="MÃ CHƯƠNG TRÌNH ĐÀO TẠO" />
+          <ScalarProperty Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="TÊN CHƯƠNG TRÌNH ĐÀO TẠO" />
+          <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
+          <ScalarProperty Name="NGÀNH" ColumnName="NGÀNH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Search_DCCT_Sang" FunctionName="team3Model.Store.Search_DCCT_Sang">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="team3Model.Search_DCCT_Sang_Result">
+          <ScalarProperty Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="MÃ ĐỀ CƯƠNG CHI TIẾT" />
+          <ScalarProperty Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="TÊN ĐỀ CƯƠNG CHI TIẾT" />
+          <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
+          <ScalarProperty Name="HOÀN_THÀNH" ColumnName="HOÀN THÀNH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="team3Model.Store.sp_alterdiagram" />
     <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="team3Model.Store.sp_creatediagram" />
     <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="team3Model.Store.sp_dropdiagram" />
@@ -512,5 +574,6 @@
     </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="SP_THOIGIANDAOTAO_HANDLE" FunctionName="team3Model.Store.SP_THOIGIANDAOTAO_HANDLE" />
     <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="team3Model.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="Update_HoanThanh_Sang" FunctionName="team3Model.Store.Update_HoanThanh_Sang" />
   </EntityContainerMapping>
 </Mapping>

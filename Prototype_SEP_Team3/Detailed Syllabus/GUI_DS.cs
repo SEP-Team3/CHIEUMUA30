@@ -39,7 +39,7 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
         int getCTDT_ID;
 
         ////kiem tra load ck
-        //int checkck = 0;
+        int checkck = 0;
 
         public GUI_DS(int id, int ctdt_Id)
         {
@@ -49,9 +49,9 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             this.WindowState = FormWindowState.Maximized;
 
             string c = Directory.GetCurrentDirectory();
-            //wbPhanbothoigian.Navigate(Path.Combine(c, "Detailed Syllabus\\DSCkeditor.html"));
-            //wbYeuCauMH.Navigate(Path.Combine(c, "Detailed Syllabus\\DSCkeditor.html"));
-            //wbThoiGianHoc.Navigate(Path.Combine(c, "Detailed Syllabus\\DSCkeditor.html"));
+            wbPhanbothoigian.Navigate(Path.Combine(c, "Detailed Syllabus\\DS1Ckeditor.html"));
+            wbYeuCauMH.Navigate(Path.Combine(c, "Detailed Syllabus\\DS2Ckeditor.html"));
+            wbThoiGianHoc.Navigate(Path.Combine(c, "Detailed Syllabus\\DS3Ckeditor.html"));
 
             //bus.LoadDCCT(id, ctdt_Id, txtTenChuongTrinh, txtTenTiengAnh, txtMaHocPhan, cboKhoiKienThuc_1, cboKhoiKienThuc_2, cboKhoiKienThuc_3, txtGVPTMH, txtDCCQ, txtDCLH, txtEmail, txtGVTG, wbThoiGianHoc,
             //             nbrSoTinChi, txtTrinhDo, wbPhanbothoigian, lstHocPhanTruoc, lstMucTieuMonHoc, lstChuanDauRa, cboMaTran_ChuanDauRaMonHoc,
@@ -251,13 +251,13 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             {
                 tclMain.SelectedIndex = tclMain.SelectedIndex - 1;
             }
-            //if (checkck == 0)
-            //{
-            //    WebBrowser[] iarr = new WebBrowser[] { wbPhanbothoigian, wbThoiGianHoc, wbYeuCauMH };
-            //    readCK(iarr, getId);
-            //    checkck = 1;
-            //    checkck = 1;
-            //}
+            if (checkck == 0)
+            {
+                WebBrowser[] iarr = new WebBrowser[] { wbPhanbothoigian, wbThoiGianHoc, wbYeuCauMH };
+                readCK(iarr, getId);
+                checkck = 1;
+                checkck = 1;
+            }
 
         }
 
@@ -271,12 +271,12 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             {
                 tclMain.SelectedIndex = tclMain.SelectedIndex + 1;
             }
-            //if (checkck == 0)
-            //{
-            //    WebBrowser[] iarr = new WebBrowser[] {wbPhanbothoigian,wbThoiGianHoc,wbYeuCauMH };
-            //    readCK(iarr, getId);
-            //    checkck = 1;
-            //}
+            if (checkck == 0)
+            {
+                WebBrowser[] iarr = new WebBrowser[] { wbPhanbothoigian, wbThoiGianHoc, wbYeuCauMH };
+                readCK(iarr, getId);
+                checkck = 1;
+            }
 
         }
         #endregion
@@ -285,13 +285,13 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
         private void toolStripStatusLabel2_MouseHover(object sender, EventArgs e)
         {
             msMụclục.ShowDropDown();
-            //if (checkck == 0)
-            //{
-            //    WebBrowser[] iarr = new WebBrowser[] { wbPhanbothoigian, wbThoiGianHoc, wbYeuCauMH };
-            //    readCK(iarr, getId);
-            //    checkck = 1;
-            //    checkck = 1;
-            //}
+            if (checkck == 0)
+            {
+                WebBrowser[] iarr = new WebBrowser[] { wbPhanbothoigian, wbThoiGianHoc, wbYeuCauMH };
+                readCK(iarr, getId);
+                checkck = 1;
+                checkck = 1;
+            }
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
@@ -513,21 +513,21 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
                 MessageBox.Show("Lưu thất bại");
             }
 
-            //object ob1 = wbPhanbothoigian.Document.InvokeScript("getcontent");
-            //object ob2 = wbThoiGianHoc.Document.InvokeScript("getcontent");
-            //object ob3 = wbYeuCauMH.Document.InvokeScript("getcontent");
+            object ob1 = wbPhanbothoigian.Document.InvokeScript("getcontent");
+            object ob2 = wbThoiGianHoc.Document.InvokeScript("getcontent");
+            object ob3 = wbYeuCauMH.Document.InvokeScript("getcontent");
 
-            //string[] hdarr = new string[] { ob1.ToString(), ob2.ToString(), ob3.ToString() };
+            string[] hdarr = new string[] { ob1.ToString(), ob2.ToString(), ob3.ToString() };
 
-            //handleCK(hdarr, getId);
+            handleCK(hdarr, getId);
 
-            //DBEntities db = new DBEntities();
-            //DeCuongChiTiet add = db.DeCuongChiTiets.Single(x => x.Id == getId);
-            //add.PhanBoThoiGian = ConvertUnicdoe(ob1.ToString());
-            //GVDG add2 = db.GVDGs.Single(x => x.DCCT_Id == getId);
-            //add2.ThoiGian = ConvertUnicdoe(ob2.ToString());
-            //add.YeuCauMonHoc = ConvertUnicdoe(ob3.ToString());
-            //db.SaveChanges();
+            DBEntities db = new DBEntities();
+            DeCuongChiTiet add = db.DeCuongChiTiets.Single(x => x.Id == getId);
+            add.PhanBoThoiGian = ConvertUnicdoe(ob1.ToString());
+            GVGD add2 = db.GVGDs.Single(x => x.DCCT_Id == getId);
+            add2.ThoiGian = ConvertUnicdoe(ob2.ToString());
+            add.YeuCauMonHoc = ConvertUnicdoe(ob3.ToString());
+            db.SaveChanges();
 
             int getMH_ID = model.DeCuongChiTiets.FirstOrDefault(x => x.Id == getId).MonHoc_Id.Value;
 
@@ -545,17 +545,17 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
 
         }
 
-        ////CKEDITOR CONVERT
-        //private string ConvertUnicdoe(string istr)
-        //{
-        //    istr = System.Net.WebUtility.HtmlDecode(istr);
-        //    istr = istr.Replace("<ul>", "").Replace("</ul>", "").Replace("<li>", "\n").Replace("</li>", "\n").
-        //        Replace("<ol>", "").Replace("</ol>", "\n").Replace("<em>", "").Replace("</em>", "").
-        //            Replace("<s>", "").Replace("</s>", "").Replace("<strong>", "").Replace("</strong>", "").
-        //                Replace("<p>", "").Replace("</p>", "").Replace("<br>", "").Replace("/br", "").Replace("\t", "").Trim();
-        //    istr = istr.Replace("\n\n", "");
-        //    return istr;
-        //}
+        //CKEDITOR CONVERT
+        private string ConvertUnicdoe(string istr)
+        {
+            istr = System.Net.WebUtility.HtmlDecode(istr);
+            istr = istr.Replace("<ul>", "").Replace("</ul>", "").Replace("<li>", "\n").Replace("</li>", "\n").
+                Replace("<ol>", "").Replace("</ol>", "\n").Replace("<em>", "").Replace("</em>", "").
+                    Replace("<s>", "").Replace("</s>", "").Replace("<strong>", "").Replace("</strong>", "").
+                        Replace("<p>", "").Replace("</p>", "").Replace("<br>", "").Replace("/br", "").Replace("\t", "").Trim();
+            istr = istr.Replace("\n\n", "");
+            return istr;
+        }
 
         #region MUC TIEU MON HOC LIST
         //MUC TIEU MON HOC LIST
@@ -2859,41 +2859,41 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             pnMatran_CDRMH_HD.Controls.Add(rs);
         }
 
-        ////CKEDITOR save file
-        //private void handleCK(string[] arr, int iddcct)
-        //{
-        //    for (int i = 0; i < 3; i++)
-        //    {
-        //        string path = Application.StartupPath + @"\Detailed Syllabus\CK_" + iddcct + "_" + i + ".txt";
-        //        if (System.IO.File.Exists(path))
-        //        {
-        //            File.Delete(path);
-        //        }
-        //        System.IO.FileStream fs = new FileStream(path, System.IO.FileMode.Create);
-        //        StreamWriter sWriter = new StreamWriter(fs, Encoding.UTF8);
-        //        sWriter.Write(arr[i].ToString());
-        //        sWriter.Flush();
-        //        fs.Close();
-        //    }
-        //}
+        //CKEDITOR save file
+        private void handleCK(string[] arr, int iddcct)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                string path = Application.StartupPath + @"\Detailed Syllabus\CK_" + iddcct + "_" + i + ".txt";
+                if (System.IO.File.Exists(path))
+                {
+                    File.Delete(path);
+                }
+                System.IO.FileStream fs = new FileStream(path, System.IO.FileMode.Create);
+                StreamWriter sWriter = new StreamWriter(fs, Encoding.UTF8);
+                sWriter.Write(arr[i].ToString());
+                sWriter.Flush();
+                fs.Close();
+            }
+        }
 
-        ////CKEDITOR READ
-        //private void readCK(WebBrowser[] iarr, int iddcct)
-        //{
-        //    for (int i = 0; i < 3; i++)
-        //    {
-        //        string path = Application.StartupPath + @"\Detailed Syllabus\CK_" + iddcct + "_" + i + ".txt";
-        //        if (System.IO.File.Exists(path))
-        //        {
-        //            FileStream fs = new FileStream(path, FileMode.Open);
-        //            StreamReader sR = new StreamReader(fs, Encoding.UTF8);
-        //            string a = sR.ReadToEnd();
-        //            fs.Close();
-        //            object[] arr = new object[] { a.ToString() };
-        //            object c = iarr[i].Document.InvokeScript("setcontent", arr);
-        //        }
-        //    }
-        //}
+        //CKEDITOR READ
+        private void readCK(WebBrowser[] iarr, int iddcct)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                string path = Application.StartupPath + @"\Detailed Syllabus\CK_" + iddcct + "_" + i + ".txt";
+                if (System.IO.File.Exists(path))
+                {
+                    FileStream fs = new FileStream(path, FileMode.Open);
+                    StreamReader sR = new StreamReader(fs, Encoding.UTF8);
+                    string a = sR.ReadToEnd();
+                    fs.Close();
+                    object[] arr = new object[] { a.ToString() };
+                    object c = iarr[i].Document.InvokeScript("setcontent", arr);
+                }
+            }
+        }
 
         private void btnHoanThanh_Click(object sender, EventArgs e)
         {
@@ -2955,21 +2955,21 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
                 MessageBox.Show("Lưu thất bại");
             }
 
-            //object ob1 = wbPhanbothoigian.Document.InvokeScript("getcontent");
-            //object ob2 = wbThoiGianHoc.Document.InvokeScript("getcontent");
-            //object ob3 = wbYeuCauMH.Document.InvokeScript("getcontent");
+            object ob1 = wbPhanbothoigian.Document.InvokeScript("getcontent");
+            object ob2 = wbThoiGianHoc.Document.InvokeScript("getcontent");
+            object ob3 = wbYeuCauMH.Document.InvokeScript("getcontent");
 
-            //string[] hdarr = new string[] { ob1.ToString(), ob2.ToString(), ob3.ToString() };
+            string[] hdarr = new string[] { ob1.ToString(), ob2.ToString(), ob3.ToString() };
 
-            //handleCK(hdarr, getId);
+            handleCK(hdarr, getId);
 
-            //DBEntities db = new DBEntities();
-            //DeCuongChiTiet add = db.DeCuongChiTiets.Single(x => x.Id == getId);
-            //add.PhanBoThoiGian = ConvertUnicdoe(ob1.ToString());
-            //GVDG add2 = db.GVDGs.Single(x => x.DCCT_Id == getId);
-            //add2.ThoiGian = ConvertUnicdoe(ob2.ToString());
-            //add.YeuCauMonHoc = ConvertUnicdoe(ob3.ToString());
-            //db.SaveChanges();
+            DBEntities db = new DBEntities();
+            DeCuongChiTiet add = db.DeCuongChiTiets.Single(x => x.Id == getId);
+            add.PhanBoThoiGian = ConvertUnicdoe(ob1.ToString());
+            GVGD add2 = db.GVGDs.Single(x => x.DCCT_Id == getId);
+            add2.ThoiGian = ConvertUnicdoe(ob2.ToString());
+            add.YeuCauMonHoc = ConvertUnicdoe(ob3.ToString());
+            db.SaveChanges();
 
             int getMH_ID = model.DeCuongChiTiets.FirstOrDefault(x => x.Id == getId).MonHoc_Id.Value;
 

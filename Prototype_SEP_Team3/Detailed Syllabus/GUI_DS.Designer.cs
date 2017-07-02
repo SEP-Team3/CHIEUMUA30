@@ -202,6 +202,12 @@
             this.label51 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.btnNext = new System.Windows.Forms.Button();
+            this.pnKhốilượngkt = new System.Windows.Forms.Panel();
+            this.wbThoiGianHoc = new System.Windows.Forms.WebBrowser();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.wbPhanbothoigian = new System.Windows.Forms.WebBrowser();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.wbYeuCauMH = new System.Windows.Forms.WebBrowser();
             this.panel1.SuspendLayout();
             this.statusStrip2.SuspendLayout();
             this.pnForm.SuspendLayout();
@@ -228,6 +234,9 @@
             this.tabYCvaKHCT.SuspendLayout();
             this.pnYCMH.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nbrKHGDCT_Tiet)).BeginInit();
+            this.pnKhốilượngkt.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -658,6 +667,8 @@
             // pnThôngtinchung
             // 
             this.pnThôngtinchung.AutoScroll = true;
+            this.pnThôngtinchung.Controls.Add(this.panel2);
+            this.pnThôngtinchung.Controls.Add(this.pnKhốilượngkt);
             this.pnThôngtinchung.Controls.Add(this.label50);
             this.pnThôngtinchung.Controls.Add(this.txtGVTG);
             this.pnThôngtinchung.Controls.Add(this.label55);
@@ -1824,6 +1835,7 @@
             // pnYCMH
             // 
             this.pnYCMH.AutoScroll = true;
+            this.pnYCMH.Controls.Add(this.panel6);
             this.pnYCMH.Controls.Add(this.label47);
             this.pnYCMH.Controls.Add(this.label4);
             this.pnYCMH.Controls.Add(this.txtKHGDCT_Buoi);
@@ -1980,6 +1992,57 @@
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // pnKhốilượngkt
+            // 
+            this.pnKhốilượngkt.Controls.Add(this.wbThoiGianHoc);
+            this.pnKhốilượngkt.Location = new System.Drawing.Point(53, 399);
+            this.pnKhốilượngkt.Name = "pnKhốilượngkt";
+            this.pnKhốilượngkt.Size = new System.Drawing.Size(1161, 321);
+            this.pnKhốilượngkt.TabIndex = 94;
+            // 
+            // wbThoiGianHoc
+            // 
+            this.wbThoiGianHoc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wbThoiGianHoc.Location = new System.Drawing.Point(0, 0);
+            this.wbThoiGianHoc.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbThoiGianHoc.Name = "wbThoiGianHoc";
+            this.wbThoiGianHoc.Size = new System.Drawing.Size(1161, 321);
+            this.wbThoiGianHoc.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.wbPhanbothoigian);
+            this.panel2.Location = new System.Drawing.Point(43, 913);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1161, 481);
+            this.panel2.TabIndex = 95;
+            // 
+            // wbPhanbothoigian
+            // 
+            this.wbPhanbothoigian.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wbPhanbothoigian.Location = new System.Drawing.Point(0, 0);
+            this.wbPhanbothoigian.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbPhanbothoigian.Name = "wbPhanbothoigian";
+            this.wbPhanbothoigian.Size = new System.Drawing.Size(1161, 481);
+            this.wbPhanbothoigian.TabIndex = 0;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.wbYeuCauMH);
+            this.panel6.Location = new System.Drawing.Point(39, 74);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(1161, 481);
+            this.panel6.TabIndex = 104;
+            // 
+            // wbYeuCauMH
+            // 
+            this.wbYeuCauMH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wbYeuCauMH.Location = new System.Drawing.Point(0, 0);
+            this.wbYeuCauMH.MinimumSize = new System.Drawing.Size(20, 20);
+            this.wbYeuCauMH.Name = "wbYeuCauMH";
+            this.wbYeuCauMH.Size = new System.Drawing.Size(1161, 481);
+            this.wbYeuCauMH.TabIndex = 0;
+            // 
             // GUI_DS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2027,6 +2090,9 @@
             this.pnYCMH.ResumeLayout(false);
             this.pnYCMH.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nbrKHGDCT_Tiet)).EndInit();
+            this.pnKhốilượngkt.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2207,6 +2273,12 @@
         private System.Windows.Forms.Button btnMT2CDR_Update;
         private System.Windows.Forms.Panel pnMT2CDR;
         private System.Windows.Forms.Button btnHoanThanh;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.WebBrowser wbPhanbothoigian;
+        private System.Windows.Forms.Panel pnKhốilượngkt;
+        private System.Windows.Forms.WebBrowser wbThoiGianHoc;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.WebBrowser wbYeuCauMH;
 
     }
 }
