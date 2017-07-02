@@ -298,6 +298,17 @@
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="CTDT_SelectForGV_Sang" FunctionName="team3Model.Store.CTDT_SelectForGV_Sang">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="team3Model.CTDT_SelectForGV_Sang_Result">
+          <ScalarProperty Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="MÃ CHƯƠNG TRÌNH ĐÀO TẠO" />
+          <ScalarProperty Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="TÊN CHƯƠNG TRÌNH ĐÀO TẠO" />
+          <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
+          <ScalarProperty Name="NGÀNH" ColumnName="NGÀNH" />
+          <ScalarProperty Name="HOÀN_THÀNH" ColumnName="HOÀN THÀNH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
     <FunctionImportMapping FunctionImportName="DCCT_Select_Sang" FunctionName="team3Model.Store.DCCT_Select_Sang">
       <ResultMapping>
         <ComplexTypeMapping TypeName="team3Model.DCCT_Select_Sang_Result">
@@ -321,6 +332,16 @@
     <FunctionImportMapping FunctionImportName="DCCT_SelectFinishTrue_Sang" FunctionName="team3Model.Store.DCCT_SelectFinishTrue_Sang">
       <ResultMapping>
         <ComplexTypeMapping TypeName="team3Model.DCCT_SelectFinishTrue_Sang_Result">
+          <ScalarProperty Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="MÃ ĐỀ CƯƠNG CHI TIẾT" />
+          <ScalarProperty Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="TÊN ĐỀ CƯƠNG CHI TIẾT" />
+          <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
+          <ScalarProperty Name="HOÀN_THÀNH" ColumnName="HOÀN THÀNH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DCCT_SelectForGV_Sang" FunctionName="team3Model.Store.DCCT_SelectForGV_Sang">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="team3Model.DCCT_SelectForGV_Sang_Result">
           <ScalarProperty Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="MÃ ĐỀ CƯƠNG CHI TIẾT" />
           <ScalarProperty Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" ColumnName="TÊN ĐỀ CƯƠNG CHI TIẾT" />
           <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />

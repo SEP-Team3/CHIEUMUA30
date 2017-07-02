@@ -476,6 +476,7 @@
   <Function Name="CTDT_SelectFinishTrue_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="accID" Type="int" Mode="In" />
   </Function>
+  <Function Name="CTDT_SelectForGV_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="DCCT_Select_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="accID" Type="int" Mode="In" />
   </Function>
@@ -485,6 +486,7 @@
   <Function Name="DCCT_SelectFinishTrue_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="accID" Type="int" Mode="In" />
   </Function>
+  <Function Name="DCCT_SelectForGV_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="DetailedSyllabus_CreateDetailedSyllabus_MaTran2CDR_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="DCCT_Id" Type="int" Mode="In" />
     <Parameter Name="CDRMH_Id" Type="int" Mode="In" />

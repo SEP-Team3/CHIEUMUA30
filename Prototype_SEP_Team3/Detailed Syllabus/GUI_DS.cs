@@ -41,6 +41,7 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
         ////kiem tra load ck
         int checkck = 0;
 
+        int buoikhgdct = 0;
         public GUI_DS(int id, int ctdt_Id)
         {
             InitializeComponent();
@@ -52,6 +53,9 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             wbPhanbothoigian.Navigate(Path.Combine(c, "Detailed Syllabus\\DS1Ckeditor.html"));
             wbYeuCauMH.Navigate(Path.Combine(c, "Detailed Syllabus\\DS2Ckeditor.html"));
             wbThoiGianHoc.Navigate(Path.Combine(c, "Detailed Syllabus\\DS3Ckeditor.html"));
+            wbNoidungBH.Navigate(Path.Combine(c, "Detailed Syllabus\\DS4Ckeditor.html"));
+            wbHDBH.Navigate(Path.Combine(c, "Detailed Syllabus\\DS5Ckeditor.html"));
+            wbTailieuBH.Navigate(Path.Combine(c, "Detailed Syllabus\\DS6Ckeditor.html"));
 
             //bus.LoadDCCT(id, ctdt_Id, txtTenChuongTrinh, txtTenTiengAnh, txtMaHocPhan, cboKhoiKienThuc_1, cboKhoiKienThuc_2, cboKhoiKienThuc_3, txtGVPTMH, txtDCCQ, txtDCLH, txtEmail, txtGVTG, wbThoiGianHoc,
             //             nbrSoTinChi, txtTrinhDo, wbPhanbothoigian, lstHocPhanTruoc, lstMucTieuMonHoc, lstChuanDauRa, cboMaTran_ChuanDauRaMonHoc,
@@ -100,8 +104,8 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             //btnKHGDCT_HuyHD.Visible = false;
             //btnKHGDCT_SuaTL.Visible = false;
             //btnKHGDCT_HuyTL.Visible = false;
-            btnKHGDCT_Sua.Visible = false;
-            btnKHGDCT_Huy.Visible = false;
+           // btnKHGDCT_Sua.Visible = false;
+            btnKHGDCT_Xoa.Visible = false;
             btnMT2CDR_Update.Visible = false;
             #endregion
 
@@ -226,10 +230,17 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
                     khkt_Lst.Add(kh);
                 }
 
+
             }
             catch
             {
 
+            }
+            List<KeHoachGDHTCuThe> dbkhgd = model.KeHoachGDHTCuThes.Where(x => x.DeCuongChiTiet_Id == getId).ToList();
+            foreach (KeHoachGDHTCuThe a in dbkhgd)
+            {
+                int bi = int.Parse(a.Buoi);
+                khgd_Lst.Add(new KeHoachGiangDayCuThe_List(bi, a.SoTietLenLop.Value, a.NoiDungBaiHoc, a.HoatDongDayVaHoc, a.TaiLieuCanDoc));
             }
             showMuctieumonhoc();
             showChuanDauRaMonHoc();
@@ -237,6 +248,7 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             showMaTran_CDR_HD();
             showPPDG();
             showKeHoachKiemTra();
+            showKeHoachGiangDay();
             #endregion
         }
 
@@ -2559,35 +2571,43 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
         ////Hàm vẽ list view
         private void showKeHoachGiangDay()
         {
+            lstKHGDCT.Items.Clear();
             foreach (KeHoachGiangDayCuThe_List khgd in khgd_Lst)
             {
-                lstKHGDCT.Items.Add("+ Buổi/Tuần/ngày: " + khgd.buoi);
+                lstKHGDCT.Items.Add("+ Buổi: " + khgd.buoi);
                 lstKHGDCT.Items.Add("    + Số tiết trên lớp: " + khgd.tiet);
-
-                List<KeHoachGiangDayCuThe_List> khgd_ND = khgd_Lst.Where(x => x.buoi == khgd.buoi).ToList();
-
-                lstKHGDCT.Items.Add("    + Nội dung bài học:");
-                foreach (var ndItem in khgd_ND)
+                
+                lstKHGDCT.Items.Add("    + Nội dung bài học: ");
+                string[] nd = khgd.noiDung.Split('\n');
+                if (nd[0]!="")
                 {
-                    for (int i = 0; i < ndItem.noiDung.Count; i++)
-                        lstKHGDCT.Items.Add("           - " + ndItem.noiDung[i]);
+                    foreach (string a in nd)
+                    {
+                        lstKHGDCT.Items.Add("                         - " + a);
+                    }
                 }
-
-                lstKHGDCT.Items.Add("    + Hoạt động dạy và học:");
-                foreach (var hdItem in khgd_ND)
+                
+                lstKHGDCT.Items.Add("    + Hoạt động giảng dạy: ");
+                string[] hd = khgd.hoatDong.Split('\n');
+                if (hd[0] != "")
                 {
-                    for (int i = 0; i < hdItem.hoatDong.Count; i++)
-                        lstKHGDCT.Items.Add("           - " + hdItem.hoatDong[i]);
+                    foreach (string a in hd)
+                    {
+                        lstKHGDCT.Items.Add("                         - " + a);
+                    }
                 }
-
-                lstKHGDCT.Items.Add("    + Tài liệu cần đọc:");
-                foreach (var tlItem in khgd_ND)
+                
+                lstKHGDCT.Items.Add("    + Tài liệu cần đọc: ");
+                string[] tl = khgd.taiLieu.Split('\n');
+                if (tl[0] != "")
                 {
-                    for (int i = 0; i < tlItem.taiLieu.Count; i++)
-                        lstKHGDCT.Items.Add("           - " + tlItem.taiLieu[i]);
+                    foreach (string a in tl)
+                    {
+                        lstKHGDCT.Items.Add("                         - " + a);
+                    }
+                    lstKHGDCT.Items.Add("\n");
                 }
-
-                lstKHGDCT.Items.Add("\n");
+                
             }
         }
 
@@ -2860,21 +2880,39 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
         }
 
         //CKEDITOR save file
-        private void handleCK(string[] arr, int iddcct)
+        private void handleCK(string[] arr, int iddcct )
         {
             for (int i = 0; i < 3; i++)
-            {
-                string path = Application.StartupPath + @"\Detailed Syllabus\CK_" + iddcct + "_" + i + ".txt";
-                if (System.IO.File.Exists(path))
-                {
-                    File.Delete(path);
-                }
-                System.IO.FileStream fs = new FileStream(path, System.IO.FileMode.Create);
-                StreamWriter sWriter = new StreamWriter(fs, Encoding.UTF8);
-                sWriter.Write(arr[i].ToString());
-                sWriter.Flush();
-                fs.Close();
+            {               
+                    string path = Application.StartupPath + @"\Detailed Syllabus\CK_" + iddcct + "_" + i + ".txt";
+                    if (System.IO.File.Exists(path))
+                    {
+                        File.Delete(path);
+                    }
+                    System.IO.FileStream fs = new FileStream(path, System.IO.FileMode.Create);
+                    StreamWriter sWriter = new StreamWriter(fs, Encoding.UTF8);
+                    sWriter.Write(arr[i].ToString());
+                    sWriter.Flush();
+                    fs.Close();               
             }
+        }
+
+        //CK SAVE FILE KEHOACH GIANG DAY CU THE
+        private void handleCKKHDGCT(int iddcct,string ibuoi,string []iarr)
+        {
+            string path = Application.StartupPath + @"\Detailed Syllabus\CK_lst_" + iddcct + "_" + ibuoi + ".txt";
+            if (System.IO.File.Exists(path))
+            {
+                File.Delete(path);
+            }
+            System.IO.FileStream fs = new FileStream(path, System.IO.FileMode.Create);
+            StreamWriter sWriter = new StreamWriter(fs, Encoding.UTF8);
+            sWriter.WriteLine(iarr[0].ToString().Trim());
+            sWriter.WriteLine(iarr[1].ToString().Trim());
+            sWriter.WriteLine(iarr[2].ToString().Trim());
+            sWriter.WriteLine(iarr[3].ToString().Trim());
+            sWriter.Flush();
+            fs.Close();  
         }
 
         //CKEDITOR READ
@@ -2892,6 +2930,28 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
                     object[] arr = new object[] { a.ToString() };
                     object c = iarr[i].Document.InvokeScript("setcontent", arr);
                 }
+            }
+        }
+        //CK READ KEHOACH GIANG DAY CU THE
+        private void readCKKHGD(int dcctid,int buoi)
+        {
+            string path = Application.StartupPath + @"\Detailed Syllabus\CK_lst_" + getId + "_" + buoi + ".txt";
+            if (System.IO.File.Exists(path))
+            {
+                FileStream fs = new FileStream(path, FileMode.Open);
+                StreamReader sR = new StreamReader(fs, Encoding.UTF8);
+                string[] arr = new string[4];
+                for (int i = 0; i < 4; i++)
+                {
+                    arr[i] = sR.ReadLine();
+                }                
+                fs.Close();
+                object[] brr = new object[] { arr[1].ToString() };
+                object b = wbNoidungBH.Document.InvokeScript("setcontent", brr);
+                object[] crr = new object[] { arr[2].ToString() };
+                object c = wbHDBH.Document.InvokeScript("setcontent", crr);
+                object[] drr = new object[] { arr[3].ToString() };
+                object d = wbTailieuBH.Document.InvokeScript("setcontent", drr);
             }
         }
 
@@ -2981,6 +3041,128 @@ namespace Prototype_SEP_Team3.Detailed_Syllabus
             }
 
             bus.Update_Finish(getId);
+        }
+
+        private void btnKHGDCT_Them_Click_1(object sender, EventArgs e)
+        {
+            if (nKHGDCT_buoi.Value != 0)
+            {
+                object a = wbNoidungBH.Document.InvokeScript("getcontent");
+                object b = wbHDBH.Document.InvokeScript("getcontent");
+                object c = wbTailieuBH.Document.InvokeScript("getcontent");
+                string[] arr = new string[] {nbrKHGDCT_Tiet.Value.ToString(), a.ToString(), b.ToString(), c.ToString() };
+                handleCKKHDGCT(getId, nKHGDCT_buoi.Value.ToString(), arr);
+
+                DBEntities db = new DBEntities();
+                try
+                {
+                    string f = nKHGDCT_buoi.Value.ToString();
+                    KeHoachGDHTCuThe find = db.KeHoachGDHTCuThes.Where(x => x.DeCuongChiTiet_Id == getId).Single(x => x.Buoi == f);
+
+
+                    find.DeCuongChiTiet_Id = getId;
+                    find.Buoi = nKHGDCT_buoi.Value.ToString();
+                    find.SoTietLenLop = (int)nbrKHGDCT_Tiet.Value;
+                    find.NoiDungBaiHoc = ConvertUnicdoe(a.ToString());
+                    find.HoatDongDayVaHoc = ConvertUnicdoe(b.ToString());
+                    find.TaiLieuCanDoc = ConvertUnicdoe(c.ToString());
+                    db.SaveChanges();
+                    int fb = int.Parse(find.Buoi);
+                    try
+                    {
+                        KeHoachGiangDayCuThe_List flst = khgd_Lst.Single(x => x.buoi == fb);
+                        flst.tiet = find.SoTietLenLop.Value;
+                        flst.noiDung = find.NoiDungBaiHoc;
+                        flst.hoatDong = find.HoatDongDayVaHoc;
+                        flst.taiLieu = find.TaiLieuCanDoc;
+                    }
+                    catch
+                    {
+                        khgd_Lst.Add(new KeHoachGiangDayCuThe_List(int.Parse(find.Buoi), find.SoTietLenLop.Value, find.NoiDungBaiHoc, find.HoatDongDayVaHoc, find.TaiLieuCanDoc));
+                    }                   
+                    showKeHoachGiangDay();
+                }
+                catch
+                {
+                    KeHoachGDHTCuThe add = new KeHoachGDHTCuThe();
+                    add.DeCuongChiTiet_Id = getId;
+                    add.Buoi = nKHGDCT_buoi.Value.ToString();
+                    add.SoTietLenLop = (int)nbrKHGDCT_Tiet.Value;
+                    add.NoiDungBaiHoc = ConvertUnicdoe(a.ToString());
+                    add.HoatDongDayVaHoc = ConvertUnicdoe(b.ToString());
+                    add.TaiLieuCanDoc = ConvertUnicdoe(c.ToString());
+                    db.KeHoachGDHTCuThes.Add(add);
+                    db.SaveChanges();
+                    khgd_Lst.Add(new KeHoachGiangDayCuThe_List(int.Parse(add.Buoi), add.SoTietLenLop.Value, add.NoiDungBaiHoc, add.HoatDongDayVaHoc, add.TaiLieuCanDoc));
+                    showKeHoachGiangDay();
+                }
+                object[]nob1 = new object[]{""};
+                object ob1 = wbNoidungBH.Document.InvokeScript("setcontent", nob1);
+                object[] nob2 = new object[] { "" };
+                object ob2 = wbHDBH.Document.InvokeScript("setcontent", nob1);
+                object[] nob3 = new object[] { "" };
+                object ob3 = wbTailieuBH.Document.InvokeScript("setcontent", nob1);
+                nKHGDCT_buoi.Value = 0;
+                nbrKHGDCT_Tiet.Value = 0;
+                
+            }
+            else
+            {
+                MessageBox.Show("Số buổi phải khác 0");
+            }
+            
+        }
+
+        private void lstKHGDCT_DoubleClick_1(object sender, EventArgs e)
+        {
+            if (lstKHGDCT.SelectedItems.Count == 1)
+            {
+                if (lstKHGDCT.SelectedItem.ToString() != "\n")
+                {
+                    string fstr = lstKHGDCT.SelectedItem.ToString().Substring(0, 8);                   
+                    if (fstr == "+ Buổi: ")
+                    {
+                        int buoiint = int.Parse(lstKHGDCT.SelectedItem.ToString().Substring(8, 1));
+                        nKHGDCT_buoi.Value = buoiint;
+                        KeHoachGiangDayCuThe_List flst = khgd_Lst.Single(x => x.buoi == buoiint);
+                        nbrKHGDCT_Tiet.Value = flst.tiet;
+                        readCKKHGD(getId, buoiint);
+                        buoikhgdct = buoiint;
+                    }
+
+                    Point point = btnKHGDCT_Them.Location;
+
+                    btnKHGDCT_Xoa.Location = new Point(point.X+80, point.Y);
+                    btnKHGDCT_Xoa.Visible = true;
+                }
+                
+            }
+        }
+
+        private void btnKHGDCT_Xoa_Click(object sender, EventArgs e)
+        {
+            DialogResult rsms = MessageBox.Show("Bạn có muốn xóa đối tượng này không?", "Thông báo", MessageBoxButtons.YesNo);
+            if (rsms == DialogResult.Yes)
+            {
+                KeHoachGiangDayCuThe_List flst = khgd_Lst.Single(x => x.buoi == buoikhgdct);
+                khgd_Lst.Remove(flst);
+                DBEntities db = new DBEntities();
+                string f = buoikhgdct.ToString();
+                KeHoachGDHTCuThe find = db.KeHoachGDHTCuThes.Where(x => x.DeCuongChiTiet_Id == getId).Single(x => x.Buoi == f);
+                db.KeHoachGDHTCuThes.Remove(find);
+                db.SaveChanges();
+                showKeHoachGiangDay();
+                btnKHGDCT_Xoa.Visible = false;
+                object[] nob1 = new object[] { "" };
+                object ob1 = wbNoidungBH.Document.InvokeScript("setcontent", nob1);
+                object[] nob2 = new object[] { "" };
+                object ob2 = wbHDBH.Document.InvokeScript("setcontent", nob1);
+                object[] nob3 = new object[] { "" };
+                object ob3 = wbTailieuBH.Document.InvokeScript("setcontent", nob1);
+                nKHGDCT_buoi.Value = 0;
+                nbrKHGDCT_Tiet.Value = 0;
+            }
+            
         }
 
     }

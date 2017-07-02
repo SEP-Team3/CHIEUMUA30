@@ -609,6 +609,7 @@
     <FunctionImport Name="CTDT_SelectFinishTrue_Sang" ReturnType="Collection(team3Model.CTDT_SelectFinishTrue_Sang_Result)">
       <Parameter Name="accID" Mode="In" Type="Int32" />
     </FunctionImport>
+    <FunctionImport Name="CTDT_SelectForGV_Sang" ReturnType="Collection(team3Model.CTDT_SelectForGV_Sang_Result)" />
     <FunctionImport Name="DCCT_Select_Sang" ReturnType="Collection(team3Model.DCCT_Select_Sang_Result)">
       <Parameter Name="accID" Mode="In" Type="Int32" />
     </FunctionImport>
@@ -618,6 +619,7 @@
     <FunctionImport Name="DCCT_SelectFinishTrue_Sang" ReturnType="Collection(team3Model.DCCT_SelectFinishTrue_Sang_Result)">
       <Parameter Name="accID" Mode="In" Type="Int32" />
     </FunctionImport>
+    <FunctionImport Name="DCCT_SelectForGV_Sang" ReturnType="Collection(team3Model.DCCT_SelectForGV_Sang_Result)" />
     <FunctionImport Name="DetailedSyllabus_CreateDetailedSyllabus_MaTran2CDR_Sang">
       <Parameter Name="DCCT_Id" Mode="In" Type="Int32" />
       <Parameter Name="CDRMH_Id" Mode="In" Type="Int32" />
@@ -969,6 +971,13 @@
     <Property Type="String" Name="NGÀNH" Nullable="true" MaxLength="100" />
     <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
   </ComplexType>
+  <ComplexType Name="CTDT_SelectForGV_Sang_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NGÀNH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
   <ComplexType Name="DCCT_Select_Sang_Result">
     <Property Type="Int32" Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="false" />
     <Property Type="String" Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="true" MaxLength="100" />
@@ -982,6 +991,12 @@
     <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
   </ComplexType>
   <ComplexType Name="DCCT_SelectFinishTrue_Sang_Result">
+    <Property Type="Int32" Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="false" />
+    <Property Type="String" Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="DCCT_SelectForGV_Sang_Result">
     <Property Type="Int32" Name="MÃ_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="false" />
     <Property Type="String" Name="TÊN_ĐỀ_CƯƠNG_CHI_TIẾT" Nullable="true" MaxLength="100" />
     <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
