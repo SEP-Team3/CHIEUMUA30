@@ -67,7 +67,7 @@
             this.tabPage2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.tabPage2.Size = new System.Drawing.Size(1106, 524);
+            this.tabPage2.Size = new System.Drawing.Size(1126, 660);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "KẾ HOẠCH GIẢNG DẠY";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -77,7 +77,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 27);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1106, 524);
+            this.tabPage1.Size = new System.Drawing.Size(1126, 660);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "NỘI DUNG VẮN TẮT";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -87,7 +87,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 27);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1106, 524);
+            this.tabPage3.Size = new System.Drawing.Size(1126, 660);
             this.tabPage3.TabIndex = 3;
             this.tabPage3.Text = "DANH SÁCH ĐỘI NGŨ GIẢNG VIÊN";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -102,7 +102,7 @@
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "GUI_VIEW";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "GUI_VIEW";
+            this.Text = "Bảng tổng hợp môn học";
             this.tbMain.ResumeLayout(false);
             this.ResumeLayout(false);
 

@@ -20,7 +20,7 @@ namespace Prototype_SEP_Team3
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Educational_Program.GUI_EP(1));
-            Application.Run(new GUI_DS(1,1));
+            Application.Run(new Educational_Program.GUI_EP(1,1));
         }
     }
 }

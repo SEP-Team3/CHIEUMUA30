@@ -568,6 +568,9 @@
       <Parameter Name="NguoiPhuTrachID" Mode="In" Type="Int32" />
       <Parameter Name="CopyTuCTDT" Mode="In" Type="Int32" />
     </FunctionImport>
+    <FunctionImport Name="Admin_createThongTinChungCTDT_Thinh">
+      <Parameter Name="TenCTDT" Mode="In" Type="String" />
+    </FunctionImport>
     <FunctionImport Name="Admin_CTDTSearch" ReturnType="Collection(team3Model.Admin_CTDTSearch_Result)">
       <Parameter Name="TEXTSEARCH" Mode="In" Type="String" />
     </FunctionImport>
@@ -598,6 +601,12 @@
       <Parameter Name="MaHP" Mode="In" Type="String" />
     </FunctionImport>
     <FunctionImport Name="CTDT_Select_Sang" ReturnType="Collection(team3Model.CTDT_Select_Sang_Result)">
+      <Parameter Name="accID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CTDT_SelectFinishFalse_Sang" ReturnType="Collection(team3Model.CTDT_SelectFinishFalse_Sang_Result)">
+      <Parameter Name="accID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CTDT_SelectFinishTrue_Sang" ReturnType="Collection(team3Model.CTDT_SelectFinishTrue_Sang_Result)">
       <Parameter Name="accID" Mode="In" Type="Int32" />
     </FunctionImport>
     <FunctionImport Name="DCCT_Select_Sang" ReturnType="Collection(team3Model.DCCT_Select_Sang_Result)">
@@ -912,6 +921,10 @@
       <Parameter Name="Id" Mode="In" Type="Int32" />
       <Parameter Name="Finish" Mode="In" Type="Boolean" />
     </FunctionImport>
+    <FunctionImport Name="Update_HoanThanhCTDT_Sang">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Finish" Mode="In" Type="Boolean" />
+    </FunctionImport>
   </EntityContainer>
   <ComplexType Name="Admin_CTDTSearch_Result">
     <Property Type="Int32" Name="ID" Nullable="false" />
@@ -936,6 +949,20 @@
     <Property Type="String" Name="ChucVu" Nullable="false" MaxLength="50" />
   </ComplexType>
   <ComplexType Name="CTDT_Select_Sang_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NGÀNH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="CTDT_SelectFinishFalse_Sang_Result">
+    <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
+    <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NGÀNH" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="HOÀN_THÀNH" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="CTDT_SelectFinishTrue_Sang_Result">
     <Property Type="Int32" Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" />
     <Property Type="String" Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" Nullable="false" MaxLength="100" />
     <Property Type="String" Name="TÊN_TIẾNG_ANH" Nullable="true" MaxLength="100" />

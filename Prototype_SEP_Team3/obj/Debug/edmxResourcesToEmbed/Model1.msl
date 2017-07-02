@@ -222,6 +222,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <FunctionImportMapping FunctionImportName="Admin_createCTDT_Thinh" FunctionName="team3Model.Store.Admin_createCTDT_Thinh" />
+    <FunctionImportMapping FunctionImportName="Admin_createThongTinChungCTDT_Thinh" FunctionName="team3Model.Store.Admin_createThongTinChungCTDT_Thinh" />
     <FunctionImportMapping FunctionImportName="Admin_CTDTSearch" FunctionName="team3Model.Store.Admin_CTDTSearch">
       <ResultMapping>
         <ComplexTypeMapping TypeName="team3Model.Admin_CTDTSearch_Result">
@@ -267,6 +268,28 @@
     <FunctionImportMapping FunctionImportName="CTDT_Select_Sang" FunctionName="team3Model.Store.CTDT_Select_Sang">
       <ResultMapping>
         <ComplexTypeMapping TypeName="team3Model.CTDT_Select_Sang_Result">
+          <ScalarProperty Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="MÃ CHƯƠNG TRÌNH ĐÀO TẠO" />
+          <ScalarProperty Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="TÊN CHƯƠNG TRÌNH ĐÀO TẠO" />
+          <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
+          <ScalarProperty Name="NGÀNH" ColumnName="NGÀNH" />
+          <ScalarProperty Name="HOÀN_THÀNH" ColumnName="HOÀN THÀNH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="CTDT_SelectFinishFalse_Sang" FunctionName="team3Model.Store.CTDT_SelectFinishFalse_Sang">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="team3Model.CTDT_SelectFinishFalse_Sang_Result">
+          <ScalarProperty Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="MÃ CHƯƠNG TRÌNH ĐÀO TẠO" />
+          <ScalarProperty Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="TÊN CHƯƠNG TRÌNH ĐÀO TẠO" />
+          <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
+          <ScalarProperty Name="NGÀNH" ColumnName="NGÀNH" />
+          <ScalarProperty Name="HOÀN_THÀNH" ColumnName="HOÀN THÀNH" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="CTDT_SelectFinishTrue_Sang" FunctionName="team3Model.Store.CTDT_SelectFinishTrue_Sang">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="team3Model.CTDT_SelectFinishTrue_Sang_Result">
           <ScalarProperty Name="MÃ_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="MÃ CHƯƠNG TRÌNH ĐÀO TẠO" />
           <ScalarProperty Name="TÊN_CHƯƠNG_TRÌNH_ĐÀO_TẠO" ColumnName="TÊN CHƯƠNG TRÌNH ĐÀO TẠO" />
           <ScalarProperty Name="TÊN_TIẾNG_ANH" ColumnName="TÊN TIẾNG ANH" />
@@ -575,5 +598,6 @@
     <FunctionImportMapping FunctionImportName="SP_THOIGIANDAOTAO_HANDLE" FunctionName="team3Model.Store.SP_THOIGIANDAOTAO_HANDLE" />
     <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="team3Model.Store.sp_upgraddiagrams" />
     <FunctionImportMapping FunctionImportName="Update_HoanThanh_Sang" FunctionName="team3Model.Store.Update_HoanThanh_Sang" />
+    <FunctionImportMapping FunctionImportName="Update_HoanThanhCTDT_Sang" FunctionName="team3Model.Store.Update_HoanThanhCTDT_Sang" />
   </EntityContainerMapping>
 </Mapping>

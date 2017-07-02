@@ -435,6 +435,9 @@
     <Parameter Name="NguoiPhuTrachID" Type="int" Mode="In" />
     <Parameter Name="CopyTuCTDT" Type="int" Mode="In" />
   </Function>
+  <Function Name="Admin_createThongTinChungCTDT_Thinh" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TenCTDT" Type="nvarchar" Mode="In" />
+  </Function>
   <Function Name="Admin_CTDTSearch" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="TEXTSEARCH" Type="nvarchar" Mode="In" />
   </Function>
@@ -465,6 +468,12 @@
     <Parameter Name="MaHP" Type="varchar" Mode="In" />
   </Function>
   <Function Name="CTDT_Select_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="accID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CTDT_SelectFinishFalse_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="accID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CTDT_SelectFinishTrue_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="accID" Type="int" Mode="In" />
   </Function>
   <Function Name="DCCT_Select_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
@@ -777,6 +786,10 @@
   </Function>
   <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <Function Name="Update_HoanThanh_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="Finish" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="Update_HoanThanhCTDT_Sang" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="Id" Type="int" Mode="In" />
     <Parameter Name="Finish" Type="bit" Mode="In" />
   </Function>
