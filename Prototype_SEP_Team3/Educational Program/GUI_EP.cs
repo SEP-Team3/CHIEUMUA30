@@ -51,6 +51,7 @@ namespace Prototype_SEP_Team3.Educational_Program
 
             loadCTDT();
 
+
             if (finish == 1)
             {
                 btnSave.Enabled = false;
@@ -60,8 +61,6 @@ namespace Prototype_SEP_Team3.Educational_Program
                 nThờigian_năm.ReadOnly = true;
                 btnQuanlimonhoc_add.Enabled = false;
             }
-
-
 
         }
         //LOAD FORM

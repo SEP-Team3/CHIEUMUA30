@@ -31,9 +31,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.lstMain = new System.Windows.Forms.DataGridView();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboLoc = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnUpdateStatus = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblDangXuat = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.lstMain)).BeginInit();
@@ -56,6 +56,7 @@
             this.lstMain.Name = "lstMain";
             this.lstMain.Size = new System.Drawing.Size(1155, 404);
             this.lstMain.TabIndex = 13;
+            this.lstMain.DoubleClick += new System.EventHandler(this.lstMain_DoubleClick);
             // 
             // textBox1
             // 
@@ -64,20 +65,22 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(282, 24);
             this.textBox1.TabIndex = 12;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // comboBox1
+            // cboLoc
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "All",
-            "Chương trình đào tạo",
-            "Đề cương chi tiết"});
-            this.comboBox1.Location = new System.Drawing.Point(111, 151);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(295, 26);
-            this.comboBox1.TabIndex = 11;
+            this.cboLoc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboLoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboLoc.FormattingEnabled = true;
+            this.cboLoc.Items.AddRange(new object[] {
+            "Tất cả",
+            "Đã hoàn thành",
+            "Chưa hoàn thành"});
+            this.cboLoc.Location = new System.Drawing.Point(111, 151);
+            this.cboLoc.Name = "cboLoc";
+            this.cboLoc.Size = new System.Drawing.Size(295, 26);
+            this.cboLoc.TabIndex = 11;
+            this.cboLoc.SelectedIndexChanged += new System.EventHandler(this.cboLoc_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -89,15 +92,16 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "Lọc theo";
             // 
-            // button1
+            // btnUpdateStatus
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1012, 593);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(186, 45);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "CẬP NHẬT TRẠNG THÁI";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnUpdateStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateStatus.Location = new System.Drawing.Point(1012, 593);
+            this.btnUpdateStatus.Name = "btnUpdateStatus";
+            this.btnUpdateStatus.Size = new System.Drawing.Size(186, 45);
+            this.btnUpdateStatus.TabIndex = 9;
+            this.btnUpdateStatus.Text = "CẬP NHẬT TRẠNG THÁI";
+            this.btnUpdateStatus.UseVisualStyleBackColor = true;
+            this.btnUpdateStatus.Click += new System.EventHandler(this.btnUpdateStatus_Click);
             // 
             // label1
             // 
@@ -120,7 +124,7 @@
             this.lblDangXuat.Text = "Đăng xuất";
             this.lblDangXuat.Click += new System.EventHandler(this.lblDangXuat_Click);
             // 
-            // GUI_Chinh
+            // GUI_Chinh_BST_GVGD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -129,11 +133,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lstMain);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cboLoc);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnUpdateStatus);
             this.Controls.Add(this.label1);
-            this.Name = "GUI_Chinh";
+            this.Name = "GUI_Chinh_BST_GVGD";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GUI_Chinh";
             ((System.ComponentModel.ISupportInitialize)(this.lstMain)).EndInit();
@@ -147,9 +151,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView lstMain;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cboLoc;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnUpdateStatus;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel lblDangXuat;
     }

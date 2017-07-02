@@ -31,10 +31,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lstCTDT = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.btnTaoCTDT = new System.Windows.Forms.ToolStripMenuItem();
-            this.qUẢNLÝTÀIKHOẢNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnTaiKhoan = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblDX = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.lstCTDT)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -67,19 +68,20 @@
             this.lstCTDT.Size = new System.Drawing.Size(1155, 404);
             this.lstCTDT.TabIndex = 9;
             // 
-            // textBox1
+            // txtSearch
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(913, 115);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(282, 24);
-            this.textBox1.TabIndex = 8;
+            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.Location = new System.Drawing.Point(913, 115);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(282, 24);
+            this.txtSearch.TabIndex = 8;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnTaoCTDT,
-            this.qUẢNLÝTÀIKHOẢNToolStripMenuItem});
+            this.btnTaiKhoan});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1264, 24);
@@ -93,20 +95,33 @@
             this.btnTaoCTDT.Text = "TẠO CHƯƠNG TRÌNH ĐÀO TẠO";
             this.btnTaoCTDT.Click += new System.EventHandler(this.btnTaoCTDT_Click);
             // 
-            // qUẢNLÝTÀIKHOẢNToolStripMenuItem
+            // btnTaiKhoan
             // 
-            this.qUẢNLÝTÀIKHOẢNToolStripMenuItem.Name = "qUẢNLÝTÀIKHOẢNToolStripMenuItem";
-            this.qUẢNLÝTÀIKHOẢNToolStripMenuItem.Size = new System.Drawing.Size(133, 20);
-            this.qUẢNLÝTÀIKHOẢNToolStripMenuItem.Text = "QUẢN LÝ TÀI KHOẢN";
+            this.btnTaiKhoan.Name = "btnTaiKhoan";
+            this.btnTaiKhoan.Size = new System.Drawing.Size(133, 20);
+            this.btnTaiKhoan.Text = "QUẢN LÝ TÀI KHOẢN";
+            this.btnTaiKhoan.Click += new System.EventHandler(this.btnTaiKhoan_Click);
+            // 
+            // lblDX
+            // 
+            this.lblDX.AutoSize = true;
+            this.lblDX.Location = new System.Drawing.Point(1187, 32);
+            this.lblDX.Name = "lblDX";
+            this.lblDX.Size = new System.Drawing.Size(56, 13);
+            this.lblDX.TabIndex = 12;
+            this.lblDX.TabStop = true;
+            this.lblDX.Text = "Đăng xuất";
+            this.lblDX.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblDX_LinkClicked);
             // 
             // GUI_Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 587);
+            this.Controls.Add(this.lblDX);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lstCTDT);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -126,9 +141,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView lstCTDT;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem btnTaoCTDT;
-        private System.Windows.Forms.ToolStripMenuItem qUẢNLÝTÀIKHOẢNToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnTaiKhoan;
+        private System.Windows.Forms.LinkLabel lblDX;
     }
 }

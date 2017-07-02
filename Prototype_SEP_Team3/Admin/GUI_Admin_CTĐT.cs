@@ -45,6 +45,8 @@ namespace Prototype_SEP_Team3.Admin
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
+            DBEntities model = new DBEntities();
+
             String TenCTDT = txtCTDT.Text;
 
             int NguoiPhucTrachID = (int)cbbNguoiTaoCTDT.SelectedValue;
