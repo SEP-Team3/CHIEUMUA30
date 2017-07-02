@@ -33,7 +33,6 @@
             this.lstMainCTDT = new System.Windows.Forms.DataGridView();
             this.txtSearchCTDT = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnExport = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.lstMainDCCT = new System.Windows.Forms.DataGridView();
@@ -97,16 +96,6 @@
             this.label2.Size = new System.Drawing.Size(286, 18);
             this.label2.TabIndex = 18;
             this.label2.Text = "DANH SÁCH CHƯƠNG TRÌNH ĐÀO TẠO";
-            // 
-            // btnExport
-            // 
-            this.btnExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExport.Location = new System.Drawing.Point(1026, 603);
-            this.btnExport.Name = "btnExport";
-            this.btnExport.Size = new System.Drawing.Size(186, 45);
-            this.btnExport.TabIndex = 17;
-            this.btnExport.Text = "XUẤT FILE WORD";
-            this.btnExport.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -201,7 +190,6 @@
             this.ClientSize = new System.Drawing.Size(1249, 660);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.lblDangXuat);
-            this.Controls.Add(this.btnExport);
             this.Controls.Add(this.label1);
             this.Name = "GUI_Chinh_GV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -225,7 +213,6 @@
         private System.Windows.Forms.DataGridView lstMainCTDT;
         private System.Windows.Forms.TextBox txtSearchCTDT;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnExport;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView lstMainDCCT;

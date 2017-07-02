@@ -146,6 +146,10 @@ namespace Prototype_SEP_Team3
                                 lstMain.DataSource = model.DCCT_Select_Sang(getTK_ID);
                             }
                         }
+                        else
+                        {
+                            MessageBox.Show("Đề cương chi tiết chưa đủ các thông tin cần thiết", "Thông báo");
+                        }
                         
                     }
 
