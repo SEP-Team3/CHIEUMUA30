@@ -43,7 +43,7 @@
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.bACKToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.qUẢNLÝPHÂNQUYỀNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pHÂNQUYỀNTÀIKHOẢNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvTK)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -175,7 +175,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bACKToolStripMenuItem,
-            this.qUẢNLÝPHÂNQUYỀNToolStripMenuItem});
+            this.pHÂNQUYỀNTÀIKHOẢNToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1254, 24);
@@ -187,12 +187,14 @@
             this.bACKToolStripMenuItem.Name = "bACKToolStripMenuItem";
             this.bACKToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
             this.bACKToolStripMenuItem.Text = "BACK";
+            this.bACKToolStripMenuItem.Click += new System.EventHandler(this.bACKToolStripMenuItem_Click);
             // 
-            // qUẢNLÝPHÂNQUYỀNToolStripMenuItem
+            // pHÂNQUYỀNTÀIKHOẢNToolStripMenuItem
             // 
-            this.qUẢNLÝPHÂNQUYỀNToolStripMenuItem.Name = "qUẢNLÝPHÂNQUYỀNToolStripMenuItem";
-            this.qUẢNLÝPHÂNQUYỀNToolStripMenuItem.Size = new System.Drawing.Size(146, 20);
-            this.qUẢNLÝPHÂNQUYỀNToolStripMenuItem.Text = "QUẢN LÝ PHÂN QUYỀN";
+            this.pHÂNQUYỀNTÀIKHOẢNToolStripMenuItem.Name = "pHÂNQUYỀNTÀIKHOẢNToolStripMenuItem";
+            this.pHÂNQUYỀNTÀIKHOẢNToolStripMenuItem.Size = new System.Drawing.Size(159, 20);
+            this.pHÂNQUYỀNTÀIKHOẢNToolStripMenuItem.Text = "PHÂN QUYỀN TÀI KHOẢN";
+            this.pHÂNQUYỀNTÀIKHOẢNToolStripMenuItem.Click += new System.EventHandler(this.pHÂNQUYỀNTÀIKHOẢNToolStripMenuItem_Click);
             // 
             // GUI_TaiKhoan
             // 
@@ -242,6 +244,6 @@
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem bACKToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem qUẢNLÝPHÂNQUYỀNToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pHÂNQUYỀNTÀIKHOẢNToolStripMenuItem;
     }
 }

@@ -122,6 +122,22 @@ namespace Prototype_SEP_Team3.Admin
 
         }
 
+        private void bACKToolStripMenuItem_Click(object sender, EventArgs e)
+        {            
+            this.Hide();
+            GUI_Admin main = new GUI_Admin();
+            main.Closed += (s, args) => this.Close();
+            main.ShowDialog();
+        }
+
+        private void pHÂNQUYỀNTÀIKHOẢNToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GUI_PhanQuyen main = new GUI_PhanQuyen();
+            main.Closed += (s, args) => this.Close();
+            main.ShowDialog();
+        }
+
 
     }
 }

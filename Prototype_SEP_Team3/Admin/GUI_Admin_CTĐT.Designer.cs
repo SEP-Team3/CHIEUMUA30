@@ -207,7 +207,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GUI_Admin_CTĐT";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "GUI_Admin_CTĐT";
+            this.Text = "Giao diện Admin";
             ((System.ComponentModel.ISupportInitialize)(this.lstCTDT)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

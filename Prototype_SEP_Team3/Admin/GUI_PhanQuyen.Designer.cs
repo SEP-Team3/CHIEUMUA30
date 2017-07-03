@@ -184,6 +184,7 @@
             this.Controls.Add(this.btnCapNhat);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GUI_PhanQuyen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GUI_PhanQuyen";
             ((System.ComponentModel.ISupportInitialize)(this.lstPhanQuyen)).EndInit();
             this.menuStrip1.ResumeLayout(false);

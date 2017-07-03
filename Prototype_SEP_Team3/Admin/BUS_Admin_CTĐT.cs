@@ -13,9 +13,22 @@ namespace Prototype_SEP_Team3.Admin
         public void loadNguoiTaoCTDT(ComboBox cbbNguoiTaoCTDT)
         {
             DBEntities db = new DBEntities();
-            cbbNguoiTaoCTDT.DataSource = db.TaiKhoans.ToList();
-            cbbNguoiTaoCTDT.ValueMember = "id";
-            cbbNguoiTaoCTDT.DisplayMember = "Ten";
+            List<PhanQuyenTaiKhoan> lstpq = db.PhanQuyenTaiKhoans.Where(x => x.ChucVu == "Ban soạn thảo").ToList();
+            if (lstpq.Count > 0)
+            {
+                List<TaiKhoan> c = new List<TaiKhoan>();
+                foreach (PhanQuyenTaiKhoan a in lstpq)
+                {
+                    TaiKhoan b = db.TaiKhoans.Single(x => x.Id == a.TaiKhoan_Id);
+                    c.Add(b);
+                    cbbNguoiTaoCTDT.DataSource = c;
+
+                    cbbNguoiTaoCTDT.ValueMember = "id";
+                    cbbNguoiTaoCTDT.DisplayMember = "Ten";
+                }
+            }
+            
+            
 
 
         }
